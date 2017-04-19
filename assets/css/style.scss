@@ -50,6 +50,10 @@ h2 {
 
 /* Table fonts + colors */
 
+section#main_content table {
+  margin: 0 auto;
+}
+
 td {
   width: 180px;
   font-weight: 500;
