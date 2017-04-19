@@ -71,17 +71,45 @@ h2 {
 
 /* Table fonts + colors */
 
-section#main_content table {
-  border: 1px #000 solid;
+table.roster {
   margin: 0 auto;
   width: 360px;
 }
 
-td {
+table.roster td {
   font-weight: 500;
   padding: 2px;
   background-color: #ffffe0;
   vertical-align: middle;
+}
+
+table.stats td {
+  padding: 2px;
+  background-color: #ffffe0;
+  vertical-align: middle;
+}
+
+table.stats span.red,
+table.stats span.purple,
+table.stats span.blue,
+table.stats span.orange {
+  font-weight: 500;
+}
+
+table.stats span.stat {
+  font-weight: 300;
+}
+
+span.stat_hours {
+  width: 70px;
+}
+
+span.stat_kills {
+  width: 50px;
+}
+
+span.stat_deactivated {
+  width: 50px;
 }
 
 span.red, 
@@ -117,18 +145,6 @@ span.blue {
 
 span.gray {
   color: #666; 
-}
-
-span.stat_hours {
-  width: 70px;
-}
-
-span.stat_kills {
-  width: 50px;
-}
-
-span.stat_deactivations {
-  width: 50px;
 }
 
 /* Awards */
