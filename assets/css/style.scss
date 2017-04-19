@@ -225,5 +225,11 @@ span.awards-container {
 .awards-sprite.a5-1, .awards-sprite.a5-2, .awards-sprite.a5-3,
 .awards-sprite.a4-3,
 .awards-sprite.a8-1 {
-  margin: 0 1px 0 1px;
+  margin: 0 0.8px 0 0.8px;
+}
+
+/* Tanks needs one space to the left */
+
+.awards-sprite.a1-1, .awards-sprite.a1-2, .awards-sprite.a1-3 {
+  margin: 0 0 0 0.8px;
 }
