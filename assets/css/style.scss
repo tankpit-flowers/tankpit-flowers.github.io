@@ -79,28 +79,33 @@ td {
   vertical-align: middle;
 }
 
-span.red, span.orange, span.purple, span.blue, span.gray, span.awards-container {
+span.red, 
+span.orange,
+span.purple,
+span.blue, 
+span.gray,
+span.awards-container {
   width: 180px;
   margin: 0 5px 0; 
   display: block;
 }
 
-span.red {
+span.red, span.stats-red {
   color: #e00000;
   /*color: #ff6666;*/
 }
 
-span.orange {
+span.orange, span.stats-orange {
   color: #ff9000;
   /*color: #ffcc66;*/
 }
 
-span.purple {
+span.purple, span.stats-purple {
   color: #df00e0;
   /*color: #cc66cc;*/
 }
 
-span.blue {
+span.blue, span.stats-blue {
   color: #0000e0;
   /*color: #6666ff;*/
 }
