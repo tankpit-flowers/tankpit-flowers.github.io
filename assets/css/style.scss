@@ -76,6 +76,15 @@ table.roster {
   width: 360px;
 }
 
+@media only screen and (min-width: 400px) {
+  span.stat_deactivated {
+    display: block;
+  }
+  span.stat_deactivated_mobile {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   table.roster {
     width: 280px !important;
@@ -102,7 +111,12 @@ table.roster {
   }
 
   span.stat_deactivated {
-    width: 75px !important;
+    display: none;
+  }
+  
+  span.stat_deactivated_mobile {
+    display: block;
+    width: 40px !important;
   }
 }
 
