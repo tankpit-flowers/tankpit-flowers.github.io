@@ -17,7 +17,6 @@ hr {
 
 td {
   width: 50% !important;
-  font-weight: 500 !important;
 }
 
 footer {
@@ -40,16 +39,12 @@ span.blue {
   color: #6666ff;
 }
 
-span.red, span.orange, span.purple, span.blue {
-  margin: 5px;
-}
-
 h1, h2 {
-  text-align: center !important;
+  text-align: center;
 }
 
 h2 {
-  padding: 1em 0 0.75em !important;
+  padding: 1em 0 0.75em;
 }
 
 header h2 {
