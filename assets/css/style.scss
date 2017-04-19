@@ -90,28 +90,40 @@ span.awards-container {
   display: block;
 }
 
-span.red, span.stats-red {
+span.red {
   color: #e00000;
   /*color: #ff6666;*/
 }
 
-span.orange, span.stats-orange {
+span.orange {
   color: #ff9000;
   /*color: #ffcc66;*/
 }
 
-span.purple, span.stats-purple {
+span.purple {
   color: #df00e0;
   /*color: #cc66cc;*/
 }
 
-span.blue, span.stats-blue {
+span.blue {
   color: #0000e0;
   /*color: #6666ff;*/
 }
 
 span.gray {
   color: #666; 
+}
+
+span.stat_hours {
+  width: 70px;
+}
+
+span.stat_kills {
+  width: 50px;
+}
+
+span.stat_deactivations {
+  width: 50px;
 }
 
 /* Awards */
