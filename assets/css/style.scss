@@ -69,6 +69,67 @@ h2 {
   }
 }
 
+/* Table fonts + colors */
+
+section#main_content table {
+  border: 1px #000 solid;
+  margin: 0 auto;
+  width: 360px;
+}
+
+td {
+  font-weight: 500;
+  padding: 2px;
+  background-color: #ffffe0;
+  vertical-align: middle;
+}
+
+span.red, 
+span.orange,
+span.purple,
+span.blue, 
+span.gray,
+span.awards-container {
+  width: 180px;
+  margin: 0 5px 0; 
+  display: block;
+}
+
+span.red {
+  color: #e00000;
+  /*color: #ff6666;*/
+}
+
+span.orange {
+  color: #ff9000;
+  /*color: #ffcc66;*/
+}
+
+span.purple {
+  color: #df00e0;
+  /*color: #cc66cc;*/
+}
+
+span.blue {
+  color: #0000e0;
+  /*color: #6666ff;*/
+}
+
+span.gray {
+  color: #666; 
+}
+
+span.stat_hours {
+  width: 70px;
+}
+
+span.stat_kills {
+  width: 50px;
+}
+
+span.stat_deactivations {
+  width: 50px;
+}
 
 /* Awards */
 
