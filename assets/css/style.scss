@@ -2,7 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
-
+  
 section#downloads {
   display: none !important;
 }
@@ -17,6 +17,7 @@ hr {
 
 table tr td {
   width: 50%;
+  font-weight: 500;
 }
 
 footer {
