@@ -159,10 +159,10 @@ span.stat_deactivated {
 }
 
 span.stat_deactivated_desktop {
-  display: block;
+  display: block !important;
 }
 span.stat_deactivated_mobile {
-  display: none;
+  display: none !important;
 }
 
 span.stat_sorted {
