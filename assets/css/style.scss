@@ -77,9 +77,10 @@ table.roster {
 }
 
 @media only screen and (max-width: 400px) {
-  table.roster {
+  table.roster, table.stats {
     width: 300px !important;
   }
+  
   span.red, 
   span.orange,
   span.purple,
@@ -89,15 +90,15 @@ table.roster {
     width: 150px !important;
   }
   span.stat_hours {
-    width: 60px !important;
+    width: 70px !important;
   }
 
   span.stat_kills {
-    width: 25px !important;
+    width: 30px !important;
   }
 
   span.stat_deactivated {
-    width: 60px !important;
+    width: 70px !important;
   }
 }
 
