@@ -1,8 +1,3 @@
----
-layout: post
-title: Blogging Like a Hacker
----
-
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/tankpit-flowers/tankpit-flowers.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
