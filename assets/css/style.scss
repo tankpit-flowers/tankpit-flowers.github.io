@@ -1,19 +1,204 @@
-|<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="purple">Cross-Walk Calvin</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-2"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a6-1"></span><span class="awards-sprite a7-1"></span></span>|
-|<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-2"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2">|<span class="purple">SoMeBoDy</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-3"></span><span class="awards-sprite a2-3"></span><span class="awards-sprite a3-3"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span></span>|
-|<span class="red">GLADIOLUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="purple">Battlefield-2</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-3"></span><span class="awards-sprite a2-3"></span><span class="awards-sprite a3-3"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-3"></span><span class="awards-sprite a6-1"></span><span class="awards-sprite a8-1"></span></span>|
-|<span class="red">TULIP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a5-1"></span></span>|<span class="red">SSpritEE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-3"></span></span>|
-|<span class="red">HIBISCUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a5-1"></span></span>|<span class="red">AMBUSH</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-3"></span><span class="awards-sprite a2-3"></span><span class="awards-sprite a3-3"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-3"></span></span>|
-|<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="blue">Vicodin</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-2"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-2"></span></span>|
-|<span class="red">LILAC</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="gray">Secret</span>|
-|<span class="red">DAISY</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="orange">zubziLLa</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-2"></span><span class="awards-sprite a2-3"></span><span class="awards-sprite a3-3"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-3"></span><span class="awards-sprite a8-1"></span></span>|
-|<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="gray">Secret</span>|
-|<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="orange">- Mercury -</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-3"></span><span class="awards-sprite a2-3"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span></span>|
-|<span class="red">ORCHID</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="gray">Secret</span>|
+---
+---
 
-## ALTS
+@import "{{ site.theme }}";
+  
+/* Hide stuff */
 
-|<span class="red">TRILLIUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span></span>|<span class="red">GLADIOLUS</span>|
-|<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="red">ROSE</span>|
-|<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="red">LOTUS</span>|
-|<span class="purple">terrestrial TULIP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="red">TULIP</span>|
-|<span class="purple">radiant ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="red">ROSE</span>|
+section#downloads {
+  display: none !important;
+}
+
+footer {
+  display: none !important;
+}
+
+/* Changing spaces, widths + centering */
+
+section#main_content {
+  margin: 0 0 3em !important;
+}
+
+hr {
+  margin-top: 0 !important;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h2 {
+  padding: 1em 0 0.75em;
+}
+
+@media only screen and (max-width: 767px) {
+  h2 {
+    padding: 12px 0 4px;
+  }
+}
+
+header h2 {
+ padding: 0 !important; 
+}
+
+/* Table fonts + colors */
+
+td {
+  width: 50% !important;
+  font-weight: 500 !important;
+}
+
+span.red, span.orange, span.purple, span.blue, span.gray {
+  margin: 0 5px 0; 
+  display: inline-block;
+  position: relative;
+  top: 1px;
+}
+
+span.red {
+  color: #ff6666;
+}
+
+span.orange {
+  color: #ffcc66;
+}
+
+span.purple {
+  color: #cc66cc;
+}
+
+span.blue {
+  color: #6666ff;
+}
+
+span.gray {
+  color: #666; 
+}
+
+span.awards-container {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+
+/* Awards */
+
+.awards-sprite.a0-1 {
+    background-position: -13px 0;
+    width: 13px;
+    height: 16px;
+}
+
+.awards-sprite.a0-2 {
+    background-position: -26px 0;
+    width: 13px;
+    height: 16px;
+}
+
+.awards-sprite.a0-3 {
+    background-position: -39px 0;
+    width: 13px;
+    height: 16px;
+}
+
+.awards-sprite.a1-1 {
+    background-position: -82px 0;
+    width: 30px;
+    height: 16px;
+}
+
+.awards-sprite.a1-2 {
+    background-position: -112px 0;
+    width: 30px;
+    height: 16px;
+}
+
+.awards-sprite.a1-3 {
+    background-position: -142px 0;
+    width: 30px;
+    height: 16px;
+}
+
+.awards-sprite.a2-1 {
+    background-position: -181px 0;
+    width: 9px;
+    height: 16px;
+}
+
+.awards-sprite.a2-2 {
+    background-position: -190px 0;
+    width: 9px;
+    height: 16px;
+}
+
+.awards-sprite.a2-3 {
+    background-position: -199px 0;
+    width: 9px;
+    height: 16px;
+}
+
+.awards-sprite.a3-1 {
+    background-position: -217px 0;
+    width: 9px;
+    height: 16px;
+}
+
+.awards-sprite.a3-2 {
+    background-position: -226px 0;
+    width: 9px;
+    height: 16px;
+}
+
+.awards-sprite.a3-3 {
+    background-position: -235px 0;
+    width: 9px;
+    height: 16px;
+}
+
+.awards-sprite.a4-3 {
+    background-position: -277px 0;
+    width: 11px;
+    height: 16px;
+}
+
+.awards-sprite.a5-1 {
+    background-position: -301px 0;
+    width: 13px;
+    height: 16px;
+}
+
+.awards-sprite.a5-2 {
+    background-position: -314px 0;
+    width: 13px;
+    height: 16px;
+}
+
+.awards-sprite.a5-3 {
+    background-position: -327px 0;
+    width: 13px;
+    height: 16px;
+}
+
+.awards-sprite.a6-1 {
+    background-position: -340px 0;
+    width: 11px;
+    height: 15px;
+}
+
+.awards-sprite.a7-1 {
+    background-position: -351px 0;
+    width: 11px;
+    height: 15px;
+}
+
+.awards-sprite.a8-1 {
+    background-position: -376px 0;
+    width: 14px;
+    height: 16px;
+}
+
+.awards-sprite {
+    background: url(https://cloud.githubusercontent.com/assets/27748085/25161736/ae87081a-2472-11e7-90c1-d8c7339106c0.gif) no-repeat top left;
+    display: inline-block;
+    margin: 0 0 0 1px;
+}
