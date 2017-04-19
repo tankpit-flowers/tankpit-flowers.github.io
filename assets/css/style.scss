@@ -31,6 +31,10 @@ h2 {
   padding: 1em 0 0.75em;
 }
 
+@media only screen and (max-width: 767px) {
+  padding: 10px 0 8px;
+}
+
 header h2 {
  padding: 0 !important; 
 }
