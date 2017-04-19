@@ -87,6 +87,11 @@ table.roster td {
   vertical-align: middle;
 }
 
+table.stats {
+ margine: 0 auto;
+  width: 360px;
+}
+
 table.stats td {
   padding: 2px;
   background-color: #ffffe0;
@@ -105,7 +110,7 @@ table.stats span.stat {
 }
 
 span.stat_hours {
-  width: 70px;
+  width: 80px;
 }
 
 span.stat_kills {
