@@ -1,16 +1,16 @@
-|<span class="red">ROSE</span>|Cross-Walk Calvin|
-|<span class="red">LOTUS</span>|SoMeBoDy|
-|<span class="red">GLADIOLUS</span>|Battlefield-2 / BEASTGOD|
-|<span class="red">TULIP</span>|SSpritEE|
-|<span class="red">HIBISCUS</span>|AMBUSH / Bob The Builder|
-|<span class="red">DAISY</span>|zubziLLa|
-|<span class="red">BUTTERCUP</span>|003 / - Mercury -|
-|<span class="red">DAHLIA</span>|Vicodin|
+|<span class="red">ROSE</span>|<span class="purple">Cross-Walk Calvin</span>|
+|<span class="red">LOTUS</span>|<span class="purple">SoMeBoDy</span>|
+|<span class="red">GLADIOLUS</span>|<span class="purple">Battlefield-2</span> / <span class="blue">BEASTGOD</span>|
+|<span class="red">TULIP</span>|<span class="red">SSpritEE</span>|
+|<span class="red">HIBISCUS</span>|<span class="red">AMBUSH</span> / <span class="purple">Bob The Builder</span>|
+|<span class="red">DAISY</span>|<span class="orange">zubziLLa</span>|
+|<span class="red">BUTTERCUP</span>|<span class="orange">003</span> / <span class="orange">- Mercury -</span>|
+|<span class="red">DAHLIA</span>|<span class="blue">Vicodin</span>|
 |<span class="red">HYDRANGEA</span>|Secret|
-|<span class="red">CHRYSANTHEMUM</span>|ROSE|
-|<span class="red">TRILLIUM</span>|GLADIOLUS|
-|<span class="red">JASMINE</span>|LOTUS|
-|<span class="purple">terrestrial TULIP</span>|TULIP|
-|<span class="purple">radiant ROSE</span>|ROSE|
+|<span class="red">CHRYSANTHEMUM</span>|<span class="red">ROSE</span>|
+|<span class="red">TRILLIUM</span>|<span class="red">GLADIOLUS</span>|
+|<span class="red">JASMINE</span>|<span class="red">LOTUS</span>|
+|<span class="purple">terrestrial TULIP</span>|<span class="red">TULIP</span>|
+|<span class="purple">radiant ROSE</span>|<span class="red">ROSE</span>|
 |<span class="red">LILAC</span>|Secret|
 |<span class="red">ORCHID</span>|Secret|
