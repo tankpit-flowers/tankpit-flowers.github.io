@@ -3,9 +3,17 @@
 
 @import "{{ site.theme }}";
   
+/* Hide stuff */
+
 section#downloads {
   display: none !important;
 }
+
+footer {
+  display: none !important;
+}
+
+/* Changing spaces, widths + centering */
 
 section#main_content {
   margin: 0 0 3em !important;
@@ -15,12 +23,23 @@ hr {
   margin-top: 0 !important;
 }
 
-td {
-  width: 50% !important;
+h1, h2 {
+  text-align: center;
 }
 
-footer {
-  display: none !important;
+h2 {
+  padding: 1em 0 0.75em;
+}
+
+header h2 {
+ padding: 0 !important; 
+}
+
+/* Table fonts + colors */
+
+td {
+  width: 50% !important;
+  font-weight: 500 !important;
 }
 
 span.red {
@@ -39,19 +58,7 @@ span.blue {
   color: #6666ff;
 }
 
-h1, h2 {
-  text-align: center;
-}
-
-h2 {
-  padding: 1em 0 0.75em;
-}
-
-header h2 {
- padding: 0 !important; 
-}
-
-/* AWARDS */
+/* Awards */
 
 .awards-sprite.a0-1 {
     background-position: -13px 0;
