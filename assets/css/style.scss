@@ -32,7 +32,9 @@ h2 {
 }
 
 @media only screen and (max-width: 767px) {
-  padding: 10px 0 8px;
+  h2 {
+    padding: 10px 0 8px;
+  }
 }
 
 header h2 {
