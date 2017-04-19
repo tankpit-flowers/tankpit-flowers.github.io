@@ -16,7 +16,7 @@ header h2 {
   font-weight: 500;
 }
 
-a {
+a, a:visited {
   color: #e00000;
   text-decoration: none;
   transition: .3s;
@@ -24,14 +24,10 @@ a {
   -webkit-transition: .3s;
 }
 
-a:visited {
-  color: #ff6464;
-  text-decoration: none;
-}
-
 a:hover,
 a:focus,
 a:active {
+  color: #e00000;
   text-decoration: none;
 }
 
