@@ -15,9 +15,9 @@ hr {
   margin-top: 0 !important;
 }
 
-table tr td {
-  width: 50%;
-  font-weight: 500;
+td {
+  width: 50% !important;
+  font-weight: 500 !important;
 }
 
 footer {
@@ -41,15 +41,15 @@ span.blue {
 }
 
 span.red, span.orange, span.purple, span.blue {
-  margin: 0 20px 0 0;
+  margin: 0 20px 0 0 !important;;
 }
 
 h1, h2 {
-  text-align: center;
+  text-align: center !important;;
 }
 
 h2 {
-  padding: 1em 0 0.75em; 
+  padding: 1em 0 0.75em !important;; 
 }
 
 header h2 {
