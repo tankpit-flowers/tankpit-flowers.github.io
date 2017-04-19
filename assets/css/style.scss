@@ -111,11 +111,11 @@ table.roster {
   }
 
   span.stat_deactivated {
-    display: none;
+    display: none !important;;
   }
   
   span.stat_deactivated_mobile {
-    display: block;
+    display: block !important;;
     width: 40px !important;
   }
 }
