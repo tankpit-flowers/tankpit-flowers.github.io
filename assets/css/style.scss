@@ -43,7 +43,8 @@ td {
 }
 
 span.red, span.orange, span.purple, span.blue {
-   margin: 5px; 
+  margin: 5px; 
+  display: inline-block;
 }
 
 span.red {
@@ -60,6 +61,10 @@ span.purple {
 
 span.blue {
   color: #6666ff;
+}
+
+span.awards-container {
+  display: inline-block;
 }
 
 /* Awards */
