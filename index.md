@@ -7,12 +7,10 @@
 |BUTTERCUP|003 / - Mercury -|
 |DAHLIA|Vicodin|
 |HYDRANGEA|Secret|
-
 |CHRYSANTHEMUM|ROSE|
 |TRILLIUM|GLADIOLUS|
 |JASMINE|LOTUS|
 |terrestrial TULIP|TULIP|
 |radiant ROSE|ROSE|
-
 |LILAC|Secret|
 |ORCHID|Secret|
