@@ -1,16 +1,16 @@
-|ROSE|Cross-Walk Calvin|
-|LOTUS|SoMeBoDy|
-|GLADIOLUS|Battlefield-2 / BEASTGOD|
-|TULIP|SSpritEE|
-|HIBISCUS|AMBUSH / Bob The Builder|
-|DAISY|zubziLLa|
-|BUTTERCUP|003 / - Mercury -|
-|DAHLIA|Vicodin|
-|HYDRANGEA|Secret|
-|CHRYSANTHEMUM|ROSE|
-|TRILLIUM|GLADIOLUS|
-|JASMINE|LOTUS|
-|terrestrial TULIP|TULIP|
-|radiant ROSE|ROSE|
-|LILAC|Secret|
-|ORCHID|Secret|
+|[span class="red"]ROSE[/span]|Cross-Walk Calvin|
+|[span class="red"]LOTUS[/span]|SoMeBoDy|
+|[span class="red"]GLADIOLUS[/span]|Battlefield-2 / BEASTGOD|
+|[span class="red"]TULIP[/span]|SSpritEE|
+|[span class="red"]HIBISCUS[/span]|AMBUSH / Bob The Builder|
+|[span class="red"]DAISY[/span]|zubziLLa|
+|[span class="red"]BUTTERCUP[/span]|003 / - Mercury -|
+|[span class="red"]DAHLIA[/span]|Vicodin|
+|[span class="red"]HYDRANGEA[/span]|Secret|
+|[span class="red"]CHRYSANTHEMUM[/span]|ROSE|
+|[span class="red"]TRILLIUM[/span]|GLADIOLUS|
+|[span class="red"]JASMINE[/span]|LOTUS|
+|[span class="purple"]terrestrial TULIP[/span]|TULIP|
+|[span class="purple"]radiant ROSE[/span]|ROSE|
+|[span class="red"]LILAC[/span]|Secret|
+|[span class="red"]ORCHID[/span]|Secret|
