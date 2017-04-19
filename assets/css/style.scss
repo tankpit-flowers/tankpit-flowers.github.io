@@ -76,15 +76,6 @@ table.roster {
   width: 360px;
 }
 
-@media only screen and (min-width: 400px) {
-  span.stat_deactivated_desktop {
-    display: block;
-  }
-  span.stat_deactivated_mobile {
-    display: none;
-  }
-}
-
 @media only screen and (max-width: 400px) {
   table.roster {
     width: 300px !important;
@@ -165,6 +156,13 @@ span.stat_kills {
 
 span.stat_deactivated {
   width: 90px;
+}
+
+span.stat_deactivated_desktop {
+  display: block;
+}
+span.stat_deactivated_mobile {
+  display: none;
 }
 
 span.stat_sorted {
