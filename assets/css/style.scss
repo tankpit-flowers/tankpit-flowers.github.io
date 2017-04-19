@@ -50,12 +50,8 @@ h2 {
 
 /* Table fonts + colors */
 
-section#main_content table {
-  margin: 0 auto;  
-}
-
 td {
-  width: 350px;
+  width: 180px;
   font-weight: 500;
   padding: 2px;
 }
@@ -90,7 +86,7 @@ span.gray {
 span.awards-container {
   display: block;
   position: relative;
-  top: 2px;
+  top: -1px;
 }
 
 /* Awards */
