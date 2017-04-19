@@ -76,6 +76,31 @@ table.roster {
   width: 360px;
 }
 
+@media only screen and (max-width: 400px) {
+  table.roster {
+    width: 300px !important;
+  }
+  span.red, 
+  span.orange,
+  span.purple,
+  span.blue, 
+  span.gray,
+  span.awards-container {
+    width: 150px !important;
+  }
+  span.stat_hours {
+    width: 60px;
+  }
+
+  span.stat_kills {
+    width: 25px;
+  }
+
+  span.stat_deactivated {
+    width: 60px;
+  }
+}
+
 table.roster td {
   font-weight: 500;
   padding: 2px;
