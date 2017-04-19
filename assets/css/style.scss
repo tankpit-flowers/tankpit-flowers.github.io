@@ -87,7 +87,7 @@ table.roster {
 
 @media only screen and (max-width: 400px) {
   table.roster {
-    width: 280px !important;
+    width: 300px !important;
   }
   
   table.stats {
@@ -100,7 +100,7 @@ table.roster {
   span.blue, 
   span.gray,
   span.awards-container {
-    width: 140px !important;
+    width: 150px !important;
   }
   span.stat_hours {
     width: 70px !important;
@@ -111,7 +111,7 @@ table.roster {
   }
 
   span.stat_deactivated_desktop {
-    display: none !important;;
+    display: none !important;
   }
   
   span.stat_deactivated_mobile {
