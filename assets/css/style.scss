@@ -44,7 +44,11 @@ h1, h2 {
 }
 
 h2 {
-  padding: 1em 0; 
+  padding: 1em 0.8em; 
+}
+
+header h2 {
+ padding: 0 !important; 
 }
 
 /* AWARDS */
