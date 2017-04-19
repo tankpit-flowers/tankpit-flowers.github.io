@@ -210,19 +210,13 @@ span.awards-container {
     display: inline-block;
 }
 
-/* Medals, swords, DoT need 2 spaces to the right */
-
-.awards-sprite.a2-1, .awards-sprite.a2-2, .awards-sprite.a2-3,
-.awards-sprite.a3-1, .awards-sprite.a3-2, .awards-sprite.a3-3,
-.awards-sprite.a4-3 {
-  margin: 0 2px 0 0;
-}
-
-/* Stars, tanks, cups, WC need 1 space to the right */
+/* Stars, medals, swords, DoT, cups, LB need 1 space to either side */
 
 .awards-sprite.a0-1, .awards-sprite.a0-2, .awards-sprite.a0-3,
-.awards-sprite.a1-1, .awards-sprite.a1-2, .awards-sprite.a1-3,
+.awards-sprite.a2-1, .awards-sprite.a2-2, .awards-sprite.a2-3,
+.awards-sprite.a3-1, .awards-sprite.a3-2, .awards-sprite.a3-3,
 .awards-sprite.a5-1, .awards-sprite.a5-2, .awards-sprite.a5-3,
-.awards-sprite.a7-1 {
-  margin: 0 1px 0 0;
+.awards-sprite.a4-3,
+.awards-sprite.a8-1 {
+  margin: 0 1px 0 1px;
 }
