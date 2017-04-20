@@ -4,6 +4,7 @@ import pandas as pd
 import requests as r
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
+import time
 
 # get time now
 last_updated_raw = datetime.now()
@@ -127,7 +128,15 @@ flower_dict = {
 #----- Scraper functions
 
 def scrape_text_from_link(link):
-    response = r.get(link)
+    trials = 0
+    print link
+    try:
+        response = r.get(link)
+    except:
+        time.sleep(5)
+        trials += 1
+        if trials < 10:
+            scrape_text_from_link(link)
     return BeautifulSoup(response.text)
 
 def check_remove_key(my_dict, key_name):
