@@ -217,8 +217,11 @@ span.timeline-orange {
 /* Screenshots */
 
 .game-screenshot {
-  width: 100%;
+  width: 95%;
   height: auto;
+  padding: 2%;
+  background-color: #fafbfc;
+  border: 1px solid #e1e4e8;
 }
 
 /* Awards */
