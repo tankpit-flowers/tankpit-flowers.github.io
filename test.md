@@ -1,1 +1,1 @@
-![test](https://plot.ly/~crosswalkcalvin/12jpg)
+![test](https://plot.ly/~crosswalkcalvin/12.jpeg)
