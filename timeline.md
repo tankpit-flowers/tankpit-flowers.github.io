@@ -1,5 +1,6 @@
 ### <span class="timeline-date">April 17, 2017</span> <span class="timeline-blurb"><span class="timeline-red">TRILLIUM</span> is awarded the DEFENDER OF THE TRUTH & WAR CORRESPONDENT</span>
 ![TRILLIUM is awarded the DEFENDER OF THE TRUTH & WAR CORRESPONDENT](./screenshots/special-dot-wc-trillium.png){:.game-screenshot}
+
 <span class="timeline-blurb"><span class="timeline-red">ROSE</span> is awarded the WAR CORRESPONDENT & LIGHTBULB AWARD</span>
 ![ROSE is awarded the WAR CORRESPONDENT & LIGHTBULB AWARD](./screenshots/special-wc-lb-rose.png){:.game-screenshot}
 
