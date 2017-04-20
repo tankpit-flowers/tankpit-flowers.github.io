@@ -2,9 +2,11 @@
 
 SCRIPTDIR=/home/crosswalkcalvin/tankpit-flowers.github.io
 
-python $SCRIPTDIR/scraper.py
-
 cd $SCRIPTDIR
+
+git pull
+
+python $SCRIPTDIR/scraper.py
 
 git add .
 git commit -a -m "Automated commit triggered."
