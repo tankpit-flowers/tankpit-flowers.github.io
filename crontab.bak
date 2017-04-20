@@ -1,1 +1,0 @@
-0 * * * * /home/crosswalkcalvin/tankpit-flowers.github.io/update.sh 2>&1 >> /tmp/tankpit-flowers-update.log 
