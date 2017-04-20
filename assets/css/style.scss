@@ -5,7 +5,20 @@
 
 /* Body styles */
 
-.flowers-logo {
+a.flowers-logo {
+  color: #000;
+  background: url(https://tankpit-flowers.github.io/images/flowers-logo.png) no-repeat top left;
+  background-size: 230px auto;
+  text-indent: -10000px;
+  display: inline-block;
+  width: 230px;
+  height: 57px;
+}
+
+a.flowers-logo:visited,
+a.flowers-logo:hover,
+a.flowers-logo:focus,
+a.flowers-logo:active {
   color: #000;
 }
 
