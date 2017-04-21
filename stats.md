@@ -11,7 +11,7 @@
 |<span class="red">LILAC</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">21:57:40</span>|<span class="stat stat_kills">37</span>|<span class="stat stat_deactivated">11</span>|
 |<span class="red">ORCHID</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="stat stat_hours stat_sorted">18:45:46</span>|<span class="stat stat_kills">47</span>|<span class="stat stat_deactivated">7</span>|
 |<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted">6:7:20</span>|<span class="stat stat_kills">10</span>|<span class="stat stat_deactivated">2</span>|
-|<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-2"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours stat_sorted">3:21:24</span>|<span class="stat stat_kills">4</span>|<span class="stat stat_deactivated">0</span>|
+|<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-2"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours stat_sorted">3:21:36</span>|<span class="stat stat_kills">4</span>|<span class="stat stat_deactivated">0</span>|
 |<span class="purple">radiant ROSE</span><span class="awards-container"><span class="awards-sprite a0-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">1:28:34</span>|<span class="stat stat_kills">3</span>|<span class="stat stat_deactivated">0</span>|
 |<span class="purple">terrestrial TULIP</span><span class="awards-container"><span class="awards-sprite a0-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted">0:57:02</span>|<span class="stat stat_kills">2</span>|<span class="stat stat_deactivated">1</span>|
 |<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted"></span>|<span class="stat stat_kills"></span>|<span class="stat stat_deactivated"></span>|
@@ -19,4 +19,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">April 21, 2017, 12:50 AM Eastern Time</span>
+<span class="last_updated">April 21, 2017, 12:55 AM Eastern Time</span>
