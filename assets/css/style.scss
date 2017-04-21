@@ -9,7 +9,7 @@ a.flowers-logo {
   color: #000;
   background: url(https://tankpit-flowers.github.io/images/flowers-logo.png) no-repeat top left;
   background-size: 230px auto;
-  text-indent: -10000px;
+  text-indent: -100000px !important;
   display: inline-block;
   width: 230px;
   height: 57px;
@@ -27,13 +27,13 @@ body, #container {
 }
 
 header h2 {
-  font-size: 100%;
-  letter-spacing: 0;
-  font-weight: 500;
+  font-size: 100% !important;;
+  letter-spacing: 0 !important;;
+  font-weight: 500 !important;;
 }
 
 a, a:visited {
-  color: #e00000;
+  color: #e00000 !important;;
   text-decoration: none;
   transition: .3s;
   -moz-transition: .3s;
@@ -41,7 +41,7 @@ a, a:visited {
 }
 
 a:hover, a:focus, a:active {
-  color: #ff6464;
+  color: #ff6464 !important;;
   text-decoration: none;
 }
 
