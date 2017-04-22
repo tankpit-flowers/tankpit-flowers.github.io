@@ -1,7 +1,7 @@
 {:.stats}
 |<span class="stat_header">Flower</span>|<span class="stat_header stat_hours stat_sorted">Hours &nbsp;&darr;</span>|<span class="stat_header stat_kills">Kills</span>|<span class="stat_header stat_deactivated">Deact.</span>|
 |<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="stat stat_hours stat_sorted">173:30:03</span>|<span class="stat stat_kills">94</span>|<span class="stat stat_deactivated">53</span>|
-|<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-2"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">164:28:44</span>|<span class="stat stat_kills">304</span>|<span class="stat stat_deactivated">69</span>|
+|<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-2"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">164:33:38</span>|<span class="stat stat_kills">306</span>|<span class="stat stat_deactivated">69</span>|
 |<span class="red">GLADIOLUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted">105:58:31</span>|<span class="stat stat_kills">86</span>|<span class="stat stat_deactivated">63</span>|
 |<span class="red">HIBISCUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours stat_sorted">99:25:07</span>|<span class="stat stat_kills">103</span>|<span class="stat stat_deactivated">34</span>|
 |<span class="red">TULIP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours stat_sorted">80:1:22</span>|<span class="stat stat_kills">160</span>|<span class="stat stat_deactivated">36</span>|
@@ -19,4 +19,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">April 22, 2017, 7:20 AM Eastern Time</span>
+<span class="last_updated">April 22, 2017, 7:25 AM Eastern Time</span>
