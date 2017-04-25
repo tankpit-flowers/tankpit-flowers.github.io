@@ -122,6 +122,20 @@ flower_dict = {
                      'main_tank_id': 45863,
                      'main_tank': None,
                      'main_color': None,
+                     'main_awards_html': None},
+    'DESERT ROSE': {'tank_id': 49974,
+                     'section': 1,
+                     'seq': 5,
+                     'main_tank_id': 45863,
+                     'main_tank': None,
+                     'main_color': None,
+                     'main_awards_html': None},
+    'SILENT LOTUS': {'tank_id': 49966,
+                     'section': 1,
+                     'seq': 6,
+                     'main_tank_id': 46146,
+                     'main_tank': None,
+                     'main_color': None,
                      'main_awards_html': None}
 }
 
