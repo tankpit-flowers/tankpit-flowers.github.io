@@ -457,24 +457,36 @@ def make_activity_md(activity_out_file, df_now, sort_by, sort_list, flower_dict 
     # some logic to determine which column get bolded
     col_sorted = ' activity_sorted'
     col_sorted_extra = ' &nbsp;&darr;'
-    col1, col1_extra, col2, col2_extra, col3, col3_extra = '', '', '', '', '', ''
+    col1, col1_link, col1_extra, col2, col2_link, col2_extra, col3, col3_link, col3_extra = '', '', '', '', '', '', '', '', ''
     if sort_by == 'hours_day':
         col1 = col_sorted
         col1_extra = col_sorted_extra
+        col2_link = '<a href="https://tankpit-flowers.github.io/activity-week.md">'
+        col2_extra = '</a>'
+        col3_link = '<a href="https://tankpit-flowers.github.io/activity-month.md">'
+        col3_extra = '</a>'
     if sort_by == 'hours_week':
         col2 = col_sorted
         col2_extra = col_sorted_extra
+        col1_link = '<a href="https://tankpit-flowers.github.io/activity.md">'
+        col1_extra = '</a>'
+        col3_link = '<a href="https://tankpit-flowers.github.io/activity-month.md">'
+        col3_extra = '</a>'
     if sort_by == 'hours_month':
         col3 = col_sorted
         col3_extra = col_sorted_extra
+        col1_link = '<a href="https://tankpit-flowers.github.io/activity.md">'
+        col1_extra = '</a>'
+        col2_link = '<a href="https://tankpit-flowers.github.io/activity-week.md">'
+        col2_extra = '</a>'
     # writeout
     activity = open(activity_out_file, 'w')
     activity.write('\n## HOURS OF ACTIVITY\n\n')
     activity.write('{:.activity}\n')
     activity.write('|<span class="activity_header">Flower</span>')
-    activity.write('|<span class="activity_header activity_col1' + col1 + '">Day' + col1_extra + '</span>')
-    activity.write('|<span class="activity_header activity_col2' + col2 + '">Week' + col2_extra + '</span>')
-    activity.write('|<span class="activity_header activity_col3' + col3 + '">Month' + col3_extra +'</span>|\n')
+    activity.write('|<span class="activity_header activity_col1' + col1 + '">' + col1_link + 'Day' + col1_extra + '</span>')
+    activity.write('|<span class="activity_header activity_col2' + col2 + '">' + col2_link + 'Week' + col2_extra + '</span>')
+    activity.write('|<span class="activity_header activity_col3' + col3 + '">' + col3_link + 'Month' + col3_extra +'</span>|\n')
     flower_df = pd.DataFrame()
     for i in flower_dict.values():
         flower_df = pd.concat([flower_df, df_now.ix[df_now['tank_id'] == i['tank_id'], ['tank_name', 'tank_color', 'tank_awards_html', 'hours_day', 'hours_week', 'hours_month']]], axis = 0)    
