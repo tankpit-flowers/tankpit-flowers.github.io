@@ -248,7 +248,7 @@ table.roster {
     width: 300px !important;
   }
   
-  table.stats {
+  table.stats, table.activity {
     width: 300px !important;
   }
   
@@ -271,6 +271,12 @@ table.roster {
   span.stat_deactivated {
     width: 40px !important;
   }
+  
+  span.activity_col1,
+  span.activity_col2,
+  span.activity_col3 {
+    width: 46px !important;
+  }
 }
 
 table.roster td {
@@ -280,12 +286,12 @@ table.roster td {
   vertical-align: middle;
 }
 
-table.stats {
+table.stats, table.activity {
   margin: 0 auto;
   width: 410px;
 }
 
-table.stats td {
+table.stats td, table.activity td {
   padding: 2px;
   background-color: #ffffe0;
   vertical-align: middle;
@@ -294,12 +300,18 @@ table.stats td {
 table.stats span.red,
 table.stats span.purple,
 table.stats span.blue,
-table.stats span.orange {
+table.stats span.orange,
+table.activity span.red,
+table.activity span.purple,
+table.activity span.blue,
+table.activity span.orange {
   font-weight: 500;
 }
 
 table.stats span.stat_header,
-table.stats span.stat {
+table.stats span.stat,
+table.stats span.activity_header,
+table.stats span.activity {
   font-weight: 300;
   margin: 0 5px 0; 
   display: block;
@@ -317,7 +329,14 @@ span.stat_deactivated {
   width: 90px;
 }
 
-span.stat_sorted {
+span.activity_col1,
+span.activity_col2,
+span.activity_col3 {
+  width: 76px;
+}
+
+span.stat_sorted,
+span.activity_sorted {
   font-weight: 500 !important;
 }
 
