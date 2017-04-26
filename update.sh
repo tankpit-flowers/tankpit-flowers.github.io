@@ -4,6 +4,7 @@ SCRIPTDIR=/home/crosswalkcalvin/tankpit-flowers.github.io
 
 cd $SCRIPTDIR
 
+git reset --hard
 git pull
 
 python $SCRIPTDIR/scraper.py

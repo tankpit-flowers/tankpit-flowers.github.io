@@ -1,5 +1,6 @@
 import re
 import unicodedata
+import numpy as np
 import pandas as pd
 import requests as r
 from bs4 import BeautifulSoup
@@ -281,6 +282,56 @@ def loop_all_flowers(flower_dict = flower_dict, no_param_url = 'https://tankpit.
     master_tanks_df['time_played_decimal'] = master_tanks_df['time_played_hours'] + (master_tanks_df['time_played_mins'] / 60.) + (master_tanks_df['time_played_secs'] / 3600.)
     return master_tanks_df
 
+#----- Hours log functions
+
+def change_nas_to_zeros(df_T):
+    return df_T.fillna(0)
+
+def change_zeros_to_nas(df_T):
+    for i in range(df_T.shape[1]):
+        if df_T.columns[i] != 'time':
+            df_T.ix[df_T.ix[:, i] == 0, i] = None
+    return df_T
+
+def format_time_col(df, time_col = 'time', time_format = '%Y-%m-%d %H:%M:%S'):
+    df[time_col] = pd.to_datetime(df[time_col], format = time_format)
+    return df
+
+def concat_now_to_alltime_long(df_T, df_now, stat = 'time_played_decimal'):
+    tmp_dict = {}
+    tmp_dict['time'] = list(df_now['time'])[0]
+    for i in range(df_now.shape[0]):
+        if df_now.ix[i, 'tank_cat'] in [0, 1]:
+            tmp_dict[df_now.ix[i, 'tank_id']] = df_now.ix[i, stat]
+    df_T = pd.concat([df_T, pd.DataFrame([tmp_dict])], axis = 0)
+    df_T.reset_index(drop = True, inplace = True)
+    return df_T
+
+def groupby_max_time(df_T):
+    cols = [i for i in df_T.columns if i != 'time']
+    df_T = df_T.groupby(cols, as_index = False)['time'].max()
+    df_T = df_T.sort_values('time')
+    df_T.reset_index(drop = True, inplace = True)
+    return df_T
+
+def fix_bad_entries(df_T):
+    df_T = change_zeros_to_nas(df_T)
+    for row in range(df_T.shape[0]):
+        if row > 0:
+            for col in range(df_T.shape[1]):
+                if df_T.columns[col] != 'time':
+                    if ~np.isnan(df_T.ix[row - 1, col]):
+                        diff = df_T.ix[row, col] - df_T.ix[row - 1, col]
+                        # cannot have negative diffs - means something went wrong
+                        if diff < 0:
+                            df_T.ix[row, col] = df_T.ix[row - 1, col]
+                        # similarly... if the tank switches colors, then we want to keep the old stat
+                        # 1 = 1 hr (kinda hacky, but will do the trick)
+                        if diff > 1:
+                            df_T.ix[row, col] = df_T.ix[row - 1, col]
+    df_T = change_nas_to_zeros(df_T)
+    return df_T
+
 #----- Roster functions
 
 def write_md_from_tank_id(roster, df, tank_id, end = 'yes'):
@@ -294,16 +345,16 @@ def write_md_from_tank_id(roster, df, tank_id, end = 'yes'):
     if end == 'yes':
         roster.write('|\n')
 
-def make_roster_md(roster_out_file, master_tanks_df, flower_dict = flower_dict, last_updated = last_updated):
+def make_roster_md(roster_out_file, df_now, flower_dict = flower_dict, last_updated = last_updated):
     roster = open(roster_out_file, 'w')
     roster.write('{:.roster}\n')
     # main flowers
     for j in range(len(flower_dict)):
         for i in flower_dict.values():
             if i['seq'] == j and i['section'] == 0:
-                write_md_from_tank_id(roster, master_tanks_df, tank_id = i['tank_id'], end = 'no')
+                write_md_from_tank_id(roster, df_now, tank_id = i['tank_id'], end = 'no')
                 if i['main_tank_id'] != None:
-                    write_md_from_tank_id(roster, master_tanks_df, tank_id = i['main_tank_id'])
+                    write_md_from_tank_id(roster, df_now, tank_id = i['main_tank_id'])
                 else:
                     roster.write('|<span class="')
                     roster.write(i['main_color'])
@@ -321,8 +372,8 @@ def make_roster_md(roster_out_file, master_tanks_df, flower_dict = flower_dict, 
     for j in range(len(flower_dict)):
         for i in flower_dict.values():
             if i['seq'] == j and i['section'] == 1:
-                write_md_from_tank_id(roster, master_tanks_df, tank_id = i['tank_id'], end = 'no')
-                write_md_from_tank_id(roster, master_tanks_df, tank_id = i['main_tank_id'], end = 'yes')
+                write_md_from_tank_id(roster, df_now, tank_id = i['tank_id'], end = 'no')
+                write_md_from_tank_id(roster, df_now, tank_id = i['main_tank_id'], end = 'yes')
     roster.write('\n## LAST UPDATED\n\n')
     roster.write('<span class="last_updated">')
     roster.write(last_updated)
@@ -346,7 +397,7 @@ def write_stats_md_from_index(stats, df, i):
     stats.write(df.ix[i, 'deactivated'])
     stats.write('</span>|\n')
 
-def make_stats_md(stats_out_file, master_tanks_df, flower_dict = flower_dict, last_updated = last_updated):
+def make_stats_md(stats_out_file, df_now, flower_dict = flower_dict, last_updated = last_updated):
     stats = open(stats_out_file, 'w')
     stats.write('{:.stats}\n')
     stats.write('|<span class="stat_header">Flower</span>')
@@ -355,7 +406,7 @@ def make_stats_md(stats_out_file, master_tanks_df, flower_dict = flower_dict, la
     stats.write('|<span class="stat_header stat_deactivated">Deact.</span>|\n')
     flower_df = pd.DataFrame()
     for i in flower_dict.values():
-        flower_df = pd.concat([flower_df, master_tanks_df.ix[master_tanks_df['tank_id'] == i['tank_id'], ['tank_name', 'tank_color', 'tank_awards_html', 'time_played', 'time_played_decimal', 'kills', 'deactivated']]], axis = 0)    
+        flower_df = pd.concat([flower_df, df_now.ix[df_now['tank_id'] == i['tank_id'], ['tank_name', 'tank_color', 'tank_awards_html', 'time_played', 'time_played_decimal', 'kills', 'deactivated']]], axis = 0)    
         flower_df = flower_df.sort_values('time_played_decimal', ascending = False)
         flower_df.reset_index(drop = True, inplace = True)
     for i in range(flower_df.shape[0]):
@@ -369,15 +420,23 @@ def make_stats_md(stats_out_file, master_tanks_df, flower_dict = flower_dict, la
 #----- Main
 
 if __name__ == "__main__":
-    # run scraper, generate current csv
-    master_tanks_df = loop_all_flowers()
-    master_tanks_df.to_csv('./data/flowers_stats_now.csv', sep = ',', header = True, index = False, quotechar = '"')
-    # update alltime csv
-    flowers_stats_alltime_filename = './data/flowers_stats_alltime.csv'
-    flowers_stats_alltime = pd.read_csv(flowers_stats_alltime_filename)
-    flowers_stats_alltime = pd.concat([flowers_stats_alltime, master_tanks_df], axis = 0)
-    flowers_stats_alltime.to_csv(flowers_stats_alltime_filename, sep = ',', header = True, index = False, quotechar = '"')
+    # run scraper, generate stats_now csv
+    df_now = loop_all_flowers()
+    df_now.to_csv('./data/flowers_stats_now.csv', sep = ',', header = True, index = False, quotechar = '"')
+    # update daily csv
+    flowers_stats_daily_filename = './data/flowers_stats_daily.csv'
+    flowers_stats_daily = pd.read_csv(flowers_stats_daily_filename)
+    flowers_stats_daily = pd.concat([flowers_stats_daily, df_now], axis = 0)
+    flowers_stats_daily.to_csv(flowers_stats_daily_filename, sep = ',', header = True, index = False, quotechar = '"')
+    # update hours log
+    df_T_filename = './data/flowers_hours_log.csv'
+    df_T = pd.read_csv(df_T_filename)
+    df_T = concat_now_to_alltime_long(df_T, df_now)
+    df_T = format_time_col(df_T)
+    df_T = groupby_max_time(df_T)
+    df_T = fix_bad_entries(df_T)
+    df_T.to_csv(df_T_filename, sep = ',', header = True, index = False, quotechar = '"')
     # create roster.md
-    make_roster_md(roster_out_file = './index.md', master_tanks_df = master_tanks_df)
+    make_roster_md(roster_out_file = './index.md', df_now = df_now)
     # create stats.md
-    make_stats_md(stats_out_file = './stats.md', master_tanks_df = master_tanks_df)
+    make_stats_md(stats_out_file = './stats.md', df_now = df_now)
