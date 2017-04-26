@@ -461,23 +461,23 @@ def make_activity_md(activity_out_file, df_now, sort_by, sort_list, flower_dict 
     if sort_by == 'hours_day':
         col1 = col_sorted
         col1_extra = col_sorted_extra
-        col2_link = '<a href="https://tankpit-flowers.github.io/activity-week.md">'
+        col2_link = '<a href="https://tankpit-flowers.github.io/activity-week">'
         col2_extra = '</a>'
-        col3_link = '<a href="https://tankpit-flowers.github.io/activity-month.md">'
+        col3_link = '<a href="https://tankpit-flowers.github.io/activity-month">'
         col3_extra = '</a>'
     if sort_by == 'hours_week':
         col2 = col_sorted
         col2_extra = col_sorted_extra
-        col1_link = '<a href="https://tankpit-flowers.github.io/activity.md">'
+        col1_link = '<a href="https://tankpit-flowers.github.io/activity">'
         col1_extra = '</a>'
-        col3_link = '<a href="https://tankpit-flowers.github.io/activity-month.md">'
+        col3_link = '<a href="https://tankpit-flowers.github.io/activity-month">'
         col3_extra = '</a>'
     if sort_by == 'hours_month':
         col3 = col_sorted
         col3_extra = col_sorted_extra
-        col1_link = '<a href="https://tankpit-flowers.github.io/activity.md">'
+        col1_link = '<a href="https://tankpit-flowers.github.io/activity">'
         col1_extra = '</a>'
-        col2_link = '<a href="https://tankpit-flowers.github.io/activity-week.md">'
+        col2_link = '<a href="https://tankpit-flowers.github.io/activity-week">'
         col2_extra = '</a>'
     # writeout
     activity = open(activity_out_file, 'w')
