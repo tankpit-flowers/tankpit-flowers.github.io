@@ -284,22 +284,19 @@ def loop_all_flowers(flower_dict = flower_dict, no_param_url = 'https://tankpit.
 
 #----- Hours log functions
 
-def change_nas_to_zeros(df_T):
-    return df_T.fillna(0)
+def change_nas_to_zeros(df):
+    return df.fillna(0)
 
-def change_zeros_to_nas(df_T):
-    for i in range(df_T.shape[1]):
-        if df_T.columns[i] != 'time':
-            df_T.ix[df_T.ix[:, i] == 0, i] = None
-    return df_T
+def change_zeros_to_nas(df):
+    return df[df != 0]
 
 def format_time_col(df, time_col = 'time', time_format = '%Y-%m-%d %H:%M:%S'):
     df[time_col] = pd.to_datetime(df[time_col], format = time_format)
     return df
 
-def concat_now_to_alltime_long(df_T, df_now, stat = 'time_played_decimal'):
+def concat_now_to_alltime_long(df_T, df_now, stat = 'time_played_decimal', time_col = 'time'):
     tmp_dict = {}
-    tmp_dict['time'] = list(df_now['time'])[0]
+    tmp_dict[time_col] = list(df_now[time_col])[0]
     for i in range(df_now.shape[0]):
         if df_now.ix[i, 'tank_cat'] in [0, 1]:
             tmp_dict[str(df_now.ix[i, 'tank_id'])] = df_now.ix[i, stat]
@@ -307,13 +304,40 @@ def concat_now_to_alltime_long(df_T, df_now, stat = 'time_played_decimal'):
     df_T.reset_index(drop = True, inplace = True)
     return df_T
 
-def groupby_max_time(df_T):
-    cols = [i for i in df_T.columns if i != 'time']
+def groupby_max_time(df_T, time_col = 'time'):
+    cols = [i for i in df_T.columns if i != time_col]
     df_T = change_nas_to_zeros(df_T)
-    df_T = df_T.groupby(cols, as_index = False)['time'].max()
-    df_T = df_T.sort_values('time')
+    df_T = df_T.groupby(cols, as_index = False)[time_col].max()
+    df_T = df_T.sort_values(time_col)
     df_T.reset_index(drop = True, inplace = True)
     return df_T
+
+#----- Sum diff functions
+
+def subset_df_to_timeframe(df, days, time_col = 'time'):
+    time_earliest = datetime.now() - timedelta(minutes = 60 * 24 * days)
+    df = format_time_col(df)
+    df = df.ix[df[time_col] > time_earliest, :]
+    df.reset_index(drop = True, inplace = True)
+    return df
+
+def get_diff_df(df, time_col = 'time'):
+    df = df.set_index(time_col).diff()
+    df.reset_index(drop = False, inplace = True)
+    df = df.drop(0, axis = 0)
+    df.reset_index(drop = True, inplace = True)
+    df = change_nas_to_zeros(df)
+    return df
+
+def sum_diff(df, time_col = 'time'):
+    df = df.drop(time_col, axis = 1)
+    df = df[(df < 1) & (df > 0)]
+    df = change_nas_to_zeros(df)
+    df = df.sum()
+    df = df.sort_values(ascending = False)
+    tank_id_list = df.index
+    diff_list = list(df)
+    return tank_id_list, diff_list
 
 #----- Roster functions
 
