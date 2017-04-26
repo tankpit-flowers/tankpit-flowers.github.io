@@ -354,10 +354,10 @@ def write_md_from_tank_id(roster, df, tank_id, end = 'yes'):
 
 def make_roster_md(roster_out_file, df_now, flower_dict = flower_dict, last_updated = last_updated):
     roster = open(roster_out_file, 'w')
-    activity.write('\n## ROSTER\n\n')
+    roster.write('\n## ROSTER\n\n')
     roster.write('{:.roster}\n')
-    stats.write('|<span class="roster_header">Flower</span>')
-    stats.write('|<span class="roster_header">Main Tank</span>')
+    roster.write('|<span class="roster_header">Flower</span>')
+    roster.write('|<span class="roster_header">Main Tank</span>')
     # main flowers
     for j in range(len(flower_dict)):
         for i in flower_dict.values():
@@ -411,7 +411,7 @@ def write_stats_md_from_index(stats, df, i):
 
 def make_stats_md(stats_out_file, df_now, flower_dict = flower_dict, last_updated = last_updated):
     stats = open(stats_out_file, 'w')
-    activity.write('\n## TANK STATISTICS\n\n')
+    stats.write('\n## TANK STATISTICS\n\n')
     stats.write('{:.stats}\n')
     stats.write('|<span class="stat_header">Flower</span>')
     stats.write('|<span class="stat_header stat_hours stat_sorted">Hours &nbsp;&darr;</span>')
