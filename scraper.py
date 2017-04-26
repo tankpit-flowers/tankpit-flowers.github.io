@@ -335,6 +335,7 @@ def sum_diff(df, diff_col_name, time_col = 'time'):
     df = df.sum()
     df = df.reset_index(drop = False)
     df.columns = ['tank_id', diff_col_name]
+    df[diff_col_name] = df[diff_col_name].round(1)
     df['tank_id'] = df['tank_id'].astype(int)
     return df
 
