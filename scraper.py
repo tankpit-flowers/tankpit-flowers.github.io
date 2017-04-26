@@ -426,6 +426,12 @@ def make_stats_md(stats_out_file, df_now, flower_dict = flower_dict, last_update
 
 #----- Activity functions
 
+def make_string_clean_zero(my_number):
+    my_number = str(round(my_number, 1))
+    if my_number == '0.0':
+        my_number = '0'
+    return my_number
+
 def write_activity_md_from_index(activity, df, i, col1, col2, col3):
     activity.write('|<span class="')
     activity.write(df.ix[i, 'tank_color'])
@@ -434,25 +440,25 @@ def write_activity_md_from_index(activity, df, i, col1, col2, col3):
     activity.write('</span><span class="awards-container">')
     activity.write(df.ix[i, 'tank_awards_html'])
     activity.write('</span>|<span class="activity activity_col1' + col1 + '">')
-    activity.write(df.ix[i, 'hours_day'])
+    activity.write(make_string_clean_zero(df.ix[i, 'hours_day']))
     activity.write('</span>|<span class="activity activity_col2' + col2 + '">')
-    activity.write(df.ix[i, 'hours_week'])
+    activity.write(make_string_clean_zero(df.ix[i, 'hours_week']))
     activity.write('</span>|<span class="activity activity_col3' + col3 + '">')
-    activity.write(df.ix[i, 'hours_month'])
+    activity.write(make_string_clean_zero(df.ix[i, 'hours_month']))
     activity.write('</span>|\n')
 
-def make_activity_md(activity_out_file, df_now, col_sorted, flower_dict = flower_dict, last_updated = last_updated):
+def make_activity_md(activity_out_file, df_now, sort_by, flower_dict = flower_dict, last_updated = last_updated):
     # some logic to determine which column get bolded
     col_sorted = ' activity_sorted'
     col_sorted_extra = ' &nbsp;&darr;'
     col1, col1_extra, col2, col2_extra, col3, col3_extra = '', '', '', '', '', ''
-    if col_sorted == 'hours_day':
+    if sort_by == 'hours_day':
         col1 = col_sorted
         col1_extra = col_sorted_extra
-    if col_sorted == 'hours_week':
+    if sort_by == 'hours_week':
         col2 = col_sorted
         col2_extra = col_sorted_extra
-    if col_sorted == 'hours_month':
+    if sort_by == 'hours_month':
         col3 = col_sorted
         col3_extra = col_sorted_extra
     # writeout
@@ -465,7 +471,7 @@ def make_activity_md(activity_out_file, df_now, col_sorted, flower_dict = flower
     flower_df = pd.DataFrame()
     for i in flower_dict.values():
         flower_df = pd.concat([flower_df, df_now.ix[df_now['tank_id'] == i['tank_id'], ['tank_name', 'tank_color', 'tank_awards_html', 'hours_day', 'hours_week', 'hours_month']]], axis = 0)    
-        flower_df = flower_df.sort_values(col_sorted, ascending = False)
+        flower_df = flower_df.sort_values(sort_by, ascending = False)
         flower_df.reset_index(drop = True, inplace = True)
     for i in range(flower_df.shape[0]):
         write_activity_md_from_index(activity, flower_df, i, col1, col2, col3)
@@ -513,4 +519,4 @@ if __name__ == "__main__":
     hours_month = sum_diff(hours_month, diff_col_name = 'hours_month')
     df_now = df_now.merge(hours_month, how = 'left', on = 'tank_id')
     # create activity.md
-    make_activity_md(activity_out_file = './activity.md', df_now = df_now, col_sorted = 'hours_day')
+    make_activity_md(activity_out_file = './activity.md', df_now = df_now, sort_by = 'hours_day')
