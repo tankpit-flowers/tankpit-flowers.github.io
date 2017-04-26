@@ -357,7 +357,7 @@ def make_roster_md(roster_out_file, df_now, flower_dict = flower_dict, last_upda
     roster.write('\n## ROSTER\n\n')
     roster.write('{:.roster}\n')
     roster.write('|<span class="roster_header">Flower</span>')
-    roster.write('|<span class="roster_header">Main Tank</span>')
+    roster.write('|<span class="roster_header">Main Tank</span>|')
     # main flowers
     for j in range(len(flower_dict)):
         for i in flower_dict.values():
@@ -379,8 +379,8 @@ def make_roster_md(roster_out_file, df_now, flower_dict = flower_dict, last_upda
     roster.write('\n## ALTS\n\n')
     # alts
     roster.write('{:.roster}\n')
-    stats.write('|<span class="roster_header">Alt</span>')
-    stats.write('|<span class="roster_header">Main Flower</span>')
+    roster.write('|<span class="roster_header">Alt</span>')
+    roster.write('|<span class="roster_header">Main Flower</span>|')
     for j in range(len(flower_dict)):
         for i in flower_dict.values():
             if i['seq'] == j and i['section'] == 1:
