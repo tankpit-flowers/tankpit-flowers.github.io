@@ -339,6 +339,12 @@ def sum_diff(df, diff_col_name, time_col = 'time'):
     df['tank_id'] = df['tank_id'].astype(int)
     return df
 
+def make_string_clean_zero(my_number, round_to = 1):
+    my_number = str(round(my_number, round_to))
+    if my_number == '0.0':
+        my_number = '0'
+    return my_number
+
 #----- Roster functions
 
 def write_md_from_tank_id(roster, df, tank_id, end = 'yes'):
@@ -404,9 +410,9 @@ def write_stats_md_from_index(stats, df, i):
     stats.write('</span>|<span class="stat stat_hours stat_sorted">')
     stats.write(df.ix[i, 'time_played'])
     stats.write('</span>|<span class="stat stat_kills">')
-    stats.write(df.ix[i, 'kills'])
+    stats.write(make_string_clean_zero(df.ix[i, 'kills'], 0))
     stats.write('</span>|<span class="stat stat_deactivated">')
-    stats.write(df.ix[i, 'deactivated'])
+    stats.write(make_string_clean_zero(df.ix[i, 'deactivated'], 0))
     stats.write('</span>|\n')
 
 def make_stats_md(stats_out_file, df_now, sort_by, sort_list, flower_dict = flower_dict, last_updated = last_updated):
@@ -445,7 +451,9 @@ def make_stats_md(stats_out_file, df_now, sort_by, sort_list, flower_dict = flow
     stats.write('|<span class="stat_header stat_deactivated' + col3 + '">' + col3_link + 'Deact.' + col3_extra + '</span>|\n')
     flower_df = pd.DataFrame()
     for i in flower_dict.values():
-        flower_df = pd.concat([flower_df, df_now.ix[df_now['tank_id'] == i['tank_id'], ['tank_name', 'tank_color', 'tank_awards_html', 'time_played', 'time_played_decimal', 'kills', 'deactivated']]], axis = 0)    
+        flower_df = pd.concat([flower_df, df_now.ix[df_now['tank_id'] == i['tank_id'], ['tank_name', 'tank_color', 'tank_awards_html', 'time_played', 'time_played_decimal', 'kills', 'deactivated']]], axis = 0) 
+        flower_df['kills'] = flower_df['kills'].astype(float)
+        flower_df['deactivated'] = flower_df['deactivated'].astype(float)
         flower_df = flower_df.sort_values(sort_list, ascending = False)
         flower_df.reset_index(drop = True, inplace = True)
     for i in range(flower_df.shape[0]):
@@ -457,12 +465,6 @@ def make_stats_md(stats_out_file, df_now, sort_by, sort_list, flower_dict = flow
     stats.close()
 
 #----- Activity functions
-
-def make_string_clean_zero(my_number):
-    my_number = str(round(my_number, 1))
-    if my_number == '0.0':
-        my_number = '0'
-    return my_number
 
 def write_activity_md_from_index(activity, df, i, col1, col2, col3):
     activity.write('|<span class="')
