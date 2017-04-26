@@ -427,14 +427,14 @@ def make_stats_md(stats_out_file, df_now, sort_by, sort_list, flower_dict = flow
         col2_extra = '</a>'
         col3_link = '<a href="https://tankpit-flowers.github.io/stats-deact">'
         col3_extra = '</a>'
-    if sort_by == 'kills':
+    if sort_by == 'kills_decimal':
         col2 = col_sorted
         col2_extra = col_sorted_extra
         col1_link = '<a href="https://tankpit-flowers.github.io/stats">'
         col1_extra = '</a>'
         col3_link = '<a href="https://tankpit-flowers.github.io/stats-deact">'
         col3_extra = '</a>'
-    if sort_by == 'deactivated':
+    if sort_by == 'deactivated_decimal':
         col3 = col_sorted
         col3_extra = col_sorted_extra
         col1_link = '<a href="https://tankpit-flowers.github.io/stats">'
@@ -452,9 +452,12 @@ def make_stats_md(stats_out_file, df_now, sort_by, sort_list, flower_dict = flow
     flower_df = pd.DataFrame()
     for i in flower_dict.values():
         flower_df = pd.concat([flower_df, df_now.ix[df_now['tank_id'] == i['tank_id'], ['tank_name', 'tank_color', 'tank_awards_html', 'time_played', 'time_played_decimal', 'kills', 'deactivated']]], axis = 0) 
+    flower_df['time_played_decimal'] = flower_df['time_played_decimal'].fillna('0')
     flower_df['time_played_decimal'] = flower_df['time_played_decimal'].astype(float)
-    flower_df['kills'] = flower_df['kills'].astype(float)
-    flower_df['deactivated'] = flower_df['deactivated'].astype(float)
+    flower_df['kills_decimal'] = flower_df['kills'].fillna('0')
+    flower_df['kills_decimal'] = flower_df['kills_decimal'].astype(float)
+    flower_df['deactivated_decimal'] = flower_df['deactivated'].fillna('0')
+    flower_df['deactivated_decimal'] = flower_df['deactivated_decimal'].astype(float)
     flower_df = flower_df.sort_values(sort_list, ascending = False)
     flower_df.reset_index(drop = True, inplace = True)
     for i in range(flower_df.shape[0]):
@@ -550,9 +553,9 @@ if __name__ == "__main__":
     # create roster.md
     make_roster_md(roster_out_file = './index.md', df_now = df_now)
     # create stats.md
-    make_stats_md(stats_out_file = './stats.md', df_now = df_now, sort_by = 'time_played_decimal', sort_list = ['time_played_decimal', 'kills', 'deactivated'])
-    make_stats_md(stats_out_file = './stats-kills.md', df_now = df_now, sort_by = 'kills', sort_list = ['kills', 'time_played_decimal', 'deactivated'])
-    make_stats_md(stats_out_file = './stats-deact.md', df_now = df_now, sort_by = 'deactivated', sort_list = ['deactivated', 'time_played_decimal', 'kills'])
+    make_stats_md(stats_out_file = './stats.md', df_now = df_now, sort_by = 'time_played_decimal', sort_list = ['time_played_decimal', 'kills_decimal', 'deactivated_decimal'])
+    make_stats_md(stats_out_file = './stats-kills.md', df_now = df_now, sort_by = 'kills_decimal', sort_list = ['kills_decimal', 'time_played_decimal', 'deactivated_decimal'])
+    make_stats_md(stats_out_file = './stats-deact.md', df_now = df_now, sort_by = 'deactivated_decimal', sort_list = ['deactivated_decimal', 'time_played_decimal', 'kills_decimal'])
     # sum day
     hours_day = subset_df_to_timeframe(df_T, days = 1)
     hours_day = get_diff_df(hours_day)
