@@ -335,7 +335,7 @@ def sum_diff(df, diff_col_name, time_col = 'time'):
     df = df.sum()
     df = df.reset_index(drop = False)
     df.columns = ['tank_id', diff_col_name]
-    df[diff_col_name] = df[diff_col_name].round(1)
+    df[diff_col_name] = df[diff_col_name].round(2)
     df['tank_id'] = df['tank_id'].astype(int)
     return df
 
@@ -466,7 +466,7 @@ def make_stats_md(stats_out_file, df_now, sort_by, sort_list, flower_dict = flow
 
 #----- Activity functions
 
-def make_string_clean_zero(my_number, round_to = 1):
+def make_string_clean_zero(my_number, round_to = 2):
     my_number = str(round(my_number, round_to))
     if my_number == '0.0':
         my_number = ''
