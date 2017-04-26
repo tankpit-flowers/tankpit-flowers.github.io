@@ -339,12 +339,6 @@ def sum_diff(df, diff_col_name, time_col = 'time'):
     df['tank_id'] = df['tank_id'].astype(int)
     return df
 
-def make_string_clean_zero(my_number, round_to = 1):
-    my_number = str(round(my_number, round_to))
-    if my_number == '0.0':
-        my_number = '0'
-    return my_number
-
 #----- Roster functions
 
 def write_md_from_tank_id(roster, df, tank_id, end = 'yes'):
@@ -471,6 +465,12 @@ def make_stats_md(stats_out_file, df_now, sort_by, sort_list, flower_dict = flow
     stats.close()
 
 #----- Activity functions
+
+def make_string_clean_zero(my_number, round_to = 1):
+    my_number = str(round(my_number, round_to))
+    if my_number == '0.0':
+        my_number = ''
+    return my_number
 
 def write_activity_md_from_index(activity, df, i, col1, col2, col3):
     activity.write('|<span class="')
