@@ -493,6 +493,10 @@ if __name__ == "__main__":
     df_T = format_time_col(df_T)
     df_T = groupby_max_time(df_T)
     df_T.to_csv(df_T_filename, sep = ',', header = True, index = False, quotechar = '"')
+    # create roster.md
+    make_roster_md(roster_out_file = './index.md', df_now = df_now)
+    # create stats.md
+    make_stats_md(stats_out_file = './stats.md', df_now = df_now)
     # sum day
     hours_day = subset_df_to_timeframe(df_T, days = 1)
     hours_day = get_diff_df(hours_day)
@@ -510,7 +514,3 @@ if __name__ == "__main__":
     df_now = df_now.merge(hours_month, how = 'left', on = 'tank_id')
     # create activity.md
     make_activity_md(activity_out_file = './activity.md', df_now = df_now, col_sorted = 'hours_day')
-    # create roster.md
-    make_roster_md(roster_out_file = './index.md', df_now = df_now)
-    # create stats.md
-    make_stats_md(stats_out_file = './stats.md', df_now = df_now)
