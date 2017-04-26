@@ -144,7 +144,6 @@ flower_dict = {
 
 def scrape_text_from_link(link):
     trials = 0
-    print link
     try:
         response = r.get(link)
     except:
