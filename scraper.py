@@ -309,6 +309,7 @@ def concat_now_to_alltime_long(df_T, df_now, stat = 'time_played_decimal'):
 
 def groupby_max_time(df_T):
     cols = [i for i in df_T.columns if i != 'time']
+    df_T = change_nas_to_zeros(df_T)
     df_T = df_T.groupby(cols, as_index = False)['time'].max()
     df_T = df_T.sort_values('time')
     df_T.reset_index(drop = True, inplace = True)
