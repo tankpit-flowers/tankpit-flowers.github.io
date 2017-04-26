@@ -1,6 +1,6 @@
 {:.activity}
 |<span class="activity_header">Flower</span>|<span class="activity_header activity_col1 activity_sorted">Day &nbsp;&darr;</span>|<span class="activity_header activity_col2">Week</span>|<span class="activity_header activity_col3">Month</span>|
-|<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="activity activity_col1 activity_sorted">2.4</span>|<span class="activity activity_col2">8.3</span>|<span class="activity activity_col3">8.3</span>|
+|<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="activity activity_col1 activity_sorted">2.3</span>|<span class="activity activity_col2">8.3</span>|<span class="activity activity_col3">8.3</span>|
 |<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted">1.7</span>|<span class="activity activity_col2">17.5</span>|<span class="activity activity_col3">17.5</span>|
 |<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-2"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted">0.3</span>|<span class="activity activity_col2">5.1</span>|<span class="activity activity_col3">5.1</span>|
 |<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="activity activity_col1 activity_sorted">0</span>|<span class="activity activity_col2">1.9</span>|<span class="activity activity_col3">1.9</span>|
@@ -21,4 +21,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">April 25, 2017, 11:45 PM Eastern Time</span>
+<span class="last_updated">April 25, 2017, 11:50 PM Eastern Time</span>
