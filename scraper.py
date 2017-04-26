@@ -410,9 +410,9 @@ def write_stats_md_from_index(stats, df, i, col1, col2, col3):
     stats.write('</span>|<span class="stat stat_hours' + col1 + '">')
     stats.write(df.ix[i, 'time_played'])
     stats.write('</span>|<span class="stat stat_kills' + col2 + '">')
-    stats.write(make_string_clean_zero(df.ix[i, 'kills'], round_to = 0))
+    stats.write(df.ix[i, 'kills'])
     stats.write('</span>|<span class="stat stat_deactivated' + col3 + '">')
-    stats.write(make_string_clean_zero(df.ix[i, 'deactivated'], round_to = 0))
+    stats.write(df.ix[i, 'deactivated'])
     stats.write('</span>|\n')
 
 def make_stats_md(stats_out_file, df_now, sort_by, sort_list, flower_dict = flower_dict, last_updated = last_updated):
