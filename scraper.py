@@ -302,7 +302,7 @@ def concat_now_to_alltime_long(df_T, df_now, stat = 'time_played_decimal'):
     tmp_dict['time'] = list(df_now['time'])[0]
     for i in range(df_now.shape[0]):
         if df_now.ix[i, 'tank_cat'] in [0, 1]:
-            tmp_dict[df_now.ix[i, 'tank_id']] = df_now.ix[i, stat]
+            tmp_dict[str(df_now.ix[i, 'tank_id'])] = df_now.ix[i, stat]
     df_T = pd.concat([df_T, pd.DataFrame([tmp_dict])], axis = 0)
     df_T.reset_index(drop = True, inplace = True)
     return df_T
