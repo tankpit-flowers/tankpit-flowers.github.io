@@ -409,18 +409,44 @@ def write_stats_md_from_index(stats, df, i):
     stats.write(df.ix[i, 'deactivated'])
     stats.write('</span>|\n')
 
-def make_stats_md(stats_out_file, df_now, flower_dict = flower_dict, last_updated = last_updated):
+def make_stats_md(stats_out_file, df_now, sort_by, sort_list, flower_dict = flower_dict, last_updated = last_updated):
+    # some logic to determine which column get bolded
+    col_sorted = ' stat_sorted'
+    col_sorted_extra = ' &nbsp;&darr;'
+    col1, col1_link, col1_extra, col2, col2_link, col2_extra, col3, col3_link, col3_extra = '', '', '', '', '', '', '', '', ''
+    if sort_by == 'time_played_decimal':
+        col1 = col_sorted
+        col1_extra = col_sorted_extra
+        col2_link = '<a href="https://tankpit-flowers.github.io/stats-kills">'
+        col2_extra = '</a>'
+        col3_link = '<a href="https://tankpit-flowers.github.io/stats-deact">'
+        col3_extra = '</a>'
+    if sort_by == 'kills':
+        col2 = col_sorted
+        col2_extra = col_sorted_extra
+        col1_link = '<a href="https://tankpit-flowers.github.io/stats">'
+        col1_extra = '</a>'
+        col3_link = '<a href="https://tankpit-flowers.github.io/stats-deact">'
+        col3_extra = '</a>'
+    if sort_by == 'deactivated':
+        col3 = col_sorted
+        col3_extra = col_sorted_extra
+        col1_link = '<a href="https://tankpit-flowers.github.io/stats">'
+        col1_extra = '</a>'
+        col2_link = '<a href="https://tankpit-flowers.github.io/stats-kills">'
+        col2_extra = '</a>'
+    # writeout
     stats = open(stats_out_file, 'w')
     stats.write('\n## STATS\n\n')
     stats.write('{:.stats}\n')
     stats.write('|<span class="stat_header">Flower</span>')
-    stats.write('|<span class="stat_header stat_hours stat_sorted">Hours &nbsp;&darr;</span>')
-    stats.write('|<span class="stat_header stat_kills">Kills</span>')
-    stats.write('|<span class="stat_header stat_deactivated">Deact.</span>|\n')
+    stats.write('|<span class="stat_header stat_hours' + col1 + '">' + col1_link + 'Hours' + col1_extra + '</span>')
+    stats.write('|<span class="stat_header stat_kills' + col2 + '">' + col2_link + 'Kills' + col2_extra + '</span>')
+    stats.write('|<span class="stat_header stat_deactivated' + col3 + '">' + col3_link + 'Deact.' + col3_extra + '</span>|\n')
     flower_df = pd.DataFrame()
     for i in flower_dict.values():
         flower_df = pd.concat([flower_df, df_now.ix[df_now['tank_id'] == i['tank_id'], ['tank_name', 'tank_color', 'tank_awards_html', 'time_played', 'time_played_decimal', 'kills', 'deactivated']]], axis = 0)    
-        flower_df = flower_df.sort_values('time_played_decimal', ascending = False)
+        flower_df = flower_df.sort_values(sort_list, ascending = False)
         flower_df.reset_index(drop = True, inplace = True)
     for i in range(flower_df.shape[0]):
         write_stats_md_from_index(stats, flower_df, i)
@@ -521,7 +547,9 @@ if __name__ == "__main__":
     # create roster.md
     make_roster_md(roster_out_file = './index.md', df_now = df_now)
     # create stats.md
-    make_stats_md(stats_out_file = './stats.md', df_now = df_now)
+    make_stats_md(stats_out_file = './stats.md', df_now = df_now, sort_by = 'time_played_decimal', sort_list = ['time_played_decimal', 'kills', 'deactivated'])
+    make_stats_md(stats_out_file = './stats-kills.md', df_now = df_now, sort_by = 'kills', sort_list = ['kills', 'time_played_decimal', 'deactivated'])
+    make_stats_md(stats_out_file = './stats-deact.md', df_now = df_now, sort_by = 'deactivated', sort_list = ['deactivated', 'time_played_decimal', 'kills'])
     # sum day
     hours_day = subset_df_to_timeframe(df_T, days = 1)
     hours_day = get_diff_df(hours_day)
