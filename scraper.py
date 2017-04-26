@@ -326,10 +326,11 @@ def fix_bad_entries(df_T):
                         # cannot have negative diffs - means something went wrong
                         if diff < 0:
                             df_T.ix[row, col] = df_T.ix[row - 1, col]
-                        # similarly... if the tank switches colors, then we want to keep the old stat
+                        # BELOW REMOVED -- UNLIKELY PROBLEM
+                        # similarly... if the tank switches colors to a color with more hours, then we want to keep the old stat
                         # 1 = 1 hr (kinda hacky, but will do the trick)
-                        if diff > 1:
-                            df_T.ix[row, col] = df_T.ix[row - 1, col]
+                        #if diff > 1:
+                        #    df_T.ix[row, col] = df_T.ix[row - 1, col]
     df_T = change_nas_to_zeros(df_T)
     return df_T
 
