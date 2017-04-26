@@ -315,25 +315,6 @@ def groupby_max_time(df_T):
     df_T.reset_index(drop = True, inplace = True)
     return df_T
 
-def fix_bad_entries(df_T):
-    df_T = change_zeros_to_nas(df_T)
-    for row in range(df_T.shape[0]):
-        if row > 0:
-            for col in range(df_T.shape[1]):
-                if df_T.columns[col] != 'time':
-                    if ~np.isnan(df_T.ix[row - 1, col]):
-                        diff = df_T.ix[row, col] - df_T.ix[row - 1, col]
-                        # cannot have negative diffs - means something went wrong
-                        if diff < 0:
-                            df_T.ix[row, col] = df_T.ix[row - 1, col]
-                        # BELOW REMOVED -- UNLIKELY PROBLEM
-                        # similarly... if the tank switches colors to a color with more hours, then we want to keep the old stat
-                        # 1 = 1 hr (kinda hacky, but will do the trick)
-                        #if diff > 1:
-                        #    df_T.ix[row, col] = df_T.ix[row - 1, col]
-    df_T = change_nas_to_zeros(df_T)
-    return df_T
-
 #----- Roster functions
 
 def write_md_from_tank_id(roster, df, tank_id, end = 'yes'):
@@ -436,7 +417,6 @@ if __name__ == "__main__":
     df_T = concat_now_to_alltime_long(df_T, df_now)
     df_T = format_time_col(df_T)
     df_T = groupby_max_time(df_T)
-    df_T = fix_bad_entries(df_T)
     df_T.to_csv(df_T_filename, sep = ',', header = True, index = False, quotechar = '"')
     # create roster.md
     make_roster_md(roster_out_file = './index.md', df_now = df_now)
