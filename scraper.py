@@ -447,7 +447,7 @@ def write_activity_md_from_index(activity, df, i, col1, col2, col3):
     activity.write(make_string_clean_zero(df.ix[i, 'hours_month']))
     activity.write('</span>|\n')
 
-def make_activity_md(activity_out_file, df_now, sort_by, flower_dict = flower_dict, last_updated = last_updated):
+def make_activity_md(activity_out_file, df_now, sort_by, sort_order, flower_dict = flower_dict, last_updated = last_updated):
     # some logic to determine which column get bolded
     col_sorted = ' activity_sorted'
     col_sorted_extra = ' &nbsp;&darr;'
@@ -471,7 +471,7 @@ def make_activity_md(activity_out_file, df_now, sort_by, flower_dict = flower_di
     flower_df = pd.DataFrame()
     for i in flower_dict.values():
         flower_df = pd.concat([flower_df, df_now.ix[df_now['tank_id'] == i['tank_id'], ['tank_name', 'tank_color', 'tank_awards_html', 'hours_day', 'hours_week', 'hours_month']]], axis = 0)    
-        flower_df = flower_df.sort_values(sort_by, ascending = False)
+        flower_df = flower_df.sort_values(sort_order, ascending = False)
         flower_df.reset_index(drop = True, inplace = True)
     for i in range(flower_df.shape[0]):
         write_activity_md_from_index(activity, flower_df, i, col1, col2, col3)
@@ -519,4 +519,4 @@ if __name__ == "__main__":
     hours_month = sum_diff(hours_month, diff_col_name = 'hours_month')
     df_now = df_now.merge(hours_month, how = 'left', on = 'tank_id')
     # create activity.md
-    make_activity_md(activity_out_file = './activity.md', df_now = df_now, sort_by = 'hours_day')
+    make_activity_md(activity_out_file = './activity.md', df_now = df_now, sort_by = 'hours_day', sort_order = ['hours_day', 'hours_week', 'hours_month'])
