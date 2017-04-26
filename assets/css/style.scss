@@ -340,10 +340,16 @@ span.stat_deactivated {
   width: 90px;
 }
 
-span.activity_col1,
-span.activity_col2,
-span.activity_col3 {
+span.activity_col1 {
+  width: 55px;
+}
+
+span.activity_col2 {
   width: 61px;
+}
+
+span.activity_col3 {
+  width: 67px;
 }
 
 span.stat_sorted,
