@@ -463,6 +463,7 @@ def make_activity_md(activity_out_file, df_now, sort_by, sort_list, flower_dict 
         col3_extra = col_sorted_extra
     # writeout
     activity = open(activity_out_file, 'w')
+    activity.write('\n## HOURS OF ACTIVITY\n\n')
     activity.write('{:.activity}\n')
     activity.write('|<span class="activity_header">Flower</span>')
     activity.write('|<span class="activity_header activity_col1' + col1 + '">Day' + col1_extra + '</span>')
