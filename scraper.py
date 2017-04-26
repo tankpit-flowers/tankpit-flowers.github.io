@@ -452,11 +452,13 @@ def make_stats_md(stats_out_file, df_now, sort_by, sort_list, flower_dict = flow
     flower_df = pd.DataFrame()
     for i in flower_dict.values():
         flower_df = pd.concat([flower_df, df_now.ix[df_now['tank_id'] == i['tank_id'], ['tank_name', 'tank_color', 'tank_awards_html', 'time_played', 'time_played_decimal', 'kills', 'deactivated']]], axis = 0) 
-    flower_df['time_played_decimal'] = flower_df['time_played_decimal'].fillna('0')
-    flower_df['time_played_decimal'] = flower_df['time_played_decimal'].astype(float)
-    flower_df['kills_decimal'] = flower_df['kills'].fillna('0')
+    flower_df['kills_decimal'] = flower_df['kills']
+    flower_df.ix[flower_df['kills_decimal'] == '', 'kills_decimal'] = None
+    flower_df['kills_decimal'] = flower_df['kills_decimal'].fillna('0')
     flower_df['kills_decimal'] = flower_df['kills_decimal'].astype(float)
-    flower_df['deactivated_decimal'] = flower_df['deactivated'].fillna('0')
+    flower_df['deactivated_decimal'] = flower_df['deactivated']
+    flower_df.ix[flower_df['deactivated_decimal'] == '', 'deactivated_decimal'] = None
+    flower_df['deactivated_decimal'] = flower_df['deactivated_decimal'].fillna('0')
     flower_df['deactivated_decimal'] = flower_df['deactivated_decimal'].astype(float)
     flower_df = flower_df.sort_values(sort_list, ascending = False)
     flower_df.reset_index(drop = True, inplace = True)
