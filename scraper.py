@@ -400,18 +400,18 @@ def make_roster_md(roster_out_file, df_now, flower_dict = flower_dict, last_upda
 
 #----- Stats functions
 
-def write_stats_md_from_index(stats, df, i):
+def write_stats_md_from_index(stats, df, i, col1, col2, col3):
     stats.write('|<span class="')
     stats.write(df.ix[i, 'tank_color'])
     stats.write('">')
     stats.write(df.ix[i, 'tank_name'])
     stats.write('</span><span class="awards-container">')
     stats.write(df.ix[i, 'tank_awards_html'])
-    stats.write('</span>|<span class="stat stat_hours stat_sorted">')
+    stats.write('</span>|<span class="stat stat_hours' + col1 + '">')
     stats.write(df.ix[i, 'time_played'])
-    stats.write('</span>|<span class="stat stat_kills">')
+    stats.write('</span>|<span class="stat stat_kills' + col2 + '">')
     stats.write(make_string_clean_zero(df.ix[i, 'kills'], 0))
-    stats.write('</span>|<span class="stat stat_deactivated">')
+    stats.write('</span>|<span class="stat stat_deactivated' + col3 + '">')
     stats.write(make_string_clean_zero(df.ix[i, 'deactivated'], 0))
     stats.write('</span>|\n')
 
@@ -457,7 +457,7 @@ def make_stats_md(stats_out_file, df_now, sort_by, sort_list, flower_dict = flow
         flower_df = flower_df.sort_values(sort_list, ascending = False)
         flower_df.reset_index(drop = True, inplace = True)
     for i in range(flower_df.shape[0]):
-        write_stats_md_from_index(stats, flower_df, i)
+        write_stats_md_from_index(stats, flower_df, i, col1, col2, col3)
     stats.write('\n## LAST UPDATED\n\n')
     stats.write('<span class="last_updated">')
     stats.write(last_updated)
