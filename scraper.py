@@ -314,7 +314,7 @@ def groupby_max_time(df_T, time_col = 'time'):
 #----- Sum diff functions
 
 def subset_df_to_timeframe(df, days, time_col = 'time'):
-    time_earliest = datetime.now() - timedelta(minutes = 60 * 24 * days)
+    time_earliest = datetime.now() - timedelta(hours = 4) - timedelta(minutes = 60 * 24 * days)
     df = format_time_col(df)
     df = df.ix[df[time_col] > time_earliest, :]
     df.reset_index(drop = True, inplace = True)
