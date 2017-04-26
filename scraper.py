@@ -411,7 +411,7 @@ def write_stats_md_from_index(stats, df, i):
 
 def make_stats_md(stats_out_file, df_now, flower_dict = flower_dict, last_updated = last_updated):
     stats = open(stats_out_file, 'w')
-    stats.write('\n## TANK STATISTICS\n\n')
+    stats.write('\n## STATS\n\n')
     stats.write('{:.stats}\n')
     stats.write('|<span class="stat_header">Flower</span>')
     stats.write('|<span class="stat_header stat_hours stat_sorted">Hours &nbsp;&darr;</span>')
