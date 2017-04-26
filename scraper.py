@@ -329,15 +329,15 @@ def get_diff_df(df, time_col = 'time'):
     df = change_nas_to_zeros(df)
     return df
 
-def sum_diff(df, time_col = 'time'):
+def sum_diff(df, diff_col_name, time_col = 'time'):
     df = df.drop(time_col, axis = 1)
     df = df[(df < 1) & (df > 0)]
     df = change_nas_to_zeros(df)
     df = df.sum()
-    df = df.sort_values(ascending = False)
-    tank_id_list = df.index
-    diff_list = list(df)
-    return tank_id_list, diff_list
+    df = df.reset_index(drop = False)
+    df.columns = ['tank_id', diff_col_name]
+    df['tank_id'] = df['tank_id'].astype(int)
+    return df
 
 #----- Roster functions
 
@@ -424,6 +424,57 @@ def make_stats_md(stats_out_file, df_now, flower_dict = flower_dict, last_update
     stats.write('</span>')
     stats.close()
 
+#----- Activity functions
+
+def write_activity_md_from_index(activity, df, i, col1, col2, col3):
+    activity.write('|<span class="')
+    activity.write(df.ix[i, 'tank_color'])
+    activity.write('">')
+    activity.write(df.ix[i, 'tank_name'])
+    activity.write('</span><span class="awards-container">')
+    activity.write(df.ix[i, 'tank_awards_html'])
+    activity.write('</span>|<span class="activity activity_col1' + col1 + '">')
+    activity.write(df.ix[i, 'hours_day'])
+    activity.write('</span>|<span class="activity activity_col2' + col2 + '">')
+    activity.write(df.ix[i, 'hours_week'])
+    activity.write('</span>|<span class="activity activity_col3' + col3 + '">')
+    activity.write(df.ix[i, 'hours_month'])
+    activity.write('</span>|\n')
+
+def make_activity_md(activity_out_file, df_now, col_sorted, flower_dict = flower_dict, last_updated = last_updated):
+    # some logic to determine which column get bolded
+    col_sorted = ' activity_sorted'
+    col_sorted_extra = ' &nbsp;&darr;'
+    col1, col1_extra, col2, col2_extra, col3, col3_extra = '', '', '', '', '', ''
+    if col_sorted == 'hours_day':
+        col1 = col_sorted
+        col1_extra = col_sorted_extra
+    if col_sorted == 'hours_week':
+        col2 = col_sorted
+        col2_extra = col_sorted_extra
+    if col_sorted == 'hours_month':
+        col3 = col_sorted
+        col3_extra = col_sorted_extra
+    # writeout
+    activity = open(activity_out_file, 'w')
+    activity.write('{:.activity}\n')
+    activity.write('|<span class="activity_header">Flower</span>')
+    activity.write('|<span class="activity_header activity_col1' + col1 + '">Day' + col1_extra + '</span>')
+    activity.write('|<span class="activity_header activity_col2' + col2 + '">Week' + col2_extra + '</span>')
+    activity.write('|<span class="activity_header activity_col3' + col3 + '">Month' + col3_extra +'</span>|\n')
+    flower_df = pd.DataFrame()
+    for i in flower_dict.values():
+        flower_df = pd.concat([flower_df, df_now.ix[df_now['tank_id'] == i['tank_id'], ['tank_name', 'tank_color', 'tank_awards_html', 'hours_day', 'hours_week', 'hours_month']]], axis = 0)    
+        flower_df = flower_df.sort_values(col_sorted, ascending = False)
+        flower_df.reset_index(drop = True, inplace = True)
+    for i in range(flower_df.shape[0]):
+        write_activity_md_from_index(activity, flower_df, i, col1, col2, col3)
+    activity.write('\n## LAST UPDATED\n\n')
+    activity.write('<span class="last_updated">')
+    activity.write(last_updated)
+    activity.write('</span>')
+    activity.close()
+
 #----- Main
 
 if __name__ == "__main__":
@@ -442,6 +493,23 @@ if __name__ == "__main__":
     df_T = format_time_col(df_T)
     df_T = groupby_max_time(df_T)
     df_T.to_csv(df_T_filename, sep = ',', header = True, index = False, quotechar = '"')
+    # sum day
+    hours_day = subset_df_to_timeframe(df_T, days = 1)
+    hours_day = get_diff_df(hours_day)
+    hours_day = sum_diff(hours_day, diff_col_name = 'hours_day')
+    df_now = df_now.merge(hours_day, how = 'left', on = 'tank_id')
+    # sum week
+    hours_week = subset_df_to_timeframe(df_T, days = 7)
+    hours_week = get_diff_df(hours_week)
+    hours_week = sum_diff(hours_week, diff_col_name = 'hours_week')
+    df_now = df_now.merge(hours_week, how = 'left', on = 'tank_id')
+    # sum month
+    hours_month = subset_df_to_timeframe(df_T, days = 30)
+    hours_month = get_diff_df(hours_month)
+    hours_month = sum_diff(hours_month, diff_col_name = 'hours_month')
+    df_now = df_now.merge(hours_month, how = 'left', on = 'tank_id')
+    # create activity.md
+    make_activity_md(activity_out_file = './activity.md', df_now = df_now, col_sorted = 'hours_day')
     # create roster.md
     make_roster_md(roster_out_file = './index.md', df_now = df_now)
     # create stats.md
