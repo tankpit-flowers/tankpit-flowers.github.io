@@ -517,5 +517,9 @@ if __name__ == "__main__":
     hours_month = get_diff_df(hours_month)
     hours_month = sum_diff(hours_month, diff_col_name = 'hours_month')
     df_now = df_now.merge(hours_month, how = 'left', on = 'tank_id')
+    # make float
+    df_now['hours_day'] = df_now['hours_day'].astype(float)
+    df_now['hours_week'] = df_now['hours_week'].astype(float)
+    df_now['hours_month'] = df_now['hours_month'].astype(float)
     # create activity.md
     make_activity_md(activity_out_file = './activity.md', df_now = df_now, sort_by = 'hours_day', sort_list = ['hours_day', 'hours_week', 'hours_month'])
