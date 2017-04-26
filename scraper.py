@@ -410,9 +410,9 @@ def write_stats_md_from_index(stats, df, i, col1, col2, col3):
     stats.write('</span>|<span class="stat stat_hours' + col1 + '">')
     stats.write(df.ix[i, 'time_played'])
     stats.write('</span>|<span class="stat stat_kills' + col2 + '">')
-    stats.write(make_string_clean_zero(df.ix[i, 'kills'], 0))
+    stats.write(make_string_clean_zero(df.ix[i, 'kills'], round_to = 0))
     stats.write('</span>|<span class="stat stat_deactivated' + col3 + '">')
-    stats.write(make_string_clean_zero(df.ix[i, 'deactivated'], 0))
+    stats.write(make_string_clean_zero(df.ix[i, 'deactivated'], round_to = 0))
     stats.write('</span>|\n')
 
 def make_stats_md(stats_out_file, df_now, sort_by, sort_list, flower_dict = flower_dict, last_updated = last_updated):
@@ -452,10 +452,11 @@ def make_stats_md(stats_out_file, df_now, sort_by, sort_list, flower_dict = flow
     flower_df = pd.DataFrame()
     for i in flower_dict.values():
         flower_df = pd.concat([flower_df, df_now.ix[df_now['tank_id'] == i['tank_id'], ['tank_name', 'tank_color', 'tank_awards_html', 'time_played', 'time_played_decimal', 'kills', 'deactivated']]], axis = 0) 
-        flower_df['kills'] = flower_df['kills'].astype(float)
-        flower_df['deactivated'] = flower_df['deactivated'].astype(float)
-        flower_df = flower_df.sort_values(sort_list, ascending = False)
-        flower_df.reset_index(drop = True, inplace = True)
+    flower_df['time_played_decimal'] = flower_df['time_played_decimal'].astype(float)
+    flower_df['kills'] = flower_df['kills'].astype(float)
+    flower_df['deactivated'] = flower_df['deactivated'].astype(float)
+    flower_df = flower_df.sort_values(sort_list, ascending = False)
+    flower_df.reset_index(drop = True, inplace = True)
     for i in range(flower_df.shape[0]):
         write_stats_md_from_index(stats, flower_df, i, col1, col2, col3)
     stats.write('\n## LAST UPDATED\n\n')
@@ -518,8 +519,8 @@ def make_activity_md(activity_out_file, df_now, sort_by, sort_list, flower_dict 
     flower_df = pd.DataFrame()
     for i in flower_dict.values():
         flower_df = pd.concat([flower_df, df_now.ix[df_now['tank_id'] == i['tank_id'], ['tank_name', 'tank_color', 'tank_awards_html', 'hours_day', 'hours_week', 'hours_month']]], axis = 0)    
-        flower_df = flower_df.sort_values(sort_list, ascending = False)
-        flower_df.reset_index(drop = True, inplace = True)
+    flower_df = flower_df.sort_values(sort_list, ascending = False)
+    flower_df.reset_index(drop = True, inplace = True)
     for i in range(flower_df.shape[0]):
         write_activity_md_from_index(activity, flower_df, i, col1, col2, col3)
     activity.write('\n## LAST UPDATED\n\n')
