@@ -527,3 +527,5 @@ if __name__ == "__main__":
     df_now = df_now.merge(hours_month, how = 'left', on = 'tank_id')
     # create activity.md
     make_activity_md(activity_out_file = './activity.md', df_now = df_now, sort_by = 'hours_day', sort_list = ['hours_day', 'hours_week', 'hours_month'])
+    make_activity_md(activity_out_file = './activity-week.md', df_now = df_now, sort_by = 'hours_week', sort_list = ['hours_week', 'hours_day', 'hours_month'])
+    make_activity_md(activity_out_file = './activity-month.md', df_now = df_now, sort_by = 'hours_month', sort_list = ['hours_month', 'hours_day', 'hours_week'])
