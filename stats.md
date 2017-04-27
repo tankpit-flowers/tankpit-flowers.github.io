@@ -12,7 +12,7 @@
 |<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="stat stat_hours stat_sorted">26:6:30</span>|<span class="stat stat_kills">24</span>|<span class="stat stat_deactivated">12</span>|
 |<span class="red">LILAC</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">21:57:40</span>|<span class="stat stat_kills">37</span>|<span class="stat stat_deactivated">11</span>|
 |<span class="red">ORCHID</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="stat stat_hours stat_sorted">19:39:51</span>|<span class="stat stat_kills">47</span>|<span class="stat stat_deactivated">7</span>|
-|<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted">16:37:06</span>|<span class="stat stat_kills">13</span>|<span class="stat stat_deactivated">5</span>|
+|<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted">16:41:09</span>|<span class="stat stat_kills">13</span>|<span class="stat stat_deactivated">5</span>|
 |<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted">6:7:20</span>|<span class="stat stat_kills">10</span>|<span class="stat stat_deactivated">2</span>|
 |<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours stat_sorted">3:52:04</span>|<span class="stat stat_kills">5</span>|<span class="stat stat_deactivated">0</span>|
 |<span class="orange">SILENT LOTUS</span><span class="awards-container"><span class="awards-sprite a0-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">1:37:32</span>|<span class="stat stat_kills">3</span>|<span class="stat stat_deactivated">0</span>|
@@ -24,4 +24,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">April 27, 2017, 7:20 PM Eastern Time</span>
+<span class="last_updated">April 27, 2017, 7:25 PM Eastern Time</span>
