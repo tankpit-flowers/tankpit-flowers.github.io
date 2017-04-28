@@ -3,8 +3,8 @@
 
 {:.activity}
 |<span class="activity_header">Flower</span>|<span class="activity_header activity_col1"><a href="https://tankpit-flowers.github.io/activity">Day</a></span>|<span class="activity_header activity_col2 activity_sorted">Week &nbsp;&darr;</span>|<span class="activity_header activity_col3"><a href="https://tankpit-flowers.github.io/activity-month">Month</a></span>|
-|<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">3.62</span>|<span class="activity activity_col2 activity_sorted">21.59</span>|<span class="activity activity_col3">29.33</span>|
-|<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="activity activity_col1">1.08</span>|<span class="activity activity_col2 activity_sorted">11.91</span>|<span class="activity activity_col3">14.53</span>|
+|<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">3.58</span>|<span class="activity activity_col2 activity_sorted">21.63</span>|<span class="activity activity_col3">29.37</span>|
+|<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="activity activity_col1">1.0</span>|<span class="activity activity_col2 activity_sorted">11.91</span>|<span class="activity activity_col3">14.53</span>|
 |<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-2"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">3.14</span>|<span class="activity activity_col2 activity_sorted">7.57</span>|<span class="activity activity_col3">8.67</span>|
 |<span class="red">TULIP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1">1.89</span>|<span class="activity activity_col2 activity_sorted">3.6</span>|<span class="activity activity_col3">6.51</span>|
 |<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1">2.68</span>|<span class="activity activity_col2 activity_sorted">2.68</span>|<span class="activity activity_col3">2.68</span>|
@@ -25,4 +25,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">April 28, 2017, 3:40 AM Eastern Time</span>
+<span class="last_updated">April 28, 2017, 3:45 AM Eastern Time</span>
