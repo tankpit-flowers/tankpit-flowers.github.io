@@ -3,7 +3,7 @@
 
 {:.stats}
 |<span class="stat_header">Flower</span>|<span class="stat_header stat_hours"><a href="https://tankpit-flowers.github.io/stats">Hours</a></span>|<span class="stat_header stat_kills stat_sorted">Kills &nbsp;&darr;</span>|<span class="stat_header stat_deactivated"><a href="https://tankpit-flowers.github.io/stats-deact">Deact.</a></span>|
-|<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-2"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">167:53:05</span>|<span class="stat stat_kills stat_sorted">315</span>|<span class="stat stat_deactivated">69</span>|
+|<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-2"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">167:58:00</span>|<span class="stat stat_kills stat_sorted">315</span>|<span class="stat stat_deactivated">69</span>|
 |<span class="red">TULIP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours">83:14:34</span>|<span class="stat stat_kills stat_sorted">162</span>|<span class="stat stat_deactivated">36</span>|
 |<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">67:5:12</span>|<span class="stat stat_kills stat_sorted">110</span>|<span class="stat stat_deactivated">8</span>|
 |<span class="red">HIBISCUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours">99:25:07</span>|<span class="stat stat_kills stat_sorted">103</span>|<span class="stat stat_deactivated">34</span>|
@@ -24,4 +24,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">April 27, 2017, 11:15 PM Eastern Time</span>
+<span class="last_updated">April 27, 2017, 11:20 PM Eastern Time</span>
