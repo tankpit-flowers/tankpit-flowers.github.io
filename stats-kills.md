@@ -12,7 +12,7 @@
 |<span class="red">ORCHID</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="stat stat_hours">19:39:51</span>|<span class="stat stat_kills stat_sorted">47</span>|<span class="stat stat_deactivated">7</span>|
 |<span class="red">LILAC</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">21:57:40</span>|<span class="stat stat_kills stat_sorted">37</span>|<span class="stat stat_deactivated">11</span>|
 |<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="stat stat_hours">26:6:30</span>|<span class="stat stat_kills stat_sorted">24</span>|<span class="stat stat_deactivated">12</span>|
-|<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">19:13:39</span>|<span class="stat stat_kills stat_sorted">14</span>|<span class="stat stat_deactivated">5</span>|
+|<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">19:17:51</span>|<span class="stat stat_kills stat_sorted">14</span>|<span class="stat stat_deactivated">5</span>|
 |<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">6:7:20</span>|<span class="stat stat_kills stat_sorted">10</span>|<span class="stat stat_deactivated">2</span>|
 |<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours">3:52:04</span>|<span class="stat stat_kills stat_sorted">5</span>|<span class="stat stat_deactivated">0</span>|
 |<span class="orange">DESERT ROSE</span><span class="awards-container"><span class="awards-sprite a0-2"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">1:30:44</span>|<span class="stat stat_kills stat_sorted">5</span>|<span class="stat stat_deactivated">0</span>|
@@ -25,4 +25,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">April 28, 2017, 4:01 PM Eastern Time</span>
+<span class="last_updated">April 28, 2017, 4:05 PM Eastern Time</span>
