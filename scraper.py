@@ -137,10 +137,10 @@ flower_dict = {
                      'main_tank_id': 46146,
                      'main_tank': None,
                      'main_color': None,
-                     'main_awards_html': None}
+                     'main_awards_html': None},
     'BLACK DAHLIA': {'tank_id': 50007,
                      'section': 1,
-                     'seq': 6,
+                     'seq': 7,
                      'main_tank_id': 48641,
                      'main_tank': None,
                      'main_color': None,
