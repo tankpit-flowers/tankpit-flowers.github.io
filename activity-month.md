@@ -3,7 +3,7 @@
 
 {:.activity}
 |<span class="activity_header">Flower</span>|<span class="activity_header activity_col1"><a href="https://tankpit-flowers.github.io/activity">Day</a></span>|<span class="activity_header activity_col2"><a href="https://tankpit-flowers.github.io/activity-week">Week</a></span>|<span class="activity_header activity_col3 activity_sorted">Month &nbsp;&darr;</span>|
-|<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">0.8</span>|<span class="activity activity_col2">17.92</span>|<span class="activity activity_col3 activity_sorted">30.92</span>|
+|<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">0.72</span>|<span class="activity activity_col2">17.83</span>|<span class="activity activity_col3 activity_sorted">30.92</span>|
 |<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="activity activity_col1">1.24</span>|<span class="activity activity_col2">12.06</span>|<span class="activity activity_col3 activity_sorted">15.77</span>|
 |<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-2"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">3.16</span>|<span class="activity activity_col2">9.28</span>|<span class="activity activity_col3 activity_sorted">11.84</span>|
 |<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1">5.6</span>|<span class="activity activity_col2">8.28</span>|<span class="activity activity_col3 activity_sorted">8.28</span>|
@@ -25,4 +25,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">April 29, 2017, 4:25 AM Eastern Time</span>
+<span class="last_updated">April 29, 2017, 4:30 AM Eastern Time</span>
