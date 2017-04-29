@@ -10,6 +10,7 @@
 |<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="activity activity_col1 activity_sorted">0.69</span>|<span class="activity activity_col2">1.85</span>|<span class="activity activity_col3">2.62</span>|
 |<span class="purple">radiant ROSE</span><span class="awards-container"><span class="awards-sprite a0-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted">0.07</span>|<span class="activity activity_col2">0.1</span>|<span class="activity activity_col3">0.18</span>|
 |<span class="purple">terrestrial TULIP</span><span class="awards-container"><span class="awards-sprite a0-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1 activity_sorted">0.05</span>|<span class="activity activity_col2">0.05</span>|<span class="activity activity_col3">0.25</span>|
+|<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1 activity_sorted">0.05</span>|<span class="activity activity_col2">0.05</span>|<span class="activity activity_col3">0.05</span>|
 |<span class="orange">SILENT LOTUS</span><span class="awards-container"><span class="awards-sprite a0-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted">0.04</span>|<span class="activity activity_col2">2.22</span>|<span class="activity activity_col3">2.22</span>|
 |<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">17.55</span>|<span class="activity activity_col3">30.92</span>|
 |<span class="orange">DESERT ROSE</span><span class="awards-container"><span class="awards-sprite a0-2"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">1.51</span>|<span class="activity activity_col3">1.51</span>|
@@ -25,4 +26,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">April 29, 2017, 11:30 AM Eastern Time</span>
+<span class="last_updated">April 29, 2017, 11:35 AM Eastern Time</span>

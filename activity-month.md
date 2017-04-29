@@ -17,6 +17,7 @@
 |<span class="purple">terrestrial TULIP</span><span class="awards-container"><span class="awards-sprite a0-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1">0.05</span>|<span class="activity activity_col2">0.05</span>|<span class="activity activity_col3 activity_sorted">0.25</span>|
 |<span class="purple">radiant ROSE</span><span class="awards-container"><span class="awards-sprite a0-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">0.07</span>|<span class="activity activity_col2">0.1</span>|<span class="activity activity_col3 activity_sorted">0.18</span>|
 |<span class="red">TRILLIUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2"></span>|<span class="activity activity_col3 activity_sorted">0.14</span>|
+|<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1">0.05</span>|<span class="activity activity_col2">0.05</span>|<span class="activity activity_col3 activity_sorted">0.05</span>|
 |<span class="red">HIBISCUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2"></span>|<span class="activity activity_col3 activity_sorted"></span>|
 |<span class="red">GLADIOLUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2"></span>|<span class="activity activity_col3 activity_sorted"></span>|
 |<span class="red">LILAC</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2"></span>|<span class="activity activity_col3 activity_sorted"></span>|
@@ -25,4 +26,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">April 29, 2017, 11:30 AM Eastern Time</span>
+<span class="last_updated">April 29, 2017, 11:35 AM Eastern Time</span>

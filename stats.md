@@ -20,9 +20,10 @@
 |<span class="orange">DESERT ROSE</span><span class="awards-container"><span class="awards-sprite a0-2"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted">1:30:44</span>|<span class="stat stat_kills">5</span>|<span class="stat stat_deactivated">0</span>|
 |<span class="orange">BLACK DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-2"></span></span>|<span class="stat stat_hours stat_sorted">1:21:27</span>|<span class="stat stat_kills">4</span>|<span class="stat stat_deactivated">0</span>|
 |<span class="purple">terrestrial TULIP</span><span class="awards-container"><span class="awards-sprite a0-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted">1:0:01</span>|<span class="stat stat_kills">2</span>|<span class="stat stat_deactivated">1</span>|
+|<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours stat_sorted">0:3:15</span>|<span class="stat stat_kills">0</span>|<span class="stat stat_deactivated">0</span>|
 |<span class="red">TRILLIUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span></span>|<span class="stat stat_hours stat_sorted">0:1:14</span>|<span class="stat stat_kills">0</span>|<span class="stat stat_deactivated">0</span>|
 |<span class="red">DAISY</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted"></span>|<span class="stat stat_kills"></span>|<span class="stat stat_deactivated"></span>|
 
 ## LAST UPDATED
 
-<span class="last_updated">April 29, 2017, 11:30 AM Eastern Time</span>
+<span class="last_updated">April 29, 2017, 11:35 AM Eastern Time</span>
