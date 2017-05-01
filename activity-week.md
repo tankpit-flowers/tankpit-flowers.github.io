@@ -12,7 +12,7 @@
 |<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">1.85</span>|<span class="activity activity_col3">2.62</span>|
 |<span class="orange">DESERT ROSE</span><span class="awards-container"><span class="awards-sprite a0-2"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1">0.02</span>|<span class="activity activity_col2 activity_sorted">1.53</span>|<span class="activity activity_col3">1.53</span>|
 |<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1">0.28</span>|<span class="activity activity_col2 activity_sorted">0.74</span>|<span class="activity activity_col3">3.25</span>|
-|<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1">0.09</span>|<span class="activity activity_col2 activity_sorted">0.34</span>|<span class="activity activity_col3">0.34</span>|
+|<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1">0.01</span>|<span class="activity activity_col2 activity_sorted">0.34</span>|<span class="activity activity_col3">0.34</span>|
 |<span class="purple">radiant ROSE</span><span class="awards-container"><span class="awards-sprite a0-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">0.1</span>|<span class="activity activity_col3">0.18</span>|
 |<span class="purple">terrestrial TULIP</span><span class="awards-container"><span class="awards-sprite a0-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">0.05</span>|<span class="activity activity_col3">0.25</span>|
 |<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted"></span>|<span class="activity activity_col3">1.28</span>|
@@ -26,4 +26,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">May 01, 2017, 4:01 AM Eastern Time</span>
+<span class="last_updated">May 01, 2017, 4:05 AM Eastern Time</span>
