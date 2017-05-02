@@ -7,7 +7,7 @@
 |<span class="orange">SILENT LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted">0.7</span>|<span class="activity activity_col2">3.26</span>|<span class="activity activity_col3">4.87</span>|
 |<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1 activity_sorted">0.43</span>|<span class="activity activity_col2">14.95</span>|<span class="activity activity_col3">14.95</span>|
 |<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-2"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted">0.4</span>|<span class="activity activity_col2">11.38</span>|<span class="activity activity_col3">16.17</span>|
-|<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">14.52</span>|<span class="activity activity_col3">30.92</span>|
+|<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">14.42</span>|<span class="activity activity_col3">30.92</span>|
 |<span class="red">TULIP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">3.64</span>|<span class="activity activity_col3">8.26</span>|
 |<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">0.69</span>|<span class="activity activity_col3">2.62</span>|
 |<span class="orange">DESERT ROSE</span><span class="awards-container"><span class="awards-sprite a0-2"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">0.55</span>|<span class="activity activity_col3">1.53</span>|
@@ -26,4 +26,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">May 02, 2017, 4:35 AM Eastern Time</span>
+<span class="last_updated">May 02, 2017, 4:40 AM Eastern Time</span>
