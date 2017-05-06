@@ -4,7 +4,7 @@
 {:.activity}
 |<span class="activity_header">Flower</span>|<span class="activity_header activity_col1 activity_sorted">Day &nbsp;&darr;</span>|<span class="activity_header activity_col2"><a href="https://tankpit-flowers.github.io/activity-week">Week</a></span>|<span class="activity_header activity_col3"><a href="https://tankpit-flowers.github.io/activity-month">Month</a></span>|
 |<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted">4.5</span>|<span class="activity activity_col2">4.54</span>|<span class="activity activity_col3">35.46</span>|
-|<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1 activity_sorted">4.04</span>|<span class="activity activity_col2">13.68</span>|<span class="activity activity_col3">21.96</span>|
+|<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1 activity_sorted">4.05</span>|<span class="activity activity_col2">13.7</span>|<span class="activity activity_col3">21.98</span>|
 |<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-2"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted">1.76</span>|<span class="activity activity_col2">5.79</span>|<span class="activity activity_col3">18.88</span>|
 |<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="activity activity_col1 activity_sorted">1.43</span>|<span class="activity activity_col2">7.53</span>|<span class="activity activity_col3">23.29</span>|
 |<span class="orange">SILENT LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted">0.77</span>|<span class="activity activity_col2">3.41</span>|<span class="activity activity_col3">5.64</span>|
@@ -26,4 +26,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">May 06, 2017, 11:35 AM Eastern Time</span>
+<span class="last_updated">May 06, 2017, 11:40 AM Eastern Time</span>
