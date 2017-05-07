@@ -3,8 +3,8 @@
 
 {:.stats}
 |<span class="stat_header">Flower</span>|<span class="stat_header stat_hours"><a href="https://tankpit-flowers.github.io/stats">Hours</a></span>|<span class="stat_header stat_kills stat_sorted">Kills &nbsp;&darr;</span>|<span class="stat_header stat_deactivated"><a href="https://tankpit-flowers.github.io/stats-deact">Deact.</a></span>|
-|<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-2"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">181:9:37</span>|<span class="stat stat_kills stat_sorted">400</span>|<span class="stat stat_deactivated">70</span>|
-|<span class="red">TULIP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours">86:14:36</span>|<span class="stat stat_kills stat_sorted">167</span>|<span class="stat stat_deactivated">36</span>|
+|<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-2"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">181:14:25</span>|<span class="stat stat_kills stat_sorted">400</span>|<span class="stat stat_deactivated">70</span>|
+|<span class="red">TULIP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours">86:18:08</span>|<span class="stat stat_kills stat_sorted">167</span>|<span class="stat stat_deactivated">36</span>|
 |<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">75:0:44</span>|<span class="stat stat_kills stat_sorted">114</span>|<span class="stat stat_deactivated">8</span>|
 |<span class="red">HIBISCUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours">99:25:07</span>|<span class="stat stat_kills stat_sorted">103</span>|<span class="stat stat_deactivated">34</span>|
 |<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="stat stat_hours">193:5:17</span>|<span class="stat stat_kills stat_sorted">96</span>|<span class="stat stat_deactivated">55</span>|
@@ -26,4 +26,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">May 06, 2017, 8:05 PM Eastern Time</span>
+<span class="last_updated">May 06, 2017, 8:10 PM Eastern Time</span>
