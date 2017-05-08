@@ -12,7 +12,7 @@
 |<span class="red">LILAC</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">21:57:40</span>|<span class="stat stat_kills">37</span>|<span class="stat stat_deactivated stat_sorted">11</span>|
 |<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">78:46:56</span>|<span class="stat stat_kills">115</span>|<span class="stat stat_deactivated stat_sorted">8</span>|
 |<span class="red">ORCHID</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="stat stat_hours">19:39:51</span>|<span class="stat stat_kills">47</span>|<span class="stat stat_deactivated stat_sorted">7</span>|
-|<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">40:17:23</span>|<span class="stat stat_kills">15</span>|<span class="stat stat_deactivated stat_sorted">5</span>|
+|<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">40:23:00</span>|<span class="stat stat_kills">15</span>|<span class="stat stat_deactivated stat_sorted">5</span>|
 |<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">6:7:20</span>|<span class="stat stat_kills">10</span>|<span class="stat stat_deactivated stat_sorted">2</span>|
 |<span class="red">TRILLIUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span></span>|<span class="stat stat_hours">37:7:05</span>|<span class="stat stat_kills">9</span>|<span class="stat stat_deactivated stat_sorted">1</span>|
 |<span class="orange">SILENT LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">5:52:37</span>|<span class="stat stat_kills">5</span>|<span class="stat stat_deactivated stat_sorted">1</span>|
@@ -26,4 +26,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">May 07, 2017, 8:40 PM Eastern Time</span>
+<span class="last_updated">May 07, 2017, 8:45 PM Eastern Time</span>
