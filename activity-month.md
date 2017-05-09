@@ -3,7 +3,7 @@
 
 {:.activity}
 |<span class="activity_header">Flower</span>|<span class="activity_header activity_col1"><a href="https://tankpit-flowers.github.io/activity">Day</a></span>|<span class="activity_header activity_col2"><a href="https://tankpit-flowers.github.io/activity-week">Week</a></span>|<span class="activity_header activity_col3 activity_sorted">Month &nbsp;&darr;</span>|
-|<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">2.4</span>|<span class="activity activity_col2">12.8</span>|<span class="activity activity_col3 activity_sorted">43.72</span>|
+|<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">2.34</span>|<span class="activity activity_col2">12.8</span>|<span class="activity activity_col3 activity_sorted">43.72</span>|
 |<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1">1.36</span>|<span class="activity activity_col2">11.39</span>|<span class="activity activity_col3 activity_sorted">26.35</span>|
 |<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2">5.58</span>|<span class="activity activity_col3 activity_sorted">23.86</span>|
 |<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-2"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">1.47</span>|<span class="activity activity_col2">7.1</span>|<span class="activity activity_col3 activity_sorted">23.31</span>|
@@ -26,4 +26,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">May 09, 2017, 5:55 AM Eastern Time</span>
+<span class="last_updated">May 09, 2017, 6:01 AM Eastern Time</span>
