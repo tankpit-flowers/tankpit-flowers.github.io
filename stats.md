@@ -9,7 +9,7 @@
 |<span class="red">HIBISCUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours stat_sorted">99:25:07</span>|<span class="stat stat_kills">103</span>|<span class="stat stat_deactivated">34</span>|
 |<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">97:8:53</span>|<span class="stat stat_kills">120</span>|<span class="stat stat_deactivated">9</span>|
 |<span class="red">TULIP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours stat_sorted">89:0:47</span>|<span class="stat stat_kills">168</span>|<span class="stat stat_deactivated">38</span>|
-|<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted">49:17:21</span>|<span class="stat stat_kills">16</span>|<span class="stat stat_deactivated">5</span>|
+|<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted">49:17:56</span>|<span class="stat stat_kills">16</span>|<span class="stat stat_deactivated">5</span>|
 |<span class="red">TRILLIUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span></span>|<span class="stat stat_hours stat_sorted">37:9:59</span>|<span class="stat stat_kills">9</span>|<span class="stat stat_deactivated">1</span>|
 |<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="stat stat_hours stat_sorted">26:48:30</span>|<span class="stat stat_kills">24</span>|<span class="stat stat_deactivated">12</span>|
 |<span class="red">LILAC</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">22:6:38</span>|<span class="stat stat_kills">38</span>|<span class="stat stat_deactivated">11</span>|
@@ -26,4 +26,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">May 13, 2017, 10:31 AM Eastern Time</span>
+<span class="last_updated">May 13, 2017, 10:40 AM Eastern Time</span>
