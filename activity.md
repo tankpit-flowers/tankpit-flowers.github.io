@@ -12,7 +12,7 @@
 |<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1 activity_sorted">0.03</span>|<span class="activity activity_col2">0.04</span>|<span class="activity activity_col3">0.47</span>|
 |<span class="red">TRILLIUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span></span>|<span class="activity activity_col1 activity_sorted">0.01</span>|<span class="activity activity_col2">0.06</span>|<span class="activity activity_col3">0.32</span>|
 |<span class="orange">DESERT ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1 activity_sorted">0.01</span>|<span class="activity activity_col2">0.01</span>|<span class="activity activity_col3">1.98</span>|
-|<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">22.1</span>|<span class="activity activity_col3">57.59</span>|
+|<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">21.94</span>|<span class="activity activity_col3">57.59</span>|
 |<span class="red">LILAC</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">0.15</span>|<span class="activity activity_col3">0.15</span>|
 |<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">0.03</span>|<span class="activity activity_col3">1.31</span>|
 |<span class="orange">SILENT LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2"></span>|<span class="activity activity_col3">5.88</span>|
@@ -26,4 +26,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">May 13, 2017, 9:50 PM Eastern Time</span>
+<span class="last_updated">May 13, 2017, 10:01 PM Eastern Time</span>
