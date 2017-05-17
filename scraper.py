@@ -165,7 +165,7 @@ def scrape_text_from_link(link):
         trials += 1
         if trials < 10:
             scrape_text_from_link(link)
-    return BeautifulSoup(response.text)
+    return BeautifulSoup(response.text, 'lxml')
 
 def check_remove_key(my_dict, key_name):
     if my_dict.has_key(key_name):
