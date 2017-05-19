@@ -1,5 +1,8 @@
 ## TIMELINE
 
+### <span class="timeline-date">May 18, 2017</span> <span class="timeline-blurb"><span class="timeline-red">ROSE</span> & <span class="timeline-red">LOTUS</span> are awarded the <span class="timeline-em">BATTERED SWORD</span></span> <span class="timeline-blurb"><span class="timeline-red">TULIP</span>, <span class="timeline-red">HIBISCUS</span> & <span class="timeline-red">DAHLIA</span> are awarded the <span class="timeline-em">SHINING SWORD</span></span>
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/t3dGO2ZHWGE" frameborder="0" allowfullscreen></iframe>
+
 ### <span class="timeline-date">April 17, 2017</span> <span class="timeline-blurb"><span class="timeline-red">TRILLIUM</span> is awarded the <span class="timeline-em">DEFENDER OF THE TRUTH</span> & <span class="timeline-em">WAR CORRESPONDENT</span></span> <span class="timeline-blurb"><span class="timeline-red">ROSE</span> is awarded the <span class="timeline-em">WAR CORRESPONDENT</span> & <span class="timeline-em">LIGHTBULB AWARD</span></span>
 ![TRILLIUM is awarded the DEFENDER OF THE TRUTH & WAR CORRESPONDENT](./screenshots/special-dot-wc-trillium.png){:.game-screenshot}
 ![ROSE is awarded the WAR CORRESPONDENT & LIGHTBULB AWARD](./screenshots/special-wc-lb-rose.png){:.game-screenshot}
