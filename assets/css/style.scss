@@ -399,7 +399,7 @@ span.timeline-orange {
  font-weight: 500 !important; 
 }
 
-/* Screenshots */
+/* Screenshots & videos */
 
 .game-screenshot {
   margin: 0 auto;
@@ -408,6 +408,33 @@ span.timeline-orange {
   padding: 2%;
   background-color: #fafbfc;
   border: 1px solid #e1e4e8;
+}
+
+.game-video {
+  margin: 0 auto;
+  width: 95%;
+  height: 316px;
+  padding: 2%;
+  background-color: #fafbfc;
+  border: 1px solid #e1e4e8;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 584px) {
+  .game-video {
+    height: 360px !important;
+  }
+}
+
+@media only screen and (max-width: 584px) and (min-width: 400px) {
+  .game-video {
+    height: 300px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .game-video {
+    height: 190px !important;
+  }
 }
 
 /* Awards */
