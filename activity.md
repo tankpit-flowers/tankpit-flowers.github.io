@@ -11,7 +11,7 @@
 |<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1 activity_sorted">0.15</span>|<span class="activity activity_col2">0.57</span>|<span class="activity activity_col3">3.99</span>|
 |<span class="red">TULIP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1 activity_sorted">0.14</span>|<span class="activity activity_col2">11.17</span>|<span class="activity activity_col3">22.96</span>|
 |<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1 activity_sorted">0.07</span>|<span class="activity activity_col2">0.25</span>|<span class="activity activity_col3">1.56</span>|
-|<span class="red">TRILLIUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span></span>|<span class="activity activity_col1 activity_sorted">0.01</span>|<span class="activity activity_col2">0.04</span>|<span class="activity activity_col3">0.36</span>|
+|<span class="red">TRILLIUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span></span>|<span class="activity activity_col1 activity_sorted">0.02</span>|<span class="activity activity_col2">0.06</span>|<span class="activity activity_col3">0.37</span>|
 |<span class="purple">radiant ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">0.17</span>|<span class="activity activity_col3">0.6</span>|
 |<span class="orange">BLACK DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-2"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">0.05</span>|<span class="activity activity_col3">0.08</span>|
 |<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">0.03</span>|<span class="activity activity_col3">0.47</span>|
@@ -26,4 +26,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">May 19, 2017, 4:01 PM Eastern Time</span>
+<span class="last_updated">May 19, 2017, 4:15 PM Eastern Time</span>
