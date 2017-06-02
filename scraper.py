@@ -351,7 +351,7 @@ def get_diff_df(df, time_col = 'time'):
 
 def sum_diff(df, diff_col_name, time_col = 'time'):
     df = df.drop(time_col, axis = 1)
-    df = df[(df < 1) & (df > 0)]
+    df = df[(df < 20) & (df > 0)]
     df = change_nas_to_zeros(df)
     df = df.sum()
     df = df.reset_index(drop = False)
