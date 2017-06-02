@@ -1,8 +1,5 @@
 #!/bin/sh
 
-exec ssh-agent bash
-ssh-add ~/.ssh/flowers
-
 PYTHONBIN=/home/ec2-user/anaconda2/bin/python
 SCRIPTDIR=/home/ec2-user/tankpit-flowers.github.io
 

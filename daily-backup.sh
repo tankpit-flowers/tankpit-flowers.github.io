@@ -1,8 +1,5 @@
 #!/bin/sh
 
-exec ssh-agent bash
-ssh-add ~/.ssh/flowers
-
 SCRIPTDIR=/home/ec2-user/tankpit-flowers.github.io
 
 DATESTRING=$(date +%Y-%m-%d) # 2017-01-01
