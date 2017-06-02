@@ -1,5 +1,8 @@
 #!/bin/sh
 
+exec ssh-agent bash
+ssh-add ~/.ssh/flowers
+
 SCRIPTDIR=/home/ec2-user/tankpit-flowers.github.io
 
 DATESTRING=$(date +%Y-%m-%d) # 2017-01-01
@@ -16,3 +19,10 @@ cp $SCRIPTDIR/stats-deact.md $SCRIPTDIR/backups/stats/stats-deact-$DATESTRING.md
 cp $SCRIPTDIR/activity.md $SCRIPTDIR/backups/activity/activity-$DATESTRING.md
 cp $SCRIPTDIR/activity-week.md $SCRIPTDIR/backups/activity/activity-week-$DATESTRING.md
 cp $SCRIPTDIR/activity-month.md $SCRIPTDIR/backups/activity/activity-month-$DATESTRING.md
+
+cd $SCRIPTDIR
+
+git add .
+git commit -a -m "Automated daily backup triggered."
+git push origin master
+
