@@ -1,13 +1,17 @@
 #!/bin/sh
 
-SCRIPTDIR=/home/crosswalkcalvin/tankpit-flowers.github.io
+exec ssh-agent bash
+ssh-add ~/.ssh/flowers
+
+PYTHONBIN=/home/ec2-user/anaconda2/bin/python
+SCRIPTDIR=/home/ec2-user/tankpit-flowers.github.io
 
 cd $SCRIPTDIR
 
 git reset --hard
 git pull
 
-python $SCRIPTDIR/scraper.py
+$PYTHONBIN $SCRIPTDIR/scraper.py
 
 git add .
 git commit -a -m "Automated commit triggered."
