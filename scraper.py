@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 import time
 
 # get time now
-last_updated_raw = datetime.now() - timedelta(hours = 4)
+last_updated_raw = datetime.now() #- timedelta(hours = 4)
 last_updated = last_updated_raw.strftime('%B %d, %Y, %-I:%M %p') + ' Eastern Time'
 
 flower_dict = {
