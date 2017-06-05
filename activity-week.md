@@ -8,7 +8,7 @@
 |<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1">2.65</span>|<span class="activity activity_col2 activity_sorted">12.41</span>|<span class="activity activity_col3">56.39</span>|
 |<span class="red">TRILLIUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span></span>|<span class="activity activity_col1">1.12</span>|<span class="activity activity_col2 activity_sorted">1.13</span>|<span class="activity activity_col3">1.31</span>|
 |<span class="red">VIOLET</span><span class="awards-container"><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">0.48</span>|<span class="activity activity_col2 activity_sorted">0.92</span>|<span class="activity activity_col3">1.16</span>|
-|<span class="orange">DESERT ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1">0.41</span>|<span class="activity activity_col2 activity_sorted">0.56</span>|<span class="activity activity_col3">0.98</span>|
+|<span class="orange">DESERT ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1">0.45</span>|<span class="activity activity_col2 activity_sorted">0.6</span>|<span class="activity activity_col3">1.03</span>|
 |<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">0.29</span>|<span class="activity activity_col3">0.95</span>|
 |<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">0.18</span>|<span class="activity activity_col3">0.71</span>|
 |<span class="red">TULIP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">0.09</span>|<span class="activity activity_col3">16.1</span>|
@@ -27,4 +27,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">June 04, 2017, 10:15 PM Eastern Time</span>
+<span class="last_updated">June 04, 2017, 10:20 PM Eastern Time</span>
