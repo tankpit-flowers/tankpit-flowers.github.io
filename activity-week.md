@@ -3,9 +3,9 @@
 
 {:.activity}
 |<span class="activity_header">Flower</span>|<span class="activity_header activity_col1"><a href="https://tankpit-flowers.github.io/activity">Day</a></span>|<span class="activity_header activity_col2 activity_sorted">Week &nbsp;&darr;</span>|<span class="activity_header activity_col3"><a href="https://tankpit-flowers.github.io/activity-month">Month</a></span>|
-|<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">6.85</span>|<span class="activity activity_col2 activity_sorted">28.18</span>|<span class="activity activity_col3">58.77</span>|
+|<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">6.93</span>|<span class="activity activity_col2 activity_sorted">28.27</span>|<span class="activity activity_col3">58.85</span>|
 |<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="activity activity_col1">1.01</span>|<span class="activity activity_col2 activity_sorted">14.5</span>|<span class="activity activity_col3">31.38</span>|
-|<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1">3.08</span>|<span class="activity activity_col2 activity_sorted">11.58</span>|<span class="activity activity_col3">53.76</span>|
+|<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1">3.14</span>|<span class="activity activity_col2 activity_sorted">11.64</span>|<span class="activity activity_col3">53.82</span>|
 |<span class="red">TRILLIUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span></span>|<span class="activity activity_col1">5.52</span>|<span class="activity activity_col2 activity_sorted">5.62</span>|<span class="activity activity_col3">5.79</span>|
 |<span class="red">VIOLET</span><span class="awards-container"><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">0.88</span>|<span class="activity activity_col2 activity_sorted">1.32</span>|<span class="activity activity_col3">1.56</span>|
 |<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1">0.64</span>|<span class="activity activity_col2 activity_sorted">0.82</span>|<span class="activity activity_col3">1.35</span>|
@@ -27,4 +27,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">June 05, 2017, 9:25 PM Eastern Time</span>
+<span class="last_updated">June 05, 2017, 9:30 PM Eastern Time</span>
