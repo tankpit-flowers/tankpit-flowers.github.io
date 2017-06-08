@@ -487,19 +487,19 @@ def make_stats_md(stats_out_file, df_now, sort_by, sort_list, flower_dict = flow
 
 #----- Activity functions
 
-def make_string_clean_zero(my_number, round_to = 2, make_time = True):
+def make_string_clean_zero(my_number, round_to = 2):
     my_number = str(round(my_number, round_to))
     if my_number == '0.0':
         my_number = ''
-    else:
-        if make_time == True:
-            # also turn decimal into time format with colon
-            hours, minutes = my_number.split('.')
-            minutes = int(np.ceil((int(minutes) / 100.) * 60., 0))
-            if minutes >= 10:
-                my_number = hours + ':' + str(minutes)
-            else:
-                my_number = hours + ':0' + str(minutes)
+    # else:
+    #     if make_time == True:
+    #         # also turn decimal into time format with colon
+    #         hours, minutes = my_number.split('.')
+    #         minutes = int(np.ceil((int(minutes) / 100.) * 60., 0))
+    #         if minutes >= 10:
+    #             my_number = hours + ':' + str(minutes)
+    #         else:
+    #             my_number = hours + ':0' + str(minutes)
     return my_number
 
 def write_activity_md_from_index(activity, df, i, col1, col2, col3):
