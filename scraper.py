@@ -50,10 +50,10 @@ flower_dict = {
     'GLADIOLUS': {'tank_id': 48059,
                   'section': 0,
                   'seq': 5,
-                  'main_tank_id': 4462,
-                  'main_tank': None,
-                  'main_color': None,
-                  'main_awards_html': None},
+                  'main_tank_id': None,
+                  'main_tank': 'Battlefield-2',
+                  'main_color': 'purple',
+                  'main_awards_html': '<span class="awards-sprite a0-3"></span><span class="awards-sprite a1-3"></span><span class="awards-sprite a2-3"></span><span class="awards-sprite a3-3"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-3"></span><span class="awards-sprite a6-1"></span><span class="awards-sprite a8-1"></span>'},
     'HYDRANGEA': {'tank_id': 49521,
                   'section': 0,
                   'seq': 6,
@@ -487,10 +487,18 @@ def make_stats_md(stats_out_file, df_now, sort_by, sort_list, flower_dict = flow
 
 #----- Activity functions
 
-def make_string_clean_zero(my_number, round_to = 2):
+def make_string_clean_zero(my_number, round_to = 2, make_time = True):
     my_number = str(round(my_number, round_to))
     if my_number == '0.0':
         my_number = ''
+    if make_time == True:
+        # also turn decimal into time format with colon
+        hours, minutes = my_number.split('.')
+        minutes = int(round((int(minutes) / 100.) * 60., 0))
+        if minutes >= 10:
+            my_number = hours + ':' + str(minutes)
+        else:
+            my_number = hours + ':0' + str(minutes)
     return my_number
 
 def write_activity_md_from_index(activity, df, i, col1, col2, col3):
