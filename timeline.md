@@ -1,5 +1,8 @@
 ## TIMELINE
 
+### <span class="timeline-date">June 9, 2017</span> <span class="timeline-blurb"><span class="timeline-red">HYDRANGEA</span> is awarded the <span class="timeline-em">SHINING SWORD</span> <span class="awards-sprite a3-1"></span></span>
+![HYDRANGEA is awarded the SHINING SWORD](./screenshots/shining-sword-hydrangea.png){:.game-screenshot}
+
 ### <span class="timeline-date">May 18, 2017</span> <span class="timeline-blurb">TankPit history is made! Today we celebrate 5 simultaneous team swords.</span> <span class="timeline-blurb"><span class="timeline-red">ROSE</span> & <span class="timeline-red">LOTUS</span> are awarded the <span class="timeline-em">BATTERED SWORD</span></span> <span class="timeline-blurb"><span class="timeline-red">TULIP</span>, <span class="timeline-red">HIBISCUS</span> & <span class="timeline-red">DAHLIA</span> are awarded the <span class="timeline-em">SHINING SWORD</span></span>
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/t3dGO2ZHWGE" frameborder="0" allowfullscreen></iframe>{:.game-video}
 
