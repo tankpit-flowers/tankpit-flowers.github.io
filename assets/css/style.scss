@@ -580,17 +580,26 @@ span.timeline-orange {
   margin: 0 0.5px 0 0.5px;
 }
 
+/* Award generator*/
+
 table.award-generator-selection {
   width: 50%;
+}
+
+table.award-generator-show {
+  width: 180px ;
+}
+
+table.award-generator-selection,
+table.award-generator-show {
   margin: 0 auto;
 }
 
 table.award-generator-selection td {
   width: 10%;
-  background-color: #ffffe0;
 }
 
-table.award-generator-show {
-  width: 180px ;
-  margin: 0 auto;
+table.award-generator-selection td,
+table.award-generator-show td {
+  background-color: #ffffe0;
 }
