@@ -580,6 +580,12 @@ span.timeline-orange {
   margin: 0 0.5px 0 0.5px;
 }
 
-table.award-generator-selection td {
-  width: 20px;
+table.award-generator-selection {
+  width: 50% !important;
+  margin: 0 auto !important;
 }
+
+table.award-generator-selection td {
+  width: 10% !important;
+}
+
