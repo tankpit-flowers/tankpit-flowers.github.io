@@ -1,6 +1,8 @@
 
 ## AWARD GENERATOR
 
+<input type="text" placeholder="enter tank name">
+
 {:.award-generator-selection}
 |<a class="orange" onclick="colorOrange();">ORANGE</a>|<a class="gray" onclick="noStar();">X</a>|<a class="gray" onclick="noTank();">X</a>|<a class="gray" onclick="noMedal();">X</a>|<a class="gray" onclick="noSword();">X</a>|<a class="gray" onclick="noDoT();">X</a>|<a class="gray" onclick="noCup();">X</a>|<a class="gray" onclick="noPH();">X</a>|<a class="gray" onclick="noWC();">X</a>|<a class="gray" onclick="noLB();">X</a>|
 |<a class="purple" onclick="colorPurple();">PURPLE</a>|<a onclick="singleStar();"><span class="awards-sprite a0-1"></span></a>|<a onclick="bronzeTank();"><span class="awards-sprite a1-1"></span></a>|<a onclick="combatMedal();"><span class="awards-sprite a2-1"></span></a>|<a onclick="shiningSword();"><span class="awards-sprite a3-1"></span></a>|<a onclick="defenderOfTruth();"><span class="awards-sprite a4-3"></span></a>|<a onclick="bronzeCup();"><span class="awards-sprite a5-1"></span></a>|<a onclick="purpleHeart();"><span class="awards-sprite a6-1"></span></a>|<a onclick="warCorrespondent();"><span class="awards-sprite a7-1"></span></a>|<a onclick="lightBulb();"><span class="awards-sprite a8-1"></span></a>|
