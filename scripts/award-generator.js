@@ -1,3 +1,27 @@
+function colorOrange() {
+    $('.tank-color')
+        .addClass('orange')
+        .removeClass('red blue purple');
+}
+
+function colorBlue() {
+    $('.tank-color')
+        .addClass('orange')
+        .removeClass('red orange purple');
+}
+
+function colorPurple() {
+    $('.tank-color')
+        .addClass('orange')
+        .removeClass('red blue orange');
+}
+
+function colorRed() {
+    $('.tank-color')
+        .addClass('orange')
+        .removeClass('orange blue purple');
+}
+
 function singleStar() {
     $('#award-generator-0')
         .addClass('a0-1')
