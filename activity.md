@@ -15,7 +15,7 @@
 |<span class="red">ORCHID</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">0.38</span>|<span class="activity activity_col3">0.38</span>|
 |<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">0.31</span>|<span class="activity activity_col3">0.47</span>|
 |<span class="purple">radiant ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">0.28</span>|<span class="activity activity_col3">0.28</span>|
-|<span class="red">GLADIOLUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">0.18</span>|<span class="activity activity_col3">0.66</span>|
+|<span class="red">GLADIOLUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">0.11</span>|<span class="activity activity_col3">0.66</span>|
 |<span class="orange">BLACK DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-2"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">0.02</span>|<span class="activity activity_col3">0.07</span>|
 |<span class="red">LILAC</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">0.01</span>|<span class="activity activity_col3">0.01</span>|
 |<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2"></span>|<span class="activity activity_col3">0.95</span>|
@@ -27,4 +27,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">June 12, 2017, 5:40 PM Eastern Time</span>
+<span class="last_updated">June 12, 2017, 5:45 PM Eastern Time</span>
