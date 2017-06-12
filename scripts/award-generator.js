@@ -1,23 +1,28 @@
+function enterTankName() {
+    var tankName = $('.award-generator-text').val();
+    $('.tank-name').text(tankName);  
+}
+
 function colorOrange() {
-    $('.tank-color')
+    $('.tank-name')
         .addClass('orange')
         .removeClass('red blue purple');
 }
 
 function colorBlue() {
-    $('.tank-color')
+    $('.tank-name')
         .addClass('blue')
         .removeClass('red orange purple');
 }
 
 function colorPurple() {
-    $('.tank-color')
+    $('.tank-name')
         .addClass('purple')
         .removeClass('red blue orange');
 }
 
 function colorRed() {
-    $('.tank-color')
+    $('.tank-name')
         .addClass('red')
         .removeClass('orange blue purple');
 }
