@@ -3,9 +3,9 @@
 
 {:.award-generator-selection}
 |X|X|X|X|X|X|X|X|X|
-|<span class="awards-sprite a0-1"></span>|<span class="awards-sprite a1-1"></span>|<span class="awards-sprite a2-1"></span>|<span class="awards-sprite a3-1"></span>|<span class="awards-sprite a4-3"></span>|<span class="awards-sprite a5-1"></span>|<span class="awards-sprite a6-1"></span>|<span class="awards-sprite a7-1"></span>|<span class="awards-sprite a8-1"></span>|
+|<a onclick="singleStar();"><span class="awards-sprite a0-1"></span></a>|<span class="awards-sprite a1-1"></span>|<span class="awards-sprite a2-1"></span>|<span class="awards-sprite a3-1"></span>|<span class="awards-sprite a4-3"></span>|<span class="awards-sprite a5-1"></span>|<span class="awards-sprite a6-1"></span>|<span class="awards-sprite a7-1"></span>|<span class="awards-sprite a8-1"></span>|
 |<span class="awards-sprite a0-2"></span>|<span class="awards-sprite a1-2"></span>|<span class="awards-sprite a2-2"></span>|<span class="awards-sprite a3-2"></span>|<span class="awards-sprite a4-3"></span>|<span class="awards-sprite a5-2"></span>|<span class="awards-sprite a6-1"></span>|<span class="awards-sprite a7-1"></span>|<span class="awards-sprite a8-1"></span>|
 |<span class="awards-sprite a0-3"></span>|<span class="awards-sprite a1-3"></span>|<span class="awards-sprite a2-3"></span>|<span class="awards-sprite a3-3"></span>|<span class="awards-sprite a4-3"></span>|<span class="awards-sprite a5-3"></span>|<span class="awards-sprite a6-1"></span>|<span class="awards-sprite a7-1"></span>|<span class="awards-sprite a8-1"></span>|
 
 {:.award-generator-show}
-|<span class="red">TRILLIUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span></span>|
+|<span class="red">TRILLIUM</span><span class="awards-container"><span id="award-generator-1"></span>|
