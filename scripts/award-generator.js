@@ -6,19 +6,19 @@ function colorOrange() {
 
 function colorBlue() {
     $('.tank-color')
-        .addClass('orange')
+        .addClass('blue')
         .removeClass('red orange purple');
 }
 
 function colorPurple() {
     $('.tank-color')
-        .addClass('orange')
+        .addClass('purple')
         .removeClass('red blue orange');
 }
 
 function colorRed() {
     $('.tank-color')
-        .addClass('orange')
+        .addClass('red')
         .removeClass('orange blue purple');
 }
 
