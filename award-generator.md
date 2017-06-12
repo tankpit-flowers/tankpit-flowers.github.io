@@ -2,7 +2,7 @@
 ## AWARD GENERATOR
 
 <input class="award-generator-text" type="text" placeholder="Enter tank name">
-<input class="award-generator-submit" type="submit" value="Go!">
+<input class="award-generator-submit" onclick="enterTankName();" type="submit" value="Go!">
 
 {:.award-generator-selection}
 |<a class="orange" onclick="colorOrange();">ORANGE</a>|<a class="gray" onclick="noStar();">X</a>|<a class="gray" onclick="noTank();">X</a>|<a class="gray" onclick="noMedal();">X</a>|<a class="gray" onclick="noSword();">X</a>|<a class="gray" onclick="noDoT();">X</a>|<a class="gray" onclick="noCup();">X</a>|<a class="gray" onclick="noPH();">X</a>|<a class="gray" onclick="noWC();">X</a>|<a class="gray" onclick="noLB();">X</a>|
@@ -11,4 +11,4 @@
 |<a class="red" onclick="colorRed();">RED</a>|<a onclick="tripleStar();"><span class="awards-sprite a0-3"></span></a>|<a onclick="goldTank();"><span class="awards-sprite a1-3"></span></a>|<a onclick="heroicMedal();"><span class="awards-sprite a2-3"></span></a>|<a onclick="rustySword();"><span class="awards-sprite a3-3"></span></a>|<a onclick="defenderOfTruth();"><span class="awards-sprite a4-3"></span></a>|<a onclick="goldCup();"><span class="awards-sprite a5-3"></span></a>|<a onclick="purpleHeart();"><span class="awards-sprite a6-1"></span></a>|<a onclick="warCorrespondent();"><span class="awards-sprite a7-1"></span></a>|<a onclick="lightBulb();"><span class="awards-sprite a8-1"></span></a>
 
 {:.award-generator-show}
-|<span class="tank-color">TANK NAME</span><span class="awards-container"><span class="awards-sprite a0-3" id="award-generator-0"></span><span class="awards-sprite a1-3" id="award-generator-1"></span><span class="awards-sprite a2-3" id="award-generator-2"></span><span class="awards-sprite a3-3" id="award-generator-3"></span><span class="awards-sprite a4-3" id="award-generator-4"></span><span class="awards-sprite a5-3" id="award-generator-5"></span><span class="awards-sprite a6-1" id="award-generator-6"></span><span class="awards-sprite a7-1" id="award-generator-7"></span><span class="awards-sprite a8-1" id="award-generator-8"></span></span>|
+|<span class="tank-name">TANK NAME</span><span class="awards-container"><span class="awards-sprite a0-3" id="award-generator-0"></span><span class="awards-sprite a1-3" id="award-generator-1"></span><span class="awards-sprite a2-3" id="award-generator-2"></span><span class="awards-sprite a3-3" id="award-generator-3"></span><span class="awards-sprite a4-3" id="award-generator-4"></span><span class="awards-sprite a5-3" id="award-generator-5"></span><span class="awards-sprite a6-1" id="award-generator-6"></span><span class="awards-sprite a7-1" id="award-generator-7"></span><span class="awards-sprite a8-1" id="award-generator-8"></span></span>|
