@@ -368,22 +368,26 @@ span.awards-container {
   display: block;
 }
 
-.red, span.timeline-red {
+.red, span.timeline-red,
+a.red, a.red:visited, a.red:hover, a.red:focus, a.red:active {
   color: #e00000;
   /*color: #ff6666;*/
 }
 
-.orange, span.timeline-orange {
+.orange, span.timeline-orange,
+a.orange, a.orange:visited, a.orange:hover, a.orange:focus, a.orange:active {
   color: #ff9000;
   /*color: #ffcc66;*/
 }
 
-.purple, span.timeline-purple {
+.purple, span.timeline-purple,
+a.purple, a.purple:visited, a.purple:hover, a.purple:focus, a.purple:active {
   color: #df00e0;
   /*color: #cc66cc;*/
 }
 
-.blue, span.timeline-blue {
+.blue, span.timeline-blue,
+a.blue, a.blue:visited, a.blue:hover, a.blue:focus, a.blue:active {
   color: #0000e0;
   /*color: #6666ff;*/
 }
