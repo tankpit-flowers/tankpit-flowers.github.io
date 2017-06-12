@@ -1,7 +1,8 @@
 
 ## AWARD GENERATOR
 
-<input type="text" placeholder="enter tank name">
+<input class="award-generator-text" type="text" placeholder="Enter tank name">
+<input class="award-generator-submit" type="submit" value="Go!">
 
 {:.award-generator-selection}
 |<a class="orange" onclick="colorOrange();">ORANGE</a>|<a class="gray" onclick="noStar();">X</a>|<a class="gray" onclick="noTank();">X</a>|<a class="gray" onclick="noMedal();">X</a>|<a class="gray" onclick="noSword();">X</a>|<a class="gray" onclick="noDoT();">X</a>|<a class="gray" onclick="noCup();">X</a>|<a class="gray" onclick="noPH();">X</a>|<a class="gray" onclick="noWC();">X</a>|<a class="gray" onclick="noLB();">X</a>|
