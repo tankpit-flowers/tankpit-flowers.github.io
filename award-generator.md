@@ -1,11 +1,11 @@
 
 ## AWARD GENERATOR
 
-{:.awards-sprite award-generator-selection}
+{:award-generator-selection}
 |X|X|X|X|X|X|X|X|X|
 |<a onclick="singleStar();"><span class="awards-sprite a0-1"></span></a>|<a onclick="bronzeTank();"><span class="awards-sprite a1-1"></span></a>|<a onclick="combatMedal();"><span class="awards-sprite a2-1"></span></a>|<a onclick="shiningSword();"><span class="awards-sprite a3-1"></span></a>|<a onclick="defenderOfTruth();"><span class="awards-sprite a4-3"></span></a>|<a onclick="bronzeCup();"><span class="awards-sprite a5-1"></span></a>|<a onclick="purpleHeart();"><span class="awards-sprite a6-1"></span></a>|<a onclick="warCorrespondent();"><span class="awards-sprite a7-1"></span></a>|<a onclick="lightBulb();"><span class="awards-sprite a8-1"></span></a>|
 |<a onclick="doubleStar();"><span class="awards-sprite a0-2"></span></a>|<a onclick="silverTank();"><span class="awards-sprite a1-2"></span></a>|<a onclick="battleMedal();"><span class="awards-sprite a2-2"></span></a>|<a onclick="batteredSword();"><span class="awards-sprite a3-2"></span></a>|<a onclick="defenderOfTruth();"><span class="awards-sprite a4-3"></span></a>|<a onclick="silverCup();"><span class="awards-sprite a5-2"></span></a>|<a onclick="purpleHeart();"><span class="awards-sprite a6-1"></span></a>|<a onclick="warCorrespondent();"><span class="awards-sprite a7-1"></span></a>|<a onclick="lightBulb();"><span class="awards-sprite a8-1"></span></a>
 |<a onclick="tripleStar();"><span class="awards-sprite a0-3"></span></a>|<a onclick="goldTank();"><span class="awards-sprite a1-3"></span></a>|<a onclick="heroicMedal();"><span class="awards-sprite a2-3"></span></a>|<a onclick="rustySword();"><span class="awards-sprite a3-3"></span></a>|<a onclick="defenderOfTruth();"><span class="awards-sprite a4-3"></span></a>|<a onclick="goldCup();"><span class="awards-sprite a5-3"></span></a>|<a onclick="purpleHeart();"><span class="awards-sprite a6-1"></span></a>|<a onclick="warCorrespondent();"><span class="awards-sprite a7-1"></span></a>|<a onclick="lightBulb();"><span class="awards-sprite a8-1"></span></a>
 
-{:.awards-sprite award-generator-show}
+{:award-generator-show}
 |<span class="red">TANK NAME</span><span class="awards-container"><span id="awards-sprite award-generator-0"></span><span id="awards-sprite award-generator-1"></span><span id="awards-sprite award-generator-2"></span><span id="awards-sprite award-generator-3"></span><span id="awards-sprite award-generator-4"><span id="awards-sprite award-generator-5"></span><span id="awards-sprite award-generator-6"></span><span id="awards-sprite award-generator-7"></span><span id="awards-sprite award-generator-8"></span></span>|
