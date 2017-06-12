@@ -451,8 +451,7 @@ span.timeline-orange {
     height: 16px;
 }
 
-.awards-sprite.a0-3,
-#award-generator-0 {
+.awards-sprite.a0-3 {
     background-position: -39px 0;
     width: 13px;
     height: 16px;
@@ -470,8 +469,7 @@ span.timeline-orange {
     height: 16px;
 }
 
-.awards-sprite.a1-3,
-#award-generator-1 {
+.awards-sprite.a1-3 {
     background-position: -142px 0;
     width: 30px;
     height: 16px;
@@ -489,8 +487,7 @@ span.timeline-orange {
     height: 16px;
 }
 
-.awards-sprite.a2-3,
-#award-generator-2 {
+.awards-sprite.a2-3 {
     background-position: -199px 0;
     width: 9px;
     height: 16px;
@@ -508,15 +505,13 @@ span.timeline-orange {
     height: 16px;
 }
 
-.awards-sprite.a3-3,
-#award-generator-3 {
+.awards-sprite.a3-3 {
     background-position: -235px 0;
     width: 9px;
     height: 16px;
 }
 
-.awards-sprite.a4-3,
-#award-generator-4 {
+.awards-sprite.a4-3 {
     background-position: -277px 0;
     width: 11px;
     height: 16px;
@@ -534,29 +529,25 @@ span.timeline-orange {
     height: 16px;
 }
 
-.awards-sprite.a5-3,
-#award-generator-5 {
+.awards-sprite.a5-3 {
     background-position: -327px 0;
     width: 13px;
     height: 16px;
 }
 
-.awards-sprite.a6-1,
-#award-generator-6 {
+.awards-sprite.a6-1 {
     background-position: -340px 0;
     width: 11px;
     height: 16px;
 }
 
-.awards-sprite.a7-1,
-#award-generator-7 {
+.awards-sprite.a7-1 {
     background-position: -351px 0;
     width: 11px;
     height: 16px;
 }
 
-.awards-sprite.a8-1,
-#award-generator-8 {
+.awards-sprite.a8-1 {
     background-position: -376px 0;
     width: 14px;
     height: 16px;
@@ -573,28 +564,19 @@ span.timeline-orange {
 .awards-sprite.a2-1, .awards-sprite.a2-2, .awards-sprite.a2-3,
 .awards-sprite.a3-1, .awards-sprite.a3-2, .awards-sprite.a3-3,
 .awards-sprite.a4-3,
-.awards-sprite.a5-1, .awards-sprite.a5-2, .awards-sprite.a5-3,
-#award-generator-0,
-#award-generator-2,
-#award-generator-3,
-#award-generator-4,
-#award-generator-5 {
+.awards-sprite.a5-1, .awards-sprite.a5-2, .awards-sprite.a5-3 {
   margin: 0 1px 0 1px;
 }
 
 /* Tanks needs one space to the left (already has one space to the right by default) */
 
-.awards-sprite.a1-1, .awards-sprite.a1-2, .awards-sprite.a1-3,
-#award-generator-1 {
+.awards-sprite.a1-1, .awards-sprite.a1-2, .awards-sprite.a1-3 {
   margin: 0 0 0 1px;
 }
 
 /* PH (already has one space to either by default), WC, LB small space to either side */
 
-.awards-sprite.a6-1, .awards-sprite.a7-1, .awards-sprite.a8-1,
-#award-generator-6,
-#award-generator-7,
-#award-generator-8 {
+.awards-sprite.a6-1, .awards-sprite.a7-1, .awards-sprite.a8-1 {
   margin: 0 0.5px 0 0.5px;
 }
 
