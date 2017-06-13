@@ -1,7 +1,7 @@
 #!/bin/sh
 
 PYTHONBIN=/home/ec2-user/anaconda2/bin/python
-SCRIPTDIR=/home/ec2-user/tankpit-flowers.github.io
+SCRIPTDIR=/home/ec2-user/tax
 
 cd $SCRIPTDIR
 
