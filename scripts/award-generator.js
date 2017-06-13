@@ -182,6 +182,54 @@ function lightBulb() {
         .addClass('a8-1');
 }
 
+function xAll() {
+    noStar();
+    noTank();
+    noMedal();
+    noSword();
+    noDoT();
+    noCup();
+    noPH();
+    noWC();
+    noLB();
+}
+
+function oneLine() {
+    singleStar();
+    bronzeTank();
+    combatMedal();
+    shiningSword();
+    defenderOfTruth();
+    bronzeCup();
+    purpleHeart();
+    warCorrespondent();
+    lightBulb();
+}
+
+function twoLine() {
+    doubleStar();
+    silverTank();
+    battleMedal();
+    batteredSword();
+    defenderOfTruth();
+    silverCup();
+    purpleHeart();
+    warCorrespondent();
+    lightBulb();
+}
+
+function threeLine() {
+    tripleStar();
+    goldTank();
+    heroicMedal();
+    rustySword();
+    defenderOfTruth();
+    goldCup();
+    purpleHeart();
+    warCorrespondent();
+    lightBulb();
+}
+
 $(function() { 
     $(".award-generator-save").click(function() { 
         html2canvas($(".award-generator-show"), {
