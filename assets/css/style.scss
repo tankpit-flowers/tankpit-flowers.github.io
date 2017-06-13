@@ -587,7 +587,10 @@ span.timeline-orange {
 
 /* Award generator*/
 
-table.award-generator-colors,
+table.award-generator-colors {
+  width: 40%;
+}
+
 table.award-generator-selection {
   width: 50%;
 }
