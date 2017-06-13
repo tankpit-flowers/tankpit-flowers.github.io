@@ -5,25 +5,25 @@ function enterTankName() {
 
 function colorOrange() {
     $('.tank-name')
-        .addClass('orange')
+        .addClass('gen-orange')
         .removeClass('red blue purple');
 }
 
 function colorBlue() {
     $('.tank-name')
-        .addClass('blue')
+        .addClass('gen-blue')
         .removeClass('red orange purple');
 }
 
 function colorPurple() {
     $('.tank-name')
-        .addClass('purple')
+        .addClass('gen-purple')
         .removeClass('red blue orange');
 }
 
 function colorRed() {
     $('.tank-name')
-        .addClass('red')
+        .addClass('gen-red')
         .removeClass('orange blue purple');
 }
 
