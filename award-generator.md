@@ -12,3 +12,5 @@
 
 {:.award-generator-show}
 |<span class="tank-name">TANK NAME</span><span class="awards-container"><span class="awards-sprite a0-3" id="award-generator-0"></span><span class="awards-sprite a1-3" id="award-generator-1"></span><span class="awards-sprite a2-3" id="award-generator-2"></span><span class="awards-sprite a3-3" id="award-generator-3"></span><span class="awards-sprite a4-3" id="award-generator-4"></span><span class="awards-sprite a5-3" id="award-generator-5"></span><span class="awards-sprite a6-1" id="award-generator-6"></span><span class="awards-sprite a7-1" id="award-generator-7"></span><span class="awards-sprite a8-1" id="award-generator-8"></span></span>|
+
+<input class="award-generator-save" type="submit" value="Save Image">
