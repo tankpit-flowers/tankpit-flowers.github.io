@@ -596,6 +596,7 @@ table.award-generator-colors a,
 table.award-generator-selection a {
   cursor: pointer;
   display: block;
+  white-space: nowrap;
 }
 
 table.award-generator-show {
@@ -610,7 +611,7 @@ table.award-generator-show {
 
 table.award-generator-selection td {
   width: 10%;
-  padding: 0 7px;
+  padding: 0 8px;
 }
 
 table.award-generator-selection td,
