@@ -1,7 +1,7 @@
 
 ## AWARD GENERATOR
 
-<input class="award-generator-text" type="text" placeholder="Enter tank name">
+<input class="award-generator-text" type="text" placeholder="Enter tank name" maxlength="20">
 <input class="award-generator-submit" onclick="enterTankName();" type="submit" value="Go!">
 
 {:.award-generator-colors}
