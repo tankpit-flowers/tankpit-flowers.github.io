@@ -28,7 +28,7 @@ body, #container {
   background: #efefef;
 }
 
-body { font-family: 'Helvetica Neue', Helvetica, Arial, serif; font-size: 1em; line-height: 1.5; color: #6d6d6d; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
+body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; line-height: 1.5; color: #6d6d6d; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
 
 a, a:visited {
   color: #e00000 ;
@@ -95,7 +95,7 @@ form { padding: 20px; background: #f2f2f2; }
 
 /* GENERAL ELEMENT TYPE STYLES */
 
-header span.flowers-logo { font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-size: 48px; font-weight: 900; line-height: 1.2; color: #303030; letter-spacing: -1px; text-align: center; display: block; }
+header span.flowers-logo { font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 48px; font-weight: 900; line-height: 1.2; color: #303030; letter-spacing: -1px; text-align: center; display: block; }
 
 header span.nav-links {
   line-height: 1.3;
