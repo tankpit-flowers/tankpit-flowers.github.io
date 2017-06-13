@@ -1,6 +1,6 @@
 #!/bin/sh
 
-SCRIPTDIR=/home/ec2-user/tankpit-flowers.github.io
+SCRIPTDIR=/home/ec2-user/tax
 
 DATESTRING=$(date +%Y-%m-%d) # 2017-01-01
 
