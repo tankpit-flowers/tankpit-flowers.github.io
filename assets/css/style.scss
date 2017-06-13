@@ -587,10 +587,12 @@ span.timeline-orange {
 
 /* Award generator*/
 
+table.award-generator-colors,
 table.award-generator-selection {
   width: 50%;
 }
 
+table.award-generator-awards a,
 table.award-generator-selection a {
   cursor: pointer;
 }
@@ -600,6 +602,7 @@ table.award-generator-show {
 }
 
 table.award-generator-selection,
+table.award-generator-awards,
 table.award-generator-show {
   margin: 0 auto 25px;
 }
@@ -610,6 +613,7 @@ table.award-generator-selection td {
 }
 
 table.award-generator-selection td,
+table.award-generator-awards td,
 table.award-generator-show td {
   background-color: #ffffe0;
   font-weight: 500;
