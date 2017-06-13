@@ -181,3 +181,16 @@ function lightBulb() {
     $('#award-generator-8')
         .addClass('a8-1');
 }
+
+$(function() { 
+    $(".award-generator-save").click(function() { 
+        html2canvas($(".award-generator-show"), {
+            onrendered: function(canvas) {
+                theCanvas = canvas;
+                canvas.toBlob(function(blob) {
+                    saveAs(blob, "award-generator.png");
+                });
+            }
+        });
+    });
+});
