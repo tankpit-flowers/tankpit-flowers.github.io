@@ -32,4 +32,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">June 14, 2017, 2:45 AM Eastern Time</span>
+<span class="last_updated">June 14, 2017, 2:50 AM Eastern Time</span>
