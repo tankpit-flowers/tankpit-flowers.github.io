@@ -17,7 +17,7 @@
 |<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">9:6:15</span>|<span class="stat stat_kills stat_sorted">13</span>|<span class="stat stat_deactivated">4</span>|
 |<span class="orange">DESERT ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">3:40:21</span>|<span class="stat stat_kills stat_sorted">8</span>|<span class="stat stat_deactivated">4</span>|
 |<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours">5:12:30</span>|<span class="stat stat_kills stat_sorted">7</span>|<span class="stat stat_deactivated">1</span>|
-|<span class="orange">SILENT LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">6:18:18</span>|<span class="stat stat_kills stat_sorted">5</span>|<span class="stat stat_deactivated">2</span>|
+|<span class="orange">SILENT LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">6:19:51</span>|<span class="stat stat_kills stat_sorted">5</span>|<span class="stat stat_deactivated">2</span>|
 |<span class="purple">radiant ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">2:17:11</span>|<span class="stat stat_kills stat_sorted">5</span>|<span class="stat stat_deactivated">2</span>|
 |<span class="orange">BLACK DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-2"></span></span>|<span class="stat stat_hours">1:27:24</span>|<span class="stat stat_kills stat_sorted">4</span>|<span class="stat stat_deactivated">3</span>|
 |<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours">0:37:30</span>|<span class="stat stat_kills stat_sorted">4</span>|<span class="stat stat_deactivated">0</span>|
@@ -27,4 +27,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">June 16, 2017, 8:45 AM Eastern Time</span>
+<span class="last_updated">June 16, 2017, 8:50 AM Eastern Time</span>
