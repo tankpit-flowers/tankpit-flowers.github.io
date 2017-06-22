@@ -3,7 +3,7 @@
 
 {:.activity}
 |<span class="activity_header">Flower</span>|<span class="activity_header activity_col1"><a href="https://tankpit-flowers.github.io/activity">Day</a></span>|<span class="activity_header activity_col2 activity_sorted">Week &nbsp;&darr;</span>|<span class="activity_header activity_col3"><a href="https://tankpit-flowers.github.io/activity-month">Month</a></span>|
-|<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">2.95</span>|<span class="activity activity_col2 activity_sorted">35.73</span>|<span class="activity activity_col3">93.37</span>|
+|<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">2.86</span>|<span class="activity activity_col2 activity_sorted">35.65</span>|<span class="activity activity_col3">93.37</span>|
 |<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1">1.69</span>|<span class="activity activity_col2 activity_sorted">16.82</span>|<span class="activity activity_col3">61.92</span>|
 |<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">11.07</span>|<span class="activity activity_col3">52.61</span>|
 |<span class="red">TRILLIUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span></span>|<span class="activity activity_col1">1.48</span>|<span class="activity activity_col2 activity_sorted">5.52</span>|<span class="activity activity_col3">47.7</span>|
@@ -27,4 +27,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">June 22, 2017, 3:40 AM Eastern Time</span>
+<span class="last_updated">June 22, 2017, 3:45 AM Eastern Time</span>
