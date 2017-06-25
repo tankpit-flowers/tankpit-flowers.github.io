@@ -27,4 +27,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">June 24, 2017, 9:20 PM Eastern Time</span>
+<span class="last_updated">June 24, 2017, 9:25 PM Eastern Time</span>
