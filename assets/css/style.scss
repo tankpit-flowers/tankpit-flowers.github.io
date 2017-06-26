@@ -301,7 +301,12 @@ table.activity {
   width: 365px;
 }
 
-table.stats td, table.activity td {
+table.true-t100 {
+  margin: 0 auto;
+  width: 180px;
+}
+
+table.stats td, table.activity td, table.true-t100 td {
   padding: 2px;
   background-color: #ffffe0;
   vertical-align: middle;
@@ -314,7 +319,11 @@ table.stats span.orange,
 table.activity span.red,
 table.activity span.purple,
 table.activity span.blue,
-table.activity span.orange {
+table.activity span.orange,
+table.true-t100 span.red,
+table.true-t100 span.purple,
+table.true-t100 span.blue,
+table.true-t100 span.orange {
   font-weight: 500;
 }
 
