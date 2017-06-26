@@ -592,7 +592,7 @@ def make_t100_md(t100_out_file, t100_df):
     t100 = open(t100_out_file, 'w')
     t100.write('\n## TRUE TOP 100\n\n')
     t100.write('{:.true-t100}\n')
-    for i in range(t100_df.shape[0]):
+    for i in range(100)#range(t100_df.shape[0]):
         write_t100_md_from_index(t100, t100_df, i)
     t100.close()
 
