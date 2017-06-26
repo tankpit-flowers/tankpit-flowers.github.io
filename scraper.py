@@ -564,6 +564,38 @@ def make_activity_md(activity_out_file, df_now, sort_by, sort_list, flower_dict 
     activity.write('</span>')
     activity.close()
 
+#----- Top 100
+
+def get_tank_table_from_list(tank_id_list, no_param_url = 'https://tankpit.com/tank_profile/?tank_id='):
+    master_tanks_df = pd.DataFrame()
+    for tank_id in tank_id_list:
+        # scrape
+        tank_results_html = scrape_text_from_link(no_param_url + str(tank_id))
+        # make tables
+        tanks_df = create_tables_from_page_html(tank_results_html, tank_id)
+        # concat
+        master_tanks_df = pd.concat([master_tanks_df, tanks_df], axis = 0)
+        master_tanks_df.reset_index(drop = True, inplace = True)
+    return master_tanks_df[["tank_id", "tank_name", "tank_color", "tank_awards_html"]]
+
+def write_t100_md_from_index(t100, df, i):
+    t100.write('|' + str(i + 1)
+    t100.write('|<span class="')
+    t100.write(df.ix[i, 'tank_color'])
+    t100.write('">')
+    t100.write(df.ix[i, 'tank_name'])
+    t100.write('</span><span class="awards-container">')
+    t100.write(df.ix[i, 'tank_awards_html'])
+    t100.write('</span>|\n')
+
+def make_t100_md(t100_out_file, t100_df):
+    t100 = open(t100_out_file, 'w')
+    t100.write('\n## TRUE TOP 100\n\n')
+    t100.write('{:.true-t100}\n')
+    for i in range(t100_df.shape[0]):
+        write_t100_md_from_index(t100, t100_df, i)
+    t100.close()
+
 #----- Main
 
 if __name__ == "__main__":
@@ -607,3 +639,7 @@ if __name__ == "__main__":
     make_activity_md(activity_out_file = './activity.md', df_now = df_now, sort_by = 'hours_day', sort_list = ['hours_day', 'hours_week', 'hours_month'])
     make_activity_md(activity_out_file = './activity-week.md', df_now = df_now, sort_by = 'hours_week', sort_list = ['hours_week', 'hours_day', 'hours_month'])
     make_activity_md(activity_out_file = './activity-month.md', df_now = df_now, sort_by = 'hours_month', sort_list = ['hours_month', 'hours_day', 'hours_week'])
+    # to 100
+    t100_df = pd.read_csv('./data/top_100.csv')
+    t100_df = get_tank_table_from_list( list(t100_df['id']) )
+    make_t100_md(t100_out_file = './top-100.md', t100_df = t100_df)
