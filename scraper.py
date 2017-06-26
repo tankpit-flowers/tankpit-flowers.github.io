@@ -270,15 +270,14 @@ def loop_all_flowers(flower_dict = flower_dict, no_param_url = 'https://tankpit.
         tank_results_html = scrape_text_from_link(no_param_url + str(tank_id))
         # make tables
         tanks_df = create_tables_from_page_html(tank_results_html, tank_id)
-        if tanks_df != None:
-            if flower_info_dict['section'] == 0:
-                tanks_df['tank_cat'] = 0
-            if flower_info_dict['section'] == 1:
-                tanks_df['tank_cat'] = 1
-            # check to make sure not an empty row (col 1 = time, col 2 = tank_cat)
-            if tanks_df.shape[1] > 2:
-                # concat
-                master_tanks_df = pd.concat([master_tanks_df, tanks_df], axis = 0)
+        if flower_info_dict['section'] == 0:
+            tanks_df['tank_cat'] = 0
+        if flower_info_dict['section'] == 1:
+            tanks_df['tank_cat'] = 1
+        # check to make sure not an empty row (col 1 = time, col 2 = tank_cat)
+        if tanks_df.shape[1] > 2:
+            # concat
+            master_tanks_df = pd.concat([master_tanks_df, tanks_df], axis = 0)
     # main tanks
     for flower_info_dict in flower_dict.values():
         tank_id = flower_info_dict['main_tank_id']
@@ -288,12 +287,11 @@ def loop_all_flowers(flower_dict = flower_dict, no_param_url = 'https://tankpit.
             tank_results_html = scrape_text_from_link(no_param_url + str(tank_id))
             # make tables
             tanks_df = create_tables_from_page_html(tank_results_html, tank_id)
-            if tanks_df != None:
-                tanks_df['tank_cat'] = 2
-                # check to make sure not an empty row (col 1 = time, col 2 = tank_cat)
-                if tanks_df.shape[1] > 2:
-                    # concat
-                    master_tanks_df = pd.concat([master_tanks_df, tanks_df], axis = 0)
+            tanks_df['tank_cat'] = 2
+            # check to make sure not an empty row (col 1 = time, col 2 = tank_cat)
+            if tanks_df.shape[1] > 2:
+                # concat
+                master_tanks_df = pd.concat([master_tanks_df, tanks_df], axis = 0)
     # re-order cols
     master_tanks_df = master_tanks_df[["time", "tank_id", "tank_name", "tank_color", "tank_awards_html", "kills", "deactivated", "time_played", "tank_cat"]]
     master_tanks_df.reset_index(drop = True, inplace = True)
