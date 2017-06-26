@@ -641,5 +641,5 @@ if __name__ == "__main__":
     make_activity_md(activity_out_file = './activity-month.md', df_now = df_now, sort_by = 'hours_month', sort_list = ['hours_month', 'hours_day', 'hours_week'])
     # to 100
     t100_df = pd.read_csv('./data/top_100.csv')
-    t100_df = get_tank_table_from_list( list(t100_df['id']) )
-    make_t100_md(t100_out_file = './top-100.md', t100_df = t100_df)
+    #t100_df = get_tank_table_from_list( list(t100_df['id']) )
+    #make_t100_md(t100_out_file = './top-100.md', t100_df = t100_df)
