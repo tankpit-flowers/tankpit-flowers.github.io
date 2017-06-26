@@ -247,8 +247,8 @@ def create_tables_from_page_html(tank_results_html, tank_id, my_map = 'World', l
             tank_dict = check_remove_key(tank_dict, j)
         for j in ['kills', 'deactivated', 'time_played']:
             tank_dict = check_add_empty_key(tank_dict, j)
-    tank_dict['time'] = last_updated_raw
-    return pd.DataFrame([tank_dict])
+        tank_dict['time'] = last_updated_raw
+        return pd.DataFrame([tank_dict])
 
 def extract_time(time_played, time_index):
     try:
@@ -270,14 +270,15 @@ def loop_all_flowers(flower_dict = flower_dict, no_param_url = 'https://tankpit.
         tank_results_html = scrape_text_from_link(no_param_url + str(tank_id))
         # make tables
         tanks_df = create_tables_from_page_html(tank_results_html, tank_id)
-        if flower_info_dict['section'] == 0:
-            tanks_df['tank_cat'] = 0
-        if flower_info_dict['section'] == 1:
-            tanks_df['tank_cat'] = 1
-        # check to make sure not an empty row (col 1 = time, col 2 = tank_cat)
-        if tanks_df.shape[1] > 2:
-            # concat
-            master_tanks_df = pd.concat([master_tanks_df, tanks_df], axis = 0)
+        if tanks_df != None:
+            if flower_info_dict['section'] == 0:
+                tanks_df['tank_cat'] = 0
+            if flower_info_dict['section'] == 1:
+                tanks_df['tank_cat'] = 1
+            # check to make sure not an empty row (col 1 = time, col 2 = tank_cat)
+            if tanks_df.shape[1] > 2:
+                # concat
+                master_tanks_df = pd.concat([master_tanks_df, tanks_df], axis = 0)
     # main tanks
     for flower_info_dict in flower_dict.values():
         tank_id = flower_info_dict['main_tank_id']
@@ -287,11 +288,12 @@ def loop_all_flowers(flower_dict = flower_dict, no_param_url = 'https://tankpit.
             tank_results_html = scrape_text_from_link(no_param_url + str(tank_id))
             # make tables
             tanks_df = create_tables_from_page_html(tank_results_html, tank_id)
-            tanks_df['tank_cat'] = 2
-            # check to make sure not an empty row (col 1 = time, col 2 = tank_cat)
-            if tanks_df.shape[1] > 2:
-                # concat
-                master_tanks_df = pd.concat([master_tanks_df, tanks_df], axis = 0)
+            if tanks_df != None:
+                tanks_df['tank_cat'] = 2
+                # check to make sure not an empty row (col 1 = time, col 2 = tank_cat)
+                if tanks_df.shape[1] > 2:
+                    # concat
+                    master_tanks_df = pd.concat([master_tanks_df, tanks_df], axis = 0)
     # re-order cols
     master_tanks_df = master_tanks_df[["time", "tank_id", "tank_name", "tank_color", "tank_awards_html", "kills", "deactivated", "time_played", "tank_cat"]]
     master_tanks_df.reset_index(drop = True, inplace = True)
@@ -568,6 +570,7 @@ def make_activity_md(activity_out_file, df_now, sort_by, sort_list, flower_dict 
 
 def get_tank_table_from_list(tank_id_list, no_param_url = 'https://tankpit.com/tank_profile/?tank_id='):
     master_tanks_df = pd.DataFrame()
+    print '1'
     for tank_id in tank_id_list:
         # scrape
         tank_results_html = scrape_text_from_link(no_param_url + str(tank_id))
@@ -576,9 +579,11 @@ def get_tank_table_from_list(tank_id_list, no_param_url = 'https://tankpit.com/t
         # concat
         master_tanks_df = pd.concat([master_tanks_df, tanks_df], axis = 0)
         master_tanks_df.reset_index(drop = True, inplace = True)
+    print '2'
     return master_tanks_df[["tank_id", "tank_name", "tank_color", "tank_awards_html"]]
 
 def write_t100_md_from_index(t100, df, i):
+    print 'x'
     t100.write('|' + str(i + 1))
     t100.write('|<span class="')
     t100.write(df.ix[i, 'tank_color'])
@@ -589,12 +594,14 @@ def write_t100_md_from_index(t100, df, i):
     t100.write('</span>|\n')
 
 def make_t100_md(t100_out_file, t100_df):
+    print '3'
     t100 = open(t100_out_file, 'w')
     t100.write('\n## TRUE TOP 100\n\n')
     t100.write('{:.true-t100}\n')
     for i in range(t100_df.shape[0]):
         write_t100_md_from_index(t100, t100_df, i)
     t100.close()
+    print '4'
 
 #----- Main
 
@@ -640,6 +647,6 @@ if __name__ == "__main__":
     make_activity_md(activity_out_file = './activity-week.md', df_now = df_now, sort_by = 'hours_week', sort_list = ['hours_week', 'hours_day', 'hours_month'])
     make_activity_md(activity_out_file = './activity-month.md', df_now = df_now, sort_by = 'hours_month', sort_list = ['hours_month', 'hours_day', 'hours_week'])
     # to 100
-    t100_df = pd.read_csv('./data/top_100.csv')
-    t100_df = get_tank_table_from_list( list(t100_df['id']) )
+    t100_list = pd.read_csv('./data/top_100.csv')
+    t100_df = get_tank_table_from_list( list(t100_list['id']) )
     make_t100_md(t100_out_file = './top-100.md', t100_df = t100_df)
