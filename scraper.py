@@ -569,7 +569,10 @@ def make_activity_md(activity_out_file, df_now, sort_by, sort_list, flower_dict 
 def get_tank_table_from_list(tank_id_list, no_param_url = 'https://tankpit.com/tank_profile/?tank_id='):
     master_tanks_df = pd.DataFrame()
     print '1'
+    counter = 0
     for tank_id in tank_id_list:
+        print counter
+        counter += 1
         # scrape
         tank_results_html = scrape_text_from_link(no_param_url + str(tank_id))
         # make tables
