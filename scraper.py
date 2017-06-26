@@ -568,11 +568,7 @@ def make_activity_md(activity_out_file, df_now, sort_by, sort_list, flower_dict 
 
 def get_tank_table_from_list(tank_id_list, no_param_url = 'https://tankpit.com/tank_profile/?tank_id='):
     master_tanks_df = pd.DataFrame()
-    print '1'
-    counter = 0
     for tank_id in tank_id_list:
-        print counter
-        counter += 1
         # scrape
         tank_results_html = scrape_text_from_link(no_param_url + str(tank_id))
         # make tables
@@ -580,11 +576,9 @@ def get_tank_table_from_list(tank_id_list, no_param_url = 'https://tankpit.com/t
         # concat
         master_tanks_df = pd.concat([master_tanks_df, tanks_df], axis = 0)
         master_tanks_df.reset_index(drop = True, inplace = True)
-    print '2'
     return master_tanks_df[["tank_id", "tank_name", "tank_color", "tank_awards_html"]]
 
 def write_t100_md_from_index(t100, df, i):
-    print 'x'
     t100.write('|' + str(i + 1))
     t100.write('|<span class="')
     t100.write(df.ix[i, 'tank_color'])
@@ -595,14 +589,12 @@ def write_t100_md_from_index(t100, df, i):
     t100.write('</span>|\n')
 
 def make_t100_md(t100_out_file, t100_df):
-    print '3'
     t100 = open(t100_out_file, 'w')
     t100.write('\n## TRUE TOP 100\n\n')
     t100.write('{:.true-t100}\n')
     for i in range(t100_df.shape[0]):
         write_t100_md_from_index(t100, t100_df, i)
     t100.close()
-    print '4'
 
 #----- Main
 
