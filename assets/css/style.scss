@@ -315,11 +315,11 @@ table.stats span.orange,
 table.activity span.red,
 table.activity span.purple,
 table.activity span.blue,
-table.activity span.orange,
-table.true-t100 span.red,
-table.true-t100 span.purple,
-table.true-t100 span.blue,
-table.true-t100 span.orange {
+table.activity span.orange {
+  font-weight: 500;
+}
+
+table.true-t100 {
   font-weight: 500;
 }
 
@@ -373,6 +373,11 @@ span.awards-container {
   display: block;
 }
 
+table.true-t100 span.red, 
+table.true-t100 span.orange,
+table.true-t100 span.purple,
+table.true-t100 span.blue, 
+table.true-t100 span.gray,
 table.true-t100 span.awards-container {
   display: inline !important;
 }
