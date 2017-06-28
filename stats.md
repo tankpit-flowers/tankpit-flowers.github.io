@@ -21,10 +21,10 @@
 |<span class="orange">DESERT ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted">3:40:21</span>|<span class="stat stat_kills">8</span>|<span class="stat stat_deactivated">4</span>|
 |<span class="purple">radiant ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">2:17:11</span>|<span class="stat stat_kills">5</span>|<span class="stat stat_deactivated">2</span>|
 |<span class="orange">BLACK DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-2"></span></span>|<span class="stat stat_hours stat_sorted">1:27:24</span>|<span class="stat stat_kills">4</span>|<span class="stat stat_deactivated">3</span>|
-|<span class="purple">terrestrial TULIP</span><span class="awards-container"><span class="awards-sprite a0-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted">1:0:39</span>|<span class="stat stat_kills">2</span>|<span class="stat stat_deactivated">1</span>|
+|<span class="purple">terrestrial TULIP</span><span class="awards-container"><span class="awards-sprite a0-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted">1:1:21</span>|<span class="stat stat_kills">2</span>|<span class="stat stat_deactivated">1</span>|
 |<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours stat_sorted">0:44:43</span>|<span class="stat stat_kills">5</span>|<span class="stat stat_deactivated">1</span>|
 |<span class="red">DAISY</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted"></span>|<span class="stat stat_kills"></span>|<span class="stat stat_deactivated"></span>|
 
 ## LAST UPDATED
 
-<span class="last_updated">June 28, 2017, 8:05 AM Eastern Time</span>
+<span class="last_updated">June 28, 2017, 8:10 AM Eastern Time</span>
