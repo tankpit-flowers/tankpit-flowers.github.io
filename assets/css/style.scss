@@ -253,7 +253,7 @@ table.roster {
     width: 300px !important;
   }
   
-  table.stats, table.activity {
+  table.stats, table.activity, table.true-t100 {
     width: 300px !important;
   }
   
@@ -296,14 +296,10 @@ table.stats {
   width: 410px;
 }
 
-table.activity {
-  margin: 0 auto;
-  width: 365px;
-}
-
+table.activity,
 table.true-t100 {
   margin: 0 auto;
-  width: 180px;
+  width: 365px;
 }
 
 table.stats td, table.activity td, table.true-t100 td {
@@ -375,6 +371,10 @@ span.awards-container {
   width: 180px;
   margin: 0 5px 0; 
   display: block;
+}
+
+table.true-t100 span.awards-container {
+  display: inline !important;
 }
 
 .red, span.timeline-red,
