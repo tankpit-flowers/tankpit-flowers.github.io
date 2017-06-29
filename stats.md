@@ -4,7 +4,7 @@
 {:.stats}
 |<span class="stat_header">Flower</span>|<span class="stat_header stat_hours stat_sorted">Hours &nbsp;&darr;</span>|<span class="stat_header stat_kills"><a href="https://tankpit-flowers.github.io/stats-kills">Kills</a></span>|<span class="stat_header stat_deactivated"><a href="https://tankpit-flowers.github.io/stats-deact">Deact.</a></span>|
 |<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="stat stat_hours stat_sorted">253:51:06</span>|<span class="stat stat_kills">115</span>|<span class="stat stat_deactivated">61</span>|
-|<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">204:40:35</span>|<span class="stat stat_kills">513</span>|<span class="stat stat_deactivated">72</span>|
+|<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">204:43:20</span>|<span class="stat stat_kills">513</span>|<span class="stat stat_deactivated">72</span>|
 |<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">203:48:52</span>|<span class="stat stat_kills">151</span>|<span class="stat stat_deactivated">16</span>|
 |<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted">135:20:41</span>|<span class="stat stat_kills">39</span>|<span class="stat stat_deactivated">16</span>|
 |<span class="red">GLADIOLUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted">109:2:25</span>|<span class="stat stat_kills">94</span>|<span class="stat stat_deactivated">67</span>|
@@ -27,4 +27,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">June 29, 2017, 5:45 AM Eastern Time</span>
+<span class="last_updated">June 29, 2017, 5:50 AM Eastern Time</span>
