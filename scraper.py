@@ -26,24 +26,24 @@ flower_dict = {
               'main_tank': 'SoMeBoDy',
               'main_color': 'purple',
               'main_awards_html': '<span class="awards-sprite a0-3"></span><span class="awards-sprite a1-3"></span><span class="awards-sprite a2-3"></span><span class="awards-sprite a3-3"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span>'},
+    'DAHLIA': {'tank_id': 48641,
+               'section': 0,
+               'seq': 2,
+               'main_tank_id': 10502,
+                 'main_tank': None,
+                 'main_color': None,
+                 'main_awards_html': None},
     'TULIP': {'tank_id': 45920,
               'section': 0,
-              'seq': 2,
+              'seq': 3,
               'main_tank_id': None,
               'main_tank': 'SSpritEE',
               'main_color': 'red',
               'main_awards_html': '<span class="awards-sprite a0-3"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-3"></span>'},
     'HIBISCUS': {'tank_id': 45859,
                  'section': 0,
-                 'seq': 3,
+                 'seq': 4,
                  'main_tank_id': 850,
-                 'main_tank': None,
-                 'main_color': None,
-                 'main_awards_html': None},
-    'DAHLIA': {'tank_id': 48641,
-               'section': 0,
-               'seq': 4,
-               'main_tank_id': 10502,
                  'main_tank': None,
                  'main_color': None,
                  'main_awards_html': None},
@@ -640,6 +640,6 @@ if __name__ == "__main__":
     make_activity_md(activity_out_file = './activity-week.md', df_now = df_now, sort_by = 'hours_week', sort_list = ['hours_week', 'hours_day', 'hours_month'])
     make_activity_md(activity_out_file = './activity-month.md', df_now = df_now, sort_by = 'hours_month', sort_list = ['hours_month', 'hours_day', 'hours_week'])
     # to 100
-    t100_list = pd.read_csv('./data/top_100.csv')
-    t100_df = get_tank_table_from_list( list(t100_list['id']) )
-    make_t100_md(t100_out_file = './top-100.md', t100_df = t100_df)
+    # t100_list = pd.read_csv('./data/top_100.csv')
+    # t100_df = get_tank_table_from_list( list(t100_list['id']) )
+    # make_t100_md(t100_out_file = './top-100.md', t100_df = t100_df)
