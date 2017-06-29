@@ -253,8 +253,12 @@ table.roster {
     width: 300px !important;
   }
   
-  table.stats, table.activity, table.true-t100 {
+  table.stats, table.activity {
     width: 300px !important;
+  }
+  
+  table.true-t100  {
+    width: 320px !important;
   }
   
   span.red, 
@@ -320,7 +324,7 @@ table.activity span.orange {
 }
 
 table.true-t100 {
-  font-weight: 500;
+  font-weight: 500 !important;
 }
 
 table.roster span.roster_header,
