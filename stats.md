@@ -21,10 +21,10 @@
 |<span class="orange">BLACK DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-2"></span></span>|<span class="stat stat_hours stat_sorted">1:27:24</span>|<span class="stat stat_kills">4</span>|<span class="stat stat_deactivated">3</span>|
 |<span class="purple">terrestrial TULIP</span><span class="awards-container"><span class="awards-sprite a0-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted">1:3:59</span>|<span class="stat stat_kills">2</span>|<span class="stat stat_deactivated">1</span>|
 |<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours stat_sorted">0:44:43</span>|<span class="stat stat_kills">5</span>|<span class="stat stat_deactivated">1</span>|
-|<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">0:3:22</span>|<span class="stat stat_kills">0</span>|<span class="stat stat_deactivated">0</span>|
+|<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">0:8:17</span>|<span class="stat stat_kills">0</span>|<span class="stat stat_deactivated">0</span>|
 |<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">0:0:13</span>|<span class="stat stat_kills">0</span>|<span class="stat stat_deactivated">0</span>|
 |<span class="red">DAISY</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted"></span>|<span class="stat stat_kills"></span>|<span class="stat stat_deactivated"></span>|
 
 ## LAST UPDATED
 
-<span class="last_updated">June 30, 2017, 12:20 AM Eastern Time</span>
+<span class="last_updated">June 30, 2017, 12:25 AM Eastern Time</span>
