@@ -1,5 +1,8 @@
 ## TIMELINE
 
+### <span class="timeline-date">June 29, 2017</span> <span class="timeline-blurb"><span class="timeline-red">TRILLIUM</span> is awarded the <span class="timeline-em">SHINING SWORD</span> <span class="awards-sprite a3-1"></span></span>
+![TRILLIUM is awarded the SHINING SWORD](./screenshots/shining-sword-trillium.png){:.game-screenshot}
+
 ### <span class="timeline-date">June 23, 2017</span> <span class="timeline-blurb"><span class="timeline-red">DAHLIA</span> is awarded the <span class="timeline-em">BATTERED SWORD</span> <span class="awards-sprite a3-2"></span></span>
 ![DAHLIA is awarded the BATTERED SWORD](./screenshots/battered-sword-dahlia.png){:.game-screenshot}
 
