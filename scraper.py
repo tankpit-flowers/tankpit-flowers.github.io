@@ -639,7 +639,7 @@ if __name__ == "__main__":
     make_activity_md(activity_out_file = './activity.md', df_now = df_now, sort_by = 'hours_day', sort_list = ['hours_day', 'hours_week', 'hours_month'])
     make_activity_md(activity_out_file = './activity-week.md', df_now = df_now, sort_by = 'hours_week', sort_list = ['hours_week', 'hours_day', 'hours_month'])
     make_activity_md(activity_out_file = './activity-month.md', df_now = df_now, sort_by = 'hours_month', sort_list = ['hours_month', 'hours_day', 'hours_week'])
-    # to 100
-    # t100_list = pd.read_csv('./data/top_100.csv')
-    # t100_df = get_tank_table_from_list( list(t100_list['id']) )
-    # make_t100_md(t100_out_file = './top-100.md', t100_df = t100_df)
+    # top 100
+    t100_list = pd.read_csv('./data/top_100.csv')
+    t100_df = get_tank_table_from_list( list(t100_list['id']) )
+    make_t100_md(t100_out_file = './top-100.md', t100_df = t100_df)
