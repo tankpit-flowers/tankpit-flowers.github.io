@@ -14,7 +14,7 @@
 |<span class="red">LILAC</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">22:7:05</span>|<span class="stat stat_kills stat_sorted">38</span>|<span class="stat stat_deactivated">11</span>|
 |<span class="red">TRILLIUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span></span>|<span class="stat stat_hours">105:10:47</span>|<span class="stat stat_kills stat_sorted">33</span>|<span class="stat stat_deactivated">10</span>|
 |<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="stat stat_hours">27:45:40</span>|<span class="stat stat_kills stat_sorted">25</span>|<span class="stat stat_deactivated">12</span>|
-|<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-3"></span><span class="awards-sprite a7-1"></span></span>|<span class="stat stat_hours">10:46:12</span>|<span class="stat stat_kills stat_sorted">14</span>|<span class="stat stat_deactivated">4</span>|
+|<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-3"></span><span class="awards-sprite a7-1"></span></span>|<span class="stat stat_hours">10:51:06</span>|<span class="stat stat_kills stat_sorted">14</span>|<span class="stat stat_deactivated">4</span>|
 |<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours">7:1:10</span>|<span class="stat stat_kills stat_sorted">9</span>|<span class="stat stat_deactivated">3</span>|
 |<span class="orange">DESERT ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">3:40:21</span>|<span class="stat stat_kills stat_sorted">8</span>|<span class="stat stat_deactivated">4</span>|
 |<span class="orange">SILENT LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">6:36:30</span>|<span class="stat stat_kills stat_sorted">6</span>|<span class="stat stat_deactivated">5</span>|
@@ -27,4 +27,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">July 08, 2017, 8:45 PM Eastern Time</span>
+<span class="last_updated">July 08, 2017, 8:50 PM Eastern Time</span>
