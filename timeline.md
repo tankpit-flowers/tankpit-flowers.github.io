@@ -1,5 +1,8 @@
 ## TIMELINE
 
+### <span class="timeline-date">July 7, 2017</span> <span class="timeline-blurb">Special awards are out!</span> <span class="timeline-blurb"><span class="timeline-red">CHRYSANTHEMUM</span> is awarded the <span class="timeline-em">WAR CORRESPONDENT</span></span> 
+![CHRYSANTHEMUM is awarded the WAR CORRESPONDENT](./screenshots/.png){:.game-screenshot}
+
 ### <span class="timeline-date">June 29, 2017</span> <span class="timeline-blurb"><span class="timeline-red">TRILLIUM</span> is awarded the <span class="timeline-em">SHINING SWORD</span> <span class="awards-sprite a3-1"></span></span>
 ![TRILLIUM is awarded the SHINING SWORD](./screenshots/shining-sword-trillium.png){:.game-screenshot}
 
