@@ -10,7 +10,7 @@
 |<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">1.55</span>|<span class="activity activity_col3">57.37</span>|
 |<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">1.33</span>|<span class="activity activity_col3">1.82</span>|
 |<span class="red">VIOLET</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">0.62</span>|<span class="activity activity_col2 activity_sorted">1.13</span>|<span class="activity activity_col3">5.95</span>|
-|<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="activity activity_col1">0.33</span>|<span class="activity activity_col2 activity_sorted">0.33</span>|<span class="activity activity_col3">0.33</span>|
+|<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="activity activity_col1">0.42</span>|<span class="activity activity_col2 activity_sorted">0.42</span>|<span class="activity activity_col3">0.43</span>|
 |<span class="red">TULIP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">0.3</span>|<span class="activity activity_col3">1.84</span>|
 |<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">0.26</span>|<span class="activity activity_col3">5.33</span>|
 |<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">0.06</span>|<span class="activity activity_col3">0.33</span>|
@@ -27,4 +27,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">July 10, 2017, 7:35 AM Eastern Time</span>
+<span class="last_updated">July 10, 2017, 7:40 AM Eastern Time</span>
