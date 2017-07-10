@@ -13,7 +13,7 @@
 |<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-3"></span><span class="awards-sprite a7-1"></span></span>|<span class="activity activity_col1">0.23</span>|<span class="activity activity_col2">1.99</span>|<span class="activity activity_col3 activity_sorted">2.03</span>|
 |<span class="red">TULIP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2">0.3</span>|<span class="activity activity_col3 activity_sorted">1.84</span>|
 |<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2">1.33</span>|<span class="activity activity_col3 activity_sorted">1.82</span>|
-|<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="activity activity_col1">0.54</span>|<span class="activity activity_col2">0.54</span>|<span class="activity activity_col3 activity_sorted">0.54</span>|
+|<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="activity activity_col1">0.57</span>|<span class="activity activity_col2">0.57</span>|<span class="activity activity_col3 activity_sorted">0.57</span>|
 |<span class="orange">DESERT ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1">0.04</span>|<span class="activity activity_col2">0.04</span>|<span class="activity activity_col3 activity_sorted">0.4</span>|
 |<span class="orange">SILENT LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2"></span>|<span class="activity activity_col3 activity_sorted">0.4</span>|
 |<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2">0.06</span>|<span class="activity activity_col3 activity_sorted">0.33</span>|
@@ -27,4 +27,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">July 10, 2017, 7:55 AM Eastern Time</span>
+<span class="last_updated">July 10, 2017, 8:00 AM Eastern Time</span>
