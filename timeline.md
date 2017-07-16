@@ -1,8 +1,9 @@
 ## TIMELINE
 
-### <span class="timeline-date">July 7, 2017</span> <span class="timeline-blurb">Special awards are out!</span> <span class="timeline-blurb"><span class="timeline-red">CHRYSANTHEMUM</span> is awarded the <span class="timeline-em">WAR CORRESPONDENT</span></span> 
+### <span class="timeline-date">July 7, 2017</span> <span class="timeline-blurb">Special awards are out!</span> <span class="timeline-blurb"><span class="timeline-red">CHRYSANTHEMUM</span> is awarded the <span class="timeline-em">WAR CORRESPONDENT</span></span> <span class="timeline-blurb"><span class="timeline-red">HYDRANGEA</span> is awarded the <span class="timeline-em">DEFENDER OF THE TRUTH</span></span> 
 ![CHRYSANTHEMUM is awarded the WAR CORRESPONDENT](./screenshots/special-wc-chrysanthemum-1.png){:.game-screenshot}
 ![CHRYSANTHEMUM is awarded the WAR CORRESPONDENT](./screenshots/special-wc-chrysanthemum-2.png){:.game-screenshot}
+![HYDRANGEA is awarded the DEFENDER OF THE TRUTH](./screenshots/special-dot-hydrangea.png){:.game-screenshot}
 
 ### <span class="timeline-date">June 29, 2017</span> <span class="timeline-blurb"><span class="timeline-red">TRILLIUM</span> is awarded the <span class="timeline-em">SHINING SWORD</span> <span class="awards-sprite a3-1"></span></span>
 ![TRILLIUM is awarded the SHINING SWORD](./screenshots/shining-sword-trillium.png){:.game-screenshot}
