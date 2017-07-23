@@ -1,5 +1,8 @@
 ## TIMELINE
 
+### <span class="timeline-date">July 23, 2017</span> <span class="timeline-blurb"><span class="timeline-red">HYDRANGEA</span> is awarded the <span class="timeline-em">BATTERED SWORD</span> <span class="awards-sprite a3-2"></span></span>
+![HYDRANGEA is awarded the BATTERED SWORD](./screenshots/battered-sword-hydrangea.png){:.game-screenshot}
+
 ### <span class="timeline-date">July 7, 2017</span> <span class="timeline-blurb">Special awards are out!</span> <span class="timeline-blurb"><span class="timeline-red">CHRYSANTHEMUM</span> is awarded the <span class="timeline-em">WAR CORRESPONDENT</span></span> <span class="timeline-blurb"><span class="timeline-red">HYDRANGEA</span> is awarded the <span class="timeline-em">DEFENDER OF THE TRUTH</span></span> 
 ![CHRYSANTHEMUM is awarded the WAR CORRESPONDENT](./screenshots/special-wc-chrysanthemum-1.png){:.game-screenshot}
 ![CHRYSANTHEMUM is awarded the WAR CORRESPONDENT](./screenshots/special-wc-chrysanthemum-2.png){:.game-screenshot}
