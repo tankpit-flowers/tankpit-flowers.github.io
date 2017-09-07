@@ -19,7 +19,7 @@
 |<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours">9:47:10</span>|<span class="stat stat_kills stat_sorted">14</span>|<span class="stat stat_deactivated">6</span>|
 |<span class="orange">DESERT ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">3:42:50</span>|<span class="stat stat_kills stat_sorted">8</span>|<span class="stat stat_deactivated">4</span>|
 |<span class="red">VIOLET</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">10:27:55</span>|<span class="stat stat_kills stat_sorted">7</span>|<span class="stat stat_deactivated">0</span>|
-|<span class="orange">SILENT LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">6:40:56</span>|<span class="stat stat_kills stat_sorted">6</span>|<span class="stat stat_deactivated">6</span>|
+|<span class="orange">SILENT LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">6:41:36</span>|<span class="stat stat_kills stat_sorted">7</span>|<span class="stat stat_deactivated">6</span>|
 |<span class="purple">radiant ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">2:19:15</span>|<span class="stat stat_kills stat_sorted">5</span>|<span class="stat stat_deactivated">2</span>|
 |<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours">0:50:27</span>|<span class="stat stat_kills stat_sorted">5</span>|<span class="stat stat_deactivated">2</span>|
 |<span class="orange">BLACK DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-2"></span></span>|<span class="stat stat_hours">1:27:24</span>|<span class="stat stat_kills stat_sorted">4</span>|<span class="stat stat_deactivated">3</span>|
@@ -28,4 +28,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">September 06, 2017, 11:00 PM Eastern Time</span>
+<span class="last_updated">September 06, 2017, 11:05 PM Eastern Time</span>
