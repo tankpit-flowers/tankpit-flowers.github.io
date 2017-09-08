@@ -15,7 +15,7 @@
 |<span class="red">TRILLIUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span></span>|<span class="stat stat_hours">116:56:23</span>|<span class="stat stat_kills stat_sorted">37</span>|<span class="stat stat_deactivated">13</span>|
 |<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">30:29:13</span>|<span class="stat stat_kills stat_sorted">28</span>|<span class="stat stat_deactivated">13</span>|
 |<span class="red">DAISY</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">17:2:39</span>|<span class="stat stat_kills stat_sorted">15</span>|<span class="stat stat_deactivated">6</span>|
-|<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours">9:59:07</span>|<span class="stat stat_kills stat_sorted">15</span>|<span class="stat stat_deactivated">6</span>|
+|<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours">10:0:20</span>|<span class="stat stat_kills stat_sorted">15</span>|<span class="stat stat_deactivated">6</span>|
 |<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-3"></span><span class="awards-sprite a7-1"></span></span>|<span class="stat stat_hours">11:51:11</span>|<span class="stat stat_kills stat_sorted">14</span>|<span class="stat stat_deactivated">5</span>|
 |<span class="orange">DESERT ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">3:42:50</span>|<span class="stat stat_kills stat_sorted">8</span>|<span class="stat stat_deactivated">4</span>|
 |<span class="red">VIOLET</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">10:27:55</span>|<span class="stat stat_kills stat_sorted">7</span>|<span class="stat stat_deactivated">0</span>|
@@ -28,4 +28,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">September 08, 2017, 8:35 AM Eastern Time</span>
+<span class="last_updated">September 08, 2017, 8:40 AM Eastern Time</span>
