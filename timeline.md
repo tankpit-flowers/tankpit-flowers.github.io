@@ -1,5 +1,7 @@
 ## TIMELINE
 
+### <span class="timeline-date">August 26, 2017</span> <span class="timeline-blurb">Flowers are back after a short hiatus, along with a new member: <span class="timeline-red">NARCISSUS</span></span>
+
 ### <span class="timeline-date">July 23, 2017</span> <span class="timeline-blurb"><span class="timeline-red">HYDRANGEA</span> is awarded the <span class="timeline-em">BATTERED SWORD</span> <span class="awards-sprite a3-2"></span></span>
 ![HYDRANGEA is awarded the BATTERED SWORD](./screenshots/battered-sword-hydrangea.png){:.game-screenshot}
 
