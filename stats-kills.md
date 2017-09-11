@@ -23,9 +23,8 @@
 |<span class="orange">SILENT LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">6:41:36</span>|<span class="stat stat_kills stat_sorted">7</span>|<span class="stat stat_deactivated">6</span>|
 |<span class="purple">radiant ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">2:19:15</span>|<span class="stat stat_kills stat_sorted">5</span>|<span class="stat stat_deactivated">2</span>|
 |<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours">0:50:27</span>|<span class="stat stat_kills stat_sorted">5</span>|<span class="stat stat_deactivated">2</span>|
-|<span class="orange">BLACK DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-2"></span></span>|<span class="stat stat_hours">1:27:24</span>|<span class="stat stat_kills stat_sorted">4</span>|<span class="stat stat_deactivated">3</span>|
 |<span class="purple">terrestrial TULIP</span><span class="awards-container"><span class="awards-sprite a0-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">1:6:45</span>|<span class="stat stat_kills stat_sorted">2</span>|<span class="stat stat_deactivated">1</span>|
 
 ## LAST UPDATED
 
-<span class="last_updated">September 11, 2017, 3:30 PM Eastern Time</span>
+<span class="last_updated">September 11, 2017, 3:35 PM Eastern Time</span>
