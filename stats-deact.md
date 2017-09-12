@@ -21,10 +21,10 @@
 |<span class="orange">DESERT ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">3:42:50</span>|<span class="stat stat_kills">8</span>|<span class="stat stat_deactivated stat_sorted">4</span>|
 |<span class="purple">radiant ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">2:19:15</span>|<span class="stat stat_kills">5</span>|<span class="stat stat_deactivated stat_sorted">2</span>|
 |<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours">0:50:27</span>|<span class="stat stat_kills">5</span>|<span class="stat stat_deactivated stat_sorted">2</span>|
-|<span class="red">NARCISSUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">4:47:27</span>|<span class="stat stat_kills">51</span>|<span class="stat stat_deactivated stat_sorted">1</span>|
+|<span class="red">NARCISSUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">4:51:29</span>|<span class="stat stat_kills">51</span>|<span class="stat stat_deactivated stat_sorted">1</span>|
 |<span class="purple">terrestrial TULIP</span><span class="awards-container"><span class="awards-sprite a0-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">1:6:45</span>|<span class="stat stat_kills">2</span>|<span class="stat stat_deactivated stat_sorted">1</span>|
 |<span class="red">VIOLET</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">10:28:13</span>|<span class="stat stat_kills">7</span>|<span class="stat stat_deactivated stat_sorted">0</span>|
 
 ## LAST UPDATED
 
-<span class="last_updated">September 11, 2017, 8:00 PM Eastern Time</span>
+<span class="last_updated">September 11, 2017, 8:05 PM Eastern Time</span>
