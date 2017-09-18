@@ -4,7 +4,7 @@
 {:.activity}
 |<span class="activity_header">Flower</span>|<span class="activity_header activity_col1"><a href="https://tankpit-flowers.github.io/activity">Day</a></span>|<span class="activity_header activity_col2 activity_sorted">Week &nbsp;&darr;</span>|<span class="activity_header activity_col3"><a href="https://tankpit-flowers.github.io/activity-month">Month</a></span>|
 |<span class="red">NARCISSUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">5.04</span>|<span class="activity activity_col3">5.04</span>|
-|<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="activity activity_col1">0.08</span>|<span class="activity activity_col2 activity_sorted">3.32</span>|<span class="activity activity_col3">6.17</span>|
+|<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="activity activity_col1">0.15</span>|<span class="activity activity_col2 activity_sorted">3.39</span>|<span class="activity activity_col3">6.24</span>|
 |<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">0.01</span>|<span class="activity activity_col2 activity_sorted">2.93</span>|<span class="activity activity_col3">4.88</span>|
 |<span class="red">TULIP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">0.08</span>|<span class="activity activity_col3">2.23</span>|
 |<span class="red">VIOLET</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">0.07</span>|<span class="activity activity_col3">1.35</span>|
@@ -27,4 +27,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">September 17, 2017, 8:20 PM Eastern Time</span>
+<span class="last_updated">September 17, 2017, 8:25 PM Eastern Time</span>
