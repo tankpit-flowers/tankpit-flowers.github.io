@@ -4,7 +4,7 @@
 {:.activity}
 |<span class="activity_header">Flower</span>|<span class="activity_header activity_col1 activity_sorted">Day &nbsp;&darr;</span>|<span class="activity_header activity_col2"><a href="https://tankpit-flowers.github.io/activity-week">Week</a></span>|<span class="activity_header activity_col3"><a href="https://tankpit-flowers.github.io/activity-month">Month</a></span>|
 |<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="activity activity_col1 activity_sorted">7.47</span>|<span class="activity activity_col2">20.29</span>|<span class="activity activity_col3">24.75</span>|
-|<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted">1.74</span>|<span class="activity activity_col2">3.66</span>|<span class="activity activity_col3">8.14</span>|
+|<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted">1.74</span>|<span class="activity activity_col2">3.57</span>|<span class="activity activity_col3">8.14</span>|
 |<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted">0.96</span>|<span class="activity activity_col2">3.15</span>|<span class="activity activity_col3">7.18</span>|
 |<span class="red">TULIP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1 activity_sorted">0.24</span>|<span class="activity activity_col2">1.23</span>|<span class="activity activity_col3">3.45</span>|
 |<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1 activity_sorted">0.06</span>|<span class="activity activity_col2">0.06</span>|<span class="activity activity_col3">0.29</span>|
@@ -27,4 +27,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">September 23, 2017, 8:15 AM Eastern Time</span>
+<span class="last_updated">September 23, 2017, 8:20 AM Eastern Time</span>
