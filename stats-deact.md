@@ -21,12 +21,12 @@
 |<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-3"></span><span class="awards-sprite a7-1"></span></span>|<span class="stat stat_hours">11:56:34</span>|<span class="stat stat_kills">14</span>|<span class="stat stat_deactivated stat_sorted">5</span>|
 |<span class="orange">DESERT ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">3:44:21</span>|<span class="stat stat_kills">8</span>|<span class="stat stat_deactivated stat_sorted">4</span>|
 |<span class="red">VIOLET</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">12:43:42</span>|<span class="stat stat_kills">7</span>|<span class="stat stat_deactivated stat_sorted">3</span>|
+|<span class="red">MAGNOLIA</span><span class="awards-container"><span class="awards-sprite a0-2"></span></span>|<span class="stat stat_hours">1:59:50</span>|<span class="stat stat_kills">15</span>|<span class="stat stat_deactivated stat_sorted">3</span>|
 |<span class="purple">radiant ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">2:20:21</span>|<span class="stat stat_kills">5</span>|<span class="stat stat_deactivated stat_sorted">2</span>|
 |<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours">0:50:27</span>|<span class="stat stat_kills">5</span>|<span class="stat stat_deactivated stat_sorted">2</span>|
 |<span class="purple">terrestrial TULIP</span><span class="awards-container"><span class="awards-sprite a0-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">1:6:45</span>|<span class="stat stat_kills">2</span>|<span class="stat stat_deactivated stat_sorted">1</span>|
-|<span class="red">MAGNOLIA</span><span class="awards-container"><span class="awards-sprite a0-2"></span></span>|<span class="stat stat_hours"></span>|<span class="stat stat_kills"></span>|<span class="stat stat_deactivated stat_sorted"></span>|
 |<span class="red">MALVA</span><span class="awards-container"></span>|<span class="stat stat_hours"></span>|<span class="stat stat_kills"></span>|<span class="stat stat_deactivated stat_sorted"></span>|
 
 ## LAST UPDATED
 
-<span class="last_updated">October 02, 2017, 8:30 PM Eastern Time</span>
+<span class="last_updated">October 02, 2017, 8:35 PM Eastern Time</span>
