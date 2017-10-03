@@ -15,6 +15,8 @@
 |<span class="red">LILAC</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="gray">Secret</span>|
 |<span class="red">NARCISSUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="gray">Secret</span>|
 |<span class="red">ORCHID</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="gray">Secret</span>|
+|<span class="red">MAGNOLIA</span><span class="awards-container"><span class="awards-sprite a0-2"></span></span>|<span class="gray">Secret</span>|
+|<span class="red">MALVA</span><span class="awards-container"></span>|<span class="gray">Secret</span>|
 
 ## ALTS
 
@@ -32,4 +34,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">October 02, 2017, 8:25 PM Eastern Time</span>
+<span class="last_updated">October 02, 2017, 8:30 PM Eastern Time</span>
