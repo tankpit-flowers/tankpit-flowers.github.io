@@ -20,7 +20,7 @@
 |<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-3"></span><span class="awards-sprite a7-1"></span></span>|<span class="stat stat_hours stat_sorted">11:56:34</span>|<span class="stat stat_kills">14</span>|<span class="stat stat_deactivated">5</span>|
 |<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours stat_sorted">11:0:52</span>|<span class="stat stat_kills">19</span>|<span class="stat stat_deactivated">7</span>|
 |<span class="orange">SILENT LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">6:41:36</span>|<span class="stat stat_kills">7</span>|<span class="stat stat_deactivated">6</span>|
-|<span class="red">MAGNOLIA</span><span class="awards-container"><span class="awards-sprite a0-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">5:15:29</span>|<span class="stat stat_kills">19</span>|<span class="stat stat_deactivated">4</span>|
+|<span class="red">MAGNOLIA</span><span class="awards-container"><span class="awards-sprite a0-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">5:21:38</span>|<span class="stat stat_kills">19</span>|<span class="stat stat_deactivated">4</span>|
 |<span class="orange">DESERT ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted">3:44:21</span>|<span class="stat stat_kills">8</span>|<span class="stat stat_deactivated">4</span>|
 |<span class="purple">radiant ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">2:26:47</span>|<span class="stat stat_kills">5</span>|<span class="stat stat_deactivated">2</span>|
 |<span class="purple">terrestrial TULIP</span><span class="awards-container"><span class="awards-sprite a0-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted">1:6:45</span>|<span class="stat stat_kills">2</span>|<span class="stat stat_deactivated">1</span>|
@@ -29,4 +29,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">October 06, 2017, 11:00 AM Eastern Time</span>
+<span class="last_updated">October 06, 2017, 11:15 AM Eastern Time</span>
