@@ -9,7 +9,7 @@
 |<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1 activity_sorted">0.64</span>|<span class="activity activity_col2">1.35</span>|<span class="activity activity_col3">1.87</span>|
 |<span class="red">NARCISSUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted">0.42</span>|<span class="activity activity_col2">2.51</span>|<span class="activity activity_col3">14.54</span>|
 |<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted">0.27</span>|<span class="activity activity_col2">0.27</span>|<span class="activity activity_col3">0.27</span>|
-|<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted">0.08</span>|<span class="activity activity_col2">9.35</span>|<span class="activity activity_col3">31.34</span>|
+|<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted">0.02</span>|<span class="activity activity_col2">9.11</span>|<span class="activity activity_col3">31.34</span>|
 |<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-3"></span><span class="awards-sprite a7-1"></span></span>|<span class="activity activity_col1 activity_sorted">0.01</span>|<span class="activity activity_col2">0.01</span>|<span class="activity activity_col3">0.1</span>|
 |<span class="red">VIOLET</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">0.85</span>|<span class="activity activity_col3">2.39</span>|
 |<span class="red">LILAC</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">0.44</span>|<span class="activity activity_col3">0.44</span>|
@@ -29,4 +29,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">October 07, 2017, 1:15 PM Eastern Time</span>
+<span class="last_updated">October 07, 2017, 1:30 PM Eastern Time</span>
