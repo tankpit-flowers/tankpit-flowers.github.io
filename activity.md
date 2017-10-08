@@ -9,7 +9,7 @@
 |<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1 activity_sorted">0.42</span>|<span class="activity activity_col2">1.77</span>|<span class="activity activity_col3">2.29</span>|
 |<span class="red">MAGNOLIA</span><span class="awards-container"><span class="awards-sprite a0-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted">0.39</span>|<span class="activity activity_col2">8.82</span>|<span class="activity activity_col3">8.82</span>|
 |<span class="purple">radiant ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted">0.22</span>|<span class="activity activity_col2">0.33</span>|<span class="activity activity_col3">0.34</span>|
-|<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted">0.06</span>|<span class="activity activity_col2">9.07</span>|<span class="activity activity_col3">31.4</span>|
+|<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted">0.06</span>|<span class="activity activity_col2">9.05</span>|<span class="activity activity_col3">31.4</span>|
 |<span class="red">NARCISSUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted">0.04</span>|<span class="activity activity_col2">2.39</span>|<span class="activity activity_col3">14.54</span>|
 |<span class="red">VIOLET</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">0.85</span>|<span class="activity activity_col3">2.39</span>|
 |<span class="red">LILAC</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1 activity_sorted"></span>|<span class="activity activity_col2">0.44</span>|<span class="activity activity_col3">0.44</span>|
@@ -29,4 +29,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">October 08, 2017, 8:30 AM Eastern Time</span>
+<span class="last_updated">October 08, 2017, 8:45 AM Eastern Time</span>
