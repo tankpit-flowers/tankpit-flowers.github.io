@@ -3,7 +3,7 @@
 
 {:.stats}
 |<span class="stat_header">Flower</span>|<span class="stat_header stat_hours stat_sorted">Hours &nbsp;&darr;</span>|<span class="stat_header stat_kills"><a href="https://tankpit-flowers.github.io/stats-kills">Kills</a></span>|<span class="stat_header stat_deactivated"><a href="https://tankpit-flowers.github.io/stats-deact">Deact.</a></span>|
-|<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="stat stat_hours stat_sorted">334:49:10</span>|<span class="stat stat_kills">148</span>|<span class="stat stat_deactivated">80</span>|
+|<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="stat stat_hours stat_sorted">335:3:44</span>|<span class="stat stat_kills">148</span>|<span class="stat stat_deactivated">80</span>|
 |<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">206:4:27</span>|<span class="stat stat_kills">156</span>|<span class="stat stat_deactivated">16</span>|
 |<span class="red">HYDRANGEA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted">203:30:50</span>|<span class="stat stat_kills">57</span>|<span class="stat stat_deactivated">30</span>|
 |<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">162:59:32</span>|<span class="stat stat_kills">41</span>|<span class="stat stat_deactivated">17</span>|
@@ -29,4 +29,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">October 10, 2017, 2:15 AM Eastern Time</span>
+<span class="last_updated">October 10, 2017, 2:30 AM Eastern Time</span>
