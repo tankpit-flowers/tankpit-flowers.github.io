@@ -8,7 +8,7 @@
 |<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">2.25</span>|<span class="activity activity_col2 activity_sorted">9.88</span>|<span class="activity activity_col3">39.09</span>|
 |<span class="red">NARCISSUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">3.19</span>|<span class="activity activity_col2 activity_sorted">6.48</span>|<span class="activity activity_col3">15.98</span>|
 |<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">5.93</span>|<span class="activity activity_col3">6.21</span>|
-|<span class="red">MAGNOLIA</span><span class="awards-container"><span class="awards-sprite a0-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">1.33</span>|<span class="activity activity_col2 activity_sorted">4.31</span>|<span class="activity activity_col3">13.89</span>|
+|<span class="red">MAGNOLIA</span><span class="awards-container"><span class="awards-sprite a0-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">1.33</span>|<span class="activity activity_col2 activity_sorted">4.1</span>|<span class="activity activity_col3">13.89</span>|
 |<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">3.31</span>|<span class="activity activity_col3">5.37</span>|
 |<span class="red">VIOLET</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">0.67</span>|<span class="activity activity_col3">2.98</span>|
 |<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-3"></span><span class="awards-sprite a7-1"></span></span>|<span class="activity activity_col1">0.03</span>|<span class="activity activity_col2 activity_sorted">0.47</span>|<span class="activity activity_col3">0.57</span>|
@@ -29,4 +29,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">October 16, 2017, 2:00 AM Eastern Time</span>
+<span class="last_updated">October 16, 2017, 2:15 AM Eastern Time</span>
