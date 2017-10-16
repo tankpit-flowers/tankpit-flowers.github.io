@@ -1,5 +1,9 @@
 ## TIMELINE
 
+### <span class="timeline-date">October 13, 2017</span> <span class="timeline-blurb">Special awards are out!</span> <span class="timeline-blurb"><span class="timeline-red">ROSE</span> is awarded the <span class="timeline-em">DEFENDER OF THE TRUTH</span></span> 
+![ROSE is awarded the DEFENDER OF THE TRUTH](./screenshots/special-dot-rose-1.png){:.game-screenshot}
+![ROSE is awarded the DEFENDER OF THE TRUTH](./screenshots/special-dot-rose-2.png){:.game-screenshot}
+
 ### <span class="timeline-date">October 1, 2017</span> <span class="timeline-blurb">Two new flowers have blossomed! <span class="timeline-red">MAGNOLIA</span> & <span class="timeline-red">MALVA</span></span>
 
 ### <span class="timeline-date">August 26, 2017</span> <span class="timeline-blurb">Flowers are back after a short hiatus, along with a new member: <span class="timeline-red">NARCISSUS</span></span>
