@@ -13,7 +13,7 @@
 |<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">212:0:21</span>|<span class="stat stat_kills">156</span>|<span class="stat stat_deactivated stat_sorted">16</span>|
 |<span class="red">TRILLIUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span></span>|<span class="stat stat_hours">122:20:00</span>|<span class="stat stat_kills">42</span>|<span class="stat stat_deactivated stat_sorted">16</span>|
 |<span class="red">NARCISSUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">22:53:49</span>|<span class="stat stat_kills">120</span>|<span class="stat stat_deactivated stat_sorted">16</span>|
-|<span class="red">MAGNOLIA</span><span class="awards-container"><span class="awards-sprite a0-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">16:33:52</span>|<span class="stat stat_kills">31</span>|<span class="stat stat_deactivated stat_sorted">15</span>|
+|<span class="red">MAGNOLIA</span><span class="awards-container"><span class="awards-sprite a0-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">16:48:37</span>|<span class="stat stat_kills">33</span>|<span class="stat stat_deactivated stat_sorted">15</span>|
 |<span class="red">LILAC</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">22:42:20</span>|<span class="stat stat_kills">38</span>|<span class="stat stat_deactivated stat_sorted">11</span>|
 |<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours">15:44:44</span>|<span class="stat stat_kills">23</span>|<span class="stat stat_deactivated stat_sorted">10</span>|
 |<span class="red">ORCHID</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="stat stat_hours">20:2:55</span>|<span class="stat stat_kills">47</span>|<span class="stat stat_deactivated stat_sorted">7</span>|
@@ -29,4 +29,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">October 18, 2017, 12:30 AM Eastern Time</span>
+<span class="last_updated">October 18, 2017, 12:45 AM Eastern Time</span>

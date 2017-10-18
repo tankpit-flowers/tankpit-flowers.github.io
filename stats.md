@@ -16,7 +16,7 @@
 |<span class="red">LILAC</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">22:42:20</span>|<span class="stat stat_kills">38</span>|<span class="stat stat_deactivated">11</span>|
 |<span class="red">ORCHID</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="stat stat_hours stat_sorted">20:2:55</span>|<span class="stat stat_kills">47</span>|<span class="stat stat_deactivated">7</span>|
 |<span class="red">DAISY</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">17:2:39</span>|<span class="stat stat_kills">15</span>|<span class="stat stat_deactivated">6</span>|
-|<span class="red">MAGNOLIA</span><span class="awards-container"><span class="awards-sprite a0-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">16:33:52</span>|<span class="stat stat_kills">31</span>|<span class="stat stat_deactivated">15</span>|
+|<span class="red">MAGNOLIA</span><span class="awards-container"><span class="awards-sprite a0-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">16:48:37</span>|<span class="stat stat_kills">33</span>|<span class="stat stat_deactivated">15</span>|
 |<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours stat_sorted">15:44:44</span>|<span class="stat stat_kills">23</span>|<span class="stat stat_deactivated">10</span>|
 |<span class="red">VIOLET</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">13:31:29</span>|<span class="stat stat_kills">7</span>|<span class="stat stat_deactivated">3</span>|
 |<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-3"></span><span class="awards-sprite a7-1"></span></span>|<span class="stat stat_hours stat_sorted">12:25:17</span>|<span class="stat stat_kills">16</span>|<span class="stat stat_deactivated">7</span>|
@@ -29,4 +29,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">October 18, 2017, 12:30 AM Eastern Time</span>
+<span class="last_updated">October 18, 2017, 12:45 AM Eastern Time</span>
