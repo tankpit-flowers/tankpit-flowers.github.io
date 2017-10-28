@@ -24,9 +24,9 @@
 |<span class="purple">radiant ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted">2:59:52</span>|<span class="stat stat_kills">5</span>|<span class="stat stat_deactivated">3</span>|
 |<span class="purple">terrestrial TULIP</span><span class="awards-container"><span class="awards-sprite a0-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted">1:12:23</span>|<span class="stat stat_kills">2</span>|<span class="stat stat_deactivated">1</span>|
 |<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours stat_sorted">0:56:49</span>|<span class="stat stat_kills">6</span>|<span class="stat stat_deactivated">2</span>|
-|<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted"></span>|<span class="stat stat_kills">64</span>|<span class="stat stat_deactivated">35</span>|
+|<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours stat_sorted"></span>|<span class="stat stat_kills">65</span>|<span class="stat stat_deactivated">35</span>|
 |<span class="red">MALVA</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="stat stat_hours stat_sorted"></span>|<span class="stat stat_kills">12</span>|<span class="stat stat_deactivated">0</span>|
 
 ## LAST UPDATED
 
-<span class="last_updated">October 28, 2017, 10:15 AM Eastern Time</span>
+<span class="last_updated">October 28, 2017, 10:30 AM Eastern Time</span>
