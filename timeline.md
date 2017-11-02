@@ -6,6 +6,7 @@
 ### <span class="timeline-date">October 13, 2017</span> <span class="timeline-blurb">Special awards are out!</span> <span class="timeline-blurb"><span class="timeline-red">ROSE</span> is awarded the <span class="timeline-em">DEFENDER OF THE TRUTH</span></span> <span class="timeline-blurb"><span class="timeline-red">TULIP</span> is awarded the <span class="timeline-em">WAR CORRESPONDENT</span></span> 
 ![ROSE is awarded the DEFENDER OF THE TRUTH](./screenshots/special-dot-rose-1.png){:.game-screenshot}
 ![ROSE is awarded the DEFENDER OF THE TRUTH](./screenshots/special-dot-rose-2.png){:.game-screenshot}
+![TULIP is awarded the WAR CORRESPONDENT](./screenshots/special-wc-tulip.png){:.game-screenshot}
 
 ### <span class="timeline-date">October 1, 2017</span> <span class="timeline-blurb">Two new flowers have blossomed! <span class="timeline-red">MAGNOLIA</span> & <span class="timeline-red">MALVA</span></span>
 
