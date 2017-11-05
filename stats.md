@@ -29,4 +29,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">November 04, 2017, 11:00 PM Eastern Time</span>
+<span class="last_updated">November 04, 2017, 11:15 PM Eastern Time</span>
