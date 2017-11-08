@@ -24,9 +24,9 @@
 |<span class="red">VIOLET</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">13:31:29</span>|<span class="stat stat_kills">7</span>|<span class="stat stat_deactivated stat_sorted">3</span>|
 |<span class="purple">radiant ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">3:4:53</span>|<span class="stat stat_kills">5</span>|<span class="stat stat_deactivated stat_sorted">3</span>|
 |<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours">0:56:49</span>|<span class="stat stat_kills">6</span>|<span class="stat stat_deactivated stat_sorted">2</span>|
-|<span class="purple">terrestrial TULIP</span><span class="awards-container"><span class="awards-sprite a0-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">1:12:23</span>|<span class="stat stat_kills">2</span>|<span class="stat stat_deactivated stat_sorted">1</span>|
+|<span class="purple">terrestrial TULIP</span><span class="awards-container"><span class="awards-sprite a0-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">1:13:22</span>|<span class="stat stat_kills">2</span>|<span class="stat stat_deactivated stat_sorted">1</span>|
 |<span class="red">MALVA</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="stat stat_hours"></span>|<span class="stat stat_kills">12</span>|<span class="stat stat_deactivated stat_sorted">0</span>|
 
 ## LAST UPDATED
 
-<span class="last_updated">November 08, 2017, 3:45 PM Eastern Time</span>
+<span class="last_updated">November 08, 2017, 4:00 PM Eastern Time</span>
