@@ -3,7 +3,7 @@
 
 {:.activity}
 |<span class="activity_header">Flower</span>|<span class="activity_header activity_col1"><a href="https://tankpit-flowers.github.io/activity">Day</a></span>|<span class="activity_header activity_col2"><a href="https://tankpit-flowers.github.io/activity-week">Week</a></span>|<span class="activity_header activity_col3 activity_sorted">Month &nbsp;&darr;</span>|
-|<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="activity activity_col1">1.55</span>|<span class="activity activity_col2">14.94</span>|<span class="activity activity_col3 activity_sorted">49.8</span>|
+|<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="activity activity_col1">1.55</span>|<span class="activity activity_col2">14.94</span>|<span class="activity activity_col3 activity_sorted">49.7</span>|
 |<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">0.28</span>|<span class="activity activity_col2">5.9</span>|<span class="activity activity_col3 activity_sorted">46.78</span>|
 |<span class="red">BUTTERCUP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2">3.36</span>|<span class="activity activity_col3 activity_sorted">29.84</span>|
 |<span class="red">MAGNOLIA</span><span class="awards-container"><span class="awards-sprite a0-2"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2">0.35</span>|<span class="activity activity_col3 activity_sorted">15.66</span>|
@@ -29,4 +29,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">November 09, 2017, 9:30 PM Eastern Time</span>
+<span class="last_updated">November 09, 2017, 9:45 PM Eastern Time</span>
