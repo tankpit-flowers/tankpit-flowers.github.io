@@ -26,155 +26,155 @@ flower_dict = {
               'main_tank': 'SoMeBoDy',
               'main_color': 'purple',
               'main_awards_html': '<span class="awards-sprite a0-3"></span><span class="awards-sprite a1-3"></span><span class="awards-sprite a2-3"></span><span class="awards-sprite a3-3"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span>'},
+    'HYDRANGEA': {'tank_id': 49521,
+                  'section': 0,
+                  'seq': 2,
+                  'main_tank_id': None,
+                  'main_tank': 'KILLER12',
+                  'main_color': 'red',
+                  'main_awards_html': '<span class="awards-sprite a0-3"></span><span class="awards-sprite a1-3"></span><span class="awards-sprite a2-3"></span><span class="awards-sprite a3-3"></span><span class="awards-sprite a5-2"></span>'},
+    'DAHLIA': {'tank_id': 48641,
+               'section': 0,
+               'seq': 3,
+               'main_tank_id': 10502,
+                 'main_tank': None,
+                 'main_color': None,
+                 'main_awards_html': None},
+    'TRILLIUM': {'tank_id': 48665,
+                  'section': 0,
+                  'seq': 4,
+                  'main_tank_id': None,
+                  'main_tank': 'Battlefield-2',
+                  'main_color': 'purple',
+                  'main_awards_html': '<span class="awards-sprite a0-3"></span><span class="awards-sprite a1-3"></span><span class="awards-sprite a2-3"></span><span class="awards-sprite a3-3"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-3"></span><span class="awards-sprite a6-1"></span><span class="awards-sprite a8-1"></span>'},
     'TULIP': {'tank_id': 45920,
               'section': 0,
-              'seq': 2,
+              'seq': 5,
               'main_tank_id': None,
               'main_tank': 'SSpritEE',
               'main_color': 'red',
               'main_awards_html': '<span class="awards-sprite a0-3"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-3"></span>'},
+    'HIBISCUS': {'tank_id': 45859,
+                 'section': 0,
+                 'seq': 6,
+                 'main_tank_id': 850,
+                 'main_tank': None,
+                 'main_color': None,
+                 'main_awards_html': None},
     'BUTTERCUP': {'tank_id': 48264,
                   'section': 0,
-                  'seq': 3,
+                  'seq': 7,
                   'main_tank_id': 575,
                   'main_tank': None,
                   'main_color': None,
                   'main_awards_html': None},
+    'DAISY': {'tank_id': 48103,
+              'section': 0,
+              'seq': 8,
+              'main_tank_id': 6281,
+              'main_tank': None,
+              'main_color': None,
+              'main_awards_html': None},
+    'LILAC': {'tank_id': 47770,
+              'section': 0,
+              'seq': 9,
+              'main_tank_id': None,
+              'main_tank': 'Secret',
+              'main_color': 'gray',
+              'main_awards_html': None},
     'NARCISSUS': {'tank_id': 52973,
                   'section': 0,
-                  'seq': 4,
+                  'seq': 10,
                   'main_tank_id': None,
                   'main_tank': 'Secret',
                   'main_color': 'gray',
                   'main_awards_html': None},
     'MAGNOLIA': {'tank_id': 53932,
                  'section': 0,
-                 'seq': 5,
+                 'seq': 11,
                  'main_tank_id': 38424,
                  'main_tank': None,
                  'main_color': None,
                  'main_awards_html': None},
+    'ORCHID': {'tank_id': 47786,
+               'section': 0,
+               'seq': 12,
+               'main_tank_id': None,
+               'main_tank': 'Secret',
+               'main_color': 'gray',
+               'main_awards_html': None},
     'MALVA': {'tank_id': 53952,
                'section': 0,
-               'seq': 6,
+               'seq': 13,
                'main_tank_id': None,
                'main_tank': 'Secret',
                'main_color': 'gray',
                'main_awards_html': None},
     'ASTER': {'tank_id': 55226,
-              'section': 0,
-              'seq': 7,
-              'main_tank_id': None,
-              'main_tank': 'Secret',
-              'main_color': 'gray',
-              'main_awards_html': None},
-    'HYDRANGEA': {'tank_id': 49521,
-                  'section': 1,
-                  'seq': 0,
-                  'main_tank_id': None,
-                  'main_tank': 'KILLER12',
-                  'main_color': 'red',
-                  'main_awards_html': '<span class="awards-sprite a0-3"></span><span class="awards-sprite a1-3"></span><span class="awards-sprite a2-3"></span><span class="awards-sprite a3-3"></span><span class="awards-sprite a5-2"></span>'},
-    'DAHLIA': {'tank_id': 48641,
-               'section': 1,
-               'seq': 1,
-               'main_tank_id': 10502,
-                 'main_tank': None,
-                 'main_color': None,
-                 'main_awards_html': None},
-    'TRILLIUM': {'tank_id': 48665,
-                  'section': 1,
-                  'seq': 2,
-                  'main_tank_id': None,
-                  'main_tank': 'Battlefield-2',
-                  'main_color': 'purple',
-                  'main_awards_html': '<span class="awards-sprite a0-3"></span><span class="awards-sprite a1-3"></span><span class="awards-sprite a2-3"></span><span class="awards-sprite a3-3"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-3"></span><span class="awards-sprite a6-1"></span><span class="awards-sprite a8-1"></span>'},
-    'HIBISCUS': {'tank_id': 45859,
-                 'section': 1,
-                 'seq': 3,
-                 'main_tank_id': 850,
-                 'main_tank': None,
-                 'main_color': None,
-                 'main_awards_html': None},
-    'DAISY': {'tank_id': 48103,
-              'section': 1,
-              'seq': 4,
-              'main_tank_id': 6281,
-              'main_tank': None,
-              'main_color': None,
-              'main_awards_html': None},
-    'LILAC': {'tank_id': 47770,
-              'section': 1,
-              'seq': 5,
-              'main_tank_id': None,
-              'main_tank': 'Secret',
-              'main_color': 'gray',
-              'main_awards_html': None},
-    'ORCHID': {'tank_id': 47786,
-               'section': 1,
-               'seq': 6,
+               'section': 0,
+               'seq': 14,
                'main_tank_id': None,
                'main_tank': 'Secret',
                'main_color': 'gray',
                'main_awards_html': None},
     'GLADIOLUS': {'tank_id': 48059,
-                  'section': 2,
+                  'section': 1,
                   'seq': 0,
                   'main_tank_id': 48665,
                   'main_tank': None,
                   'main_color': None,
                   'main_awards_html': None},
     'CHRYSANTHEMUM': {'tank_id': 47835,
-                      'section': 2,
+                      'section': 1,
                       'seq': 1,
                       'main_tank_id': 45863,
                       'main_tank': None,
                       'main_color': None,
                       'main_awards_html': None},
     'VIOLET': {'tank_id': 50618,
-               'section': 2,
+               'section': 1,
                'seq': 2,
                'main_tank_id': 48264,
                'main_tank': None,
                'main_color': None,
                'main_awards_html': None},
     'JASMINE': {'tank_id': 48487,
-                'section': 2,
+                'section': 1,
                 'seq': 3,
                 'main_tank_id': 50745,
                 'main_tank': None,
                 'main_color': None,
                 'main_awards_html': None},
     'terrestrial TULIP': {'tank_id': 48240,
-                          'section': 2,
+                          'section': 1,
                           'seq': 4,
                           'main_tank_id': 45920,
                           'main_tank': None,
                           'main_color': None,
                           'main_awards_html': None},
     'radiant ROSE': {'tank_id': 48222,
-                     'section': 2,
+                     'section': 1,
                      'seq': 5,
                      'main_tank_id': 45863,
                      'main_tank': None,
                      'main_color': None,
                      'main_awards_html': None},
     'luminosity LOTUS': {'tank_id': 50111,
-                         'section': 2,
+                         'section': 1,
                          'seq': 6,
                          'main_tank_id': 50745,
                          'main_tank': None,
                          'main_color': None,
                          'main_awards_html': None},
     'DESERT ROSE': {'tank_id': 49974,
-                     'section': 2,
+                     'section': 1,
                      'seq': 7,
                      'main_tank_id': 45863,
                      'main_tank': None,
                      'main_color': None,
                      'main_awards_html': None},
     'SILENT LOTUS': {'tank_id': 49966,
-                     'section': 2,
+                     'section': 1,
                      'seq': 8,
                      'main_tank_id': 50745,
                      'main_tank': None,
@@ -295,8 +295,6 @@ def loop_all_flowers(flower_dict = flower_dict, no_param_url = 'https://tankpit.
             tanks_df['tank_cat'] = 0
         if flower_info_dict['section'] == 1:
             tanks_df['tank_cat'] = 1
-        if flower_info_dict['section'] == 2:
-            tanks_df['tank_cat'] = 2
         # check to make sure not an empty row (col 1 = time, col 2 = tank_cat)
         if tanks_df.shape[1] > 2:
             # concat
@@ -310,7 +308,7 @@ def loop_all_flowers(flower_dict = flower_dict, no_param_url = 'https://tankpit.
             tank_results_html = scrape_text_from_link(no_param_url + str(tank_id))
             # make tables
             tanks_df = create_tables_from_page_html(tank_results_html, tank_id)
-            tanks_df['tank_cat'] = 3
+            tanks_df['tank_cat'] = 2
             # check to make sure not an empty row (col 1 = time, col 2 = tank_cat)
             if tanks_df.shape[1] > 2:
                 # concat
@@ -341,7 +339,7 @@ def concat_now_to_alltime_long(df_T, df_now, stat = 'time_played_decimal', time_
     tmp_dict = {}
     tmp_dict[time_col] = list(df_now[time_col])[0]
     for i in range(df_now.shape[0]):
-        if df_now.ix[i, 'tank_cat'] in [0, 1, 2]:
+        if df_now.ix[i, 'tank_cat'] in [0, 1]:
             tmp_dict[str(df_now.ix[i, 'tank_id'])] = df_now.ix[i, stat]
     df_T = pd.concat([df_T, pd.DataFrame([tmp_dict])], axis = 0)
     df_T.reset_index(drop = True, inplace = True)
@@ -398,11 +396,11 @@ def write_md_from_tank_id(roster, df, tank_id, end = 'yes'):
 
 def make_roster_md(roster_out_file, df_now, flower_dict = flower_dict, last_updated = last_updated):
     roster = open(roster_out_file, 'w')
-    # main flowers
-    roster.write('\n## ACTIVE ROSTER\n\n')
+    roster.write('\n## ROSTER\n\n')
     roster.write('{:.roster}\n')
     roster.write('|<span class="roster_header">Flower</span>')
     roster.write('|<span class="roster_header">Main Tank</span>|\n')
+    # main flowers
     for j in range(len(flower_dict)):
         for i in flower_dict.values():
             if i['seq'] == j and i['section'] == 0:
@@ -420,39 +418,16 @@ def make_roster_md(roster_out_file, df_now, flower_dict = flower_dict, last_upda
                         roster.write(i['main_awards_html'])
                         roster.write('</span>')
                     roster.write('|\n')
-    # inactive
-    roster.write('\n## INACTIVE ROSTER\n\n')
-    roster.write('{:.roster}\n')
-    roster.write('|<span class="roster_header">Flower</span>')
-    roster.write('|<span class="roster_header">Main Tank</span>|\n')
-    for j in range(len(flower_dict)):
-        for i in flower_dict.values():
-            if i['seq'] == j and i['section'] == 1:
-                write_md_from_tank_id(roster, df_now, tank_id = i['tank_id'], end = 'no')
-                if i['main_tank_id'] != None:
-                    write_md_from_tank_id(roster, df_now, tank_id = i['main_tank_id'])
-                else:
-                    roster.write('|<span class="')
-                    roster.write(i['main_color'])
-                    roster.write('">')
-                    roster.write(i['main_tank'])
-                    roster.write('</span>')
-                    if i['main_tank'] != 'Secret':
-                        roster.write('<span class="awards-container">')
-                        roster.write(i['main_awards_html'])
-                        roster.write('</span>')
-                    roster.write('|\n')
-    # alts       
     roster.write('\n## ALTS\n\n')
+    # alts
     roster.write('{:.roster}\n')
     roster.write('|<span class="roster_header">Alt</span>')
     roster.write('|<span class="roster_header">Main Flower</span>|\n')
     for j in range(len(flower_dict)):
         for i in flower_dict.values():
-            if i['seq'] == j and i['section'] == 2:
+            if i['seq'] == j and i['section'] == 1:
                 write_md_from_tank_id(roster, df_now, tank_id = i['tank_id'], end = 'no')
                 write_md_from_tank_id(roster, df_now, tank_id = i['main_tank_id'], end = 'yes')
-    # last updated
     roster.write('\n## LAST UPDATED\n\n')
     roster.write('<span class="last_updated">')
     roster.write(last_updated)
@@ -512,9 +487,7 @@ def make_stats_md(stats_out_file, df_now, sort_by, sort_list, flower_dict = flow
     stats.write('|<span class="stat_header stat_deactivated' + col3 + '">' + col3_link + 'Deact.' + col3_extra + '</span>|\n')
     flower_df = pd.DataFrame()
     for i in flower_dict.values():
-        # added 2017-11-13 to remove alts
-        if i['section'] == 0:
-            flower_df = pd.concat([flower_df, df_now.ix[df_now['tank_id'] == i['tank_id'], ['tank_name', 'tank_color', 'tank_awards_html', 'time_played', 'time_played_decimal', 'kills', 'deactivated']]], axis = 0) 
+        flower_df = pd.concat([flower_df, df_now.ix[df_now['tank_id'] == i['tank_id'], ['tank_name', 'tank_color', 'tank_awards_html', 'time_played', 'time_played_decimal', 'kills', 'deactivated']]], axis = 0) 
     flower_df['kills_decimal'] = flower_df['kills']
     flower_df.ix[flower_df['kills_decimal'] == '', 'kills_decimal'] = None
     flower_df['kills_decimal'] = flower_df['kills_decimal'].fillna('0')
@@ -601,9 +574,7 @@ def make_activity_md(activity_out_file, df_now, sort_by, sort_list, flower_dict 
     activity.write('|<span class="activity_header activity_col3' + col3 + '">' + col3_link + 'Month' + col3_extra +'</span>|\n')
     flower_df = pd.DataFrame()
     for i in flower_dict.values():
-        # added 2017-11-13 to remove alts
-        if i['section'] == 0:
-            flower_df = pd.concat([flower_df, df_now.ix[df_now['tank_id'] == i['tank_id'], ['tank_name', 'tank_color', 'tank_awards_html', 'hours_day', 'hours_week', 'hours_month']]], axis = 0)    
+        flower_df = pd.concat([flower_df, df_now.ix[df_now['tank_id'] == i['tank_id'], ['tank_name', 'tank_color', 'tank_awards_html', 'hours_day', 'hours_week', 'hours_month']]], axis = 0)    
     flower_df = flower_df.sort_values(sort_list, ascending = False)
     flower_df.reset_index(drop = True, inplace = True)
     for i in range(flower_df.shape[0]):
