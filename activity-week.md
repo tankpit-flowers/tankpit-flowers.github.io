@@ -13,7 +13,7 @@
 |<span class="purple">terrestrial TULIP</span><span class="awards-container"><span class="awards-sprite a0-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">0.03</span>|<span class="activity activity_col3">0.12</span>|
 |<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">0.02</span>|<span class="activity activity_col3">0.03</span>|
 |<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted"></span>|<span class="activity activity_col3">1.41</span>|
-|<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted"></span>|<span class="activity activity_col3">0.84</span>|
+|<span class="red">DAHLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted"></span>|<span class="activity activity_col3">0.58</span>|
 |<span class="red">LILAC</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted"></span>|<span class="activity activity_col3">0.49</span>|
 |<span class="purple">radiant ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted"></span>|<span class="activity activity_col3">0.3</span>|
 |<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-3"></span><span class="awards-sprite a7-1"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted"></span>|<span class="activity activity_col3">0.14</span>|
@@ -29,4 +29,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">November 13, 2017, 8:30 AM Eastern Time</span>
+<span class="last_updated">November 13, 2017, 8:45 AM Eastern Time</span>
