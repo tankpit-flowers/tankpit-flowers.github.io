@@ -399,7 +399,7 @@ def write_md_from_tank_id(roster, df, tank_id, end = 'yes'):
 def make_roster_md(roster_out_file, df_now, flower_dict = flower_dict, last_updated = last_updated):
     roster = open(roster_out_file, 'w')
     # main flowers
-    roster.write('\n## ROSTER\n\n')
+    roster.write('\n## ACTIVE ROSTER\n\n')
     roster.write('{:.roster}\n')
     roster.write('|<span class="roster_header">Flower</span>')
     roster.write('|<span class="roster_header">Main Tank</span>|\n')
@@ -421,7 +421,7 @@ def make_roster_md(roster_out_file, df_now, flower_dict = flower_dict, last_upda
                         roster.write('</span>')
                     roster.write('|\n')
     # inactive
-    roster.write('\n## INACTIVE\n\n')
+    roster.write('\n## INACTIVE ROSTER\n\n')
     roster.write('{:.roster}\n')
     roster.write('|<span class="roster_header">Flower</span>')
     roster.write('|<span class="roster_header">Main Tank</span>|\n')
