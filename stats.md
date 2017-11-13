@@ -26,7 +26,8 @@
 |<span class="purple">terrestrial TULIP</span><span class="awards-container"><span class="awards-sprite a0-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours stat_sorted">1:14:16</span>|<span class="stat stat_kills">2</span>|<span class="stat stat_deactivated">1</span>|
 |<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours stat_sorted">0:57:57</span>|<span class="stat stat_kills">6</span>|<span class="stat stat_deactivated">2</span>|
 |<span class="red">MALVA</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="stat stat_hours stat_sorted"></span>|<span class="stat stat_kills">12</span>|<span class="stat stat_deactivated">0</span>|
+|<span class="blue">ASTER</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours stat_sorted"></span>|<span class="stat stat_kills"></span>|<span class="stat stat_deactivated"></span>|
 
 ## LAST UPDATED
 
-<span class="last_updated">November 13, 2017, 3:15 PM Eastern Time</span>
+<span class="last_updated">November 13, 2017, 3:30 PM Eastern Time</span>
