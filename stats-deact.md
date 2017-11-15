@@ -3,7 +3,7 @@
 
 {:.stats}
 |<span class="stat_header">Flower</span>|<span class="stat_header stat_hours"><a href="https://tankpit-flowers.github.io/stats">Hours</a></span>|<span class="stat_header stat_kills"><a href="https://tankpit-flowers.github.io/stats-kills">Kills</a></span>|<span class="stat_header stat_deactivated stat_sorted">Deact. &nbsp;&darr;</span>|
-|<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="stat stat_hours">398:45:51</span>|<span class="stat stat_kills">176</span>|<span class="stat stat_deactivated stat_sorted">96</span>|
+|<span class="red">ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span><span class="awards-sprite a8-1"></span></span>|<span class="stat stat_hours">399:0:34</span>|<span class="stat stat_kills">176</span>|<span class="stat stat_deactivated stat_sorted">96</span>|
 |<span class="red">GLADIOLUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">109:51:02</span>|<span class="stat stat_kills">96</span>|<span class="stat stat_deactivated stat_sorted">68</span>|
 |<span class="red">LOTUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a3-2"></span><span class="awards-sprite a4-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">218:54:11</span>|<span class="stat stat_kills">86</span>|<span class="stat stat_deactivated stat_sorted">43</span>|
 |<span class="red">TULIP</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-1"></span><span class="awards-sprite a7-1"></span></span>|<span class="stat stat_hours">113:35:18</span>|<span class="stat stat_kills">189</span>|<span class="stat stat_deactivated stat_sorted">43</span>|
@@ -30,4 +30,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">November 15, 2017, 2:00 AM Eastern Time</span>
+<span class="last_updated">November 15, 2017, 2:15 AM Eastern Time</span>
