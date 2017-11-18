@@ -18,7 +18,7 @@
 |<span class="red">LILAC</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">23:10:43</span>|<span class="stat stat_kills stat_sorted">38</span>|<span class="stat stat_deactivated">11</span>|
 |<span class="red">JASMINE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours">16:47:35</span>|<span class="stat stat_kills stat_sorted">30</span>|<span class="stat stat_deactivated">13</span>|
 |<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-3"></span><span class="awards-sprite a7-1"></span></span>|<span class="stat stat_hours">12:50:40</span>|<span class="stat stat_kills stat_sorted">16</span>|<span class="stat stat_deactivated">7</span>|
-|<span class="red">DAISY</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">17:2:39</span>|<span class="stat stat_kills stat_sorted">15</span>|<span class="stat stat_deactivated">6</span>|
+|<span class="red">DAISY</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">17:3:33</span>|<span class="stat stat_kills stat_sorted">15</span>|<span class="stat stat_deactivated">6</span>|
 |<span class="red">MALVA</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="stat stat_hours"></span>|<span class="stat stat_kills stat_sorted">12</span>|<span class="stat stat_deactivated">0</span>|
 |<span class="orange">DESERT ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">4:5:23</span>|<span class="stat stat_kills stat_sorted">10</span>|<span class="stat stat_deactivated">5</span>|
 |<span class="red">VIOLET</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">13:31:29</span>|<span class="stat stat_kills stat_sorted">7</span>|<span class="stat stat_deactivated">3</span>|
@@ -30,4 +30,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">November 18, 2017, 1:30 PM Eastern Time</span>
+<span class="last_updated">November 18, 2017, 1:45 PM Eastern Time</span>
