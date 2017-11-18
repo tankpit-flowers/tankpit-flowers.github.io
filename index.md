@@ -17,7 +17,7 @@
 |<span class="red">MAGNOLIA</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="orange">packattack12</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-3"></span><span class="awards-sprite a2-3"></span><span class="awards-sprite a3-3"></span><span class="awards-sprite a5-2"></span><span class="awards-sprite a7-1"></span></span>|
 |<span class="red">ORCHID</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="gray">Secret</span>|
 |<span class="red">MALVA</span><span class="awards-container"><span class="awards-sprite a0-3"></span></span>|<span class="gray">Secret</span>|
-|<span class="blue">ASTER</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="gray">Secret</span>|
+|<span class="red">ASTER</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="gray">Secret</span>|
 
 ## ALTS
 
@@ -35,4 +35,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">November 18, 2017, 8:15 AM Eastern Time</span>
+<span class="last_updated">November 18, 2017, 8:30 AM Eastern Time</span>
