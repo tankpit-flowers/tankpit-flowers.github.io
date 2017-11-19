@@ -14,7 +14,7 @@
 |<span class="red">GLADIOLUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a2-2"></span><span class="awards-sprite a3-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1">0.25</span>|<span class="activity activity_col2 activity_sorted">0.6</span>|<span class="activity activity_col3">0.6</span>|
 |<span class="red">CHRYSANTHEMUM</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-3"></span><span class="awards-sprite a7-1"></span></span>|<span class="activity activity_col1">0.04</span>|<span class="activity activity_col2 activity_sorted">0.31</span>|<span class="activity activity_col3">0.42</span>|
 |<span class="orange">DESERT ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">0.28</span>|<span class="activity activity_col3">0.28</span>|
-|<span class="red">NARCISSUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">0.05</span>|<span class="activity activity_col2 activity_sorted">0.05</span>|<span class="activity activity_col3">9.03</span>|
+|<span class="red">NARCISSUS</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a1-1"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">0.05</span>|<span class="activity activity_col2 activity_sorted">0.05</span>|<span class="activity activity_col3">8.96</span>|
 |<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="activity activity_col1">0.05</span>|<span class="activity activity_col2 activity_sorted">0.05</span>|<span class="activity activity_col3">0.09</span>|
 |<span class="purple">radiant ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1"></span>|<span class="activity activity_col2 activity_sorted">0.03</span>|<span class="activity activity_col3">0.11</span>|
 |<span class="red">DAISY</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="activity activity_col1">0.02</span>|<span class="activity activity_col2 activity_sorted">0.02</span>|<span class="activity activity_col3">0.02</span>|
@@ -30,4 +30,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">November 18, 2017, 11:00 PM Eastern Time</span>
+<span class="last_updated">November 18, 2017, 11:15 PM Eastern Time</span>
