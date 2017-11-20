@@ -1,5 +1,8 @@
 ## TIMELINE
 
+### <span class="timeline-date">November 20, 2017</span> <span class="timeline-blurb"><span class="timeline-red">BUTTERCUP</span> is awarded the <span class="timeline-em">SHINING SWORD</span> <span class="awards-sprite a3-1"></span></span>
+![BUTTERCUP is awarded the SHINING SWORD](./screenshots/shining-sword-buttercup.png){:.game-screenshot}
+
 ### <span class="timeline-date">November 11, 2017</span> <span class="timeline-blurb">We are welcomed with a new member: <span class="timeline-red">ASTER</span>!</span>
 
 ### <span class="timeline-date">October 21, 2017</span> <span class="timeline-blurb"><span class="timeline-red">LOTUS</span> is awarded the <span class="timeline-em">BATTERED SWORD</span> <span class="awards-sprite a3-2"></span></span>
