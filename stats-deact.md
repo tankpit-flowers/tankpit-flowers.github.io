@@ -22,7 +22,7 @@
 |<span class="red">DAISY</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">17:3:33</span>|<span class="stat stat_kills">15</span>|<span class="stat stat_deactivated stat_sorted">6</span>|
 |<span class="orange">DESERT ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">4:7:50</span>|<span class="stat stat_kills">10</span>|<span class="stat stat_deactivated stat_sorted">5</span>|
 |<span class="red">VIOLET</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">13:43:23</span>|<span class="stat stat_kills">8</span>|<span class="stat stat_deactivated stat_sorted">3</span>|
-|<span class="purple">radiant ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">3:15:05</span>|<span class="stat stat_kills">6</span>|<span class="stat stat_deactivated stat_sorted">3</span>|
+|<span class="purple">radiant ROSE</span><span class="awards-container"><span class="awards-sprite a0-3"></span><span class="awards-sprite a5-2"></span></span>|<span class="stat stat_hours">3:29:50</span>|<span class="stat stat_kills">6</span>|<span class="stat stat_deactivated stat_sorted">3</span>|
 |<span class="purple">luminosity LOTUS</span><span class="awards-container"><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours">1:1:10</span>|<span class="stat stat_kills">6</span>|<span class="stat stat_deactivated stat_sorted">3</span>|
 |<span class="purple">terrestrial TULIP</span><span class="awards-container"><span class="awards-sprite a0-1"></span><span class="awards-sprite a5-3"></span></span>|<span class="stat stat_hours">1:14:16</span>|<span class="stat stat_kills">2</span>|<span class="stat stat_deactivated stat_sorted">1</span>|
 |<span class="red">ASTER</span><span class="awards-container"><span class="awards-sprite a0-1"></span><span class="awards-sprite a5-1"></span></span>|<span class="stat stat_hours">1:41:07</span>|<span class="stat stat_kills">3</span>|<span class="stat stat_deactivated stat_sorted">0</span>|
@@ -30,4 +30,4 @@
 
 ## LAST UPDATED
 
-<span class="last_updated">November 28, 2017, 12:30 AM Eastern Time</span>
+<span class="last_updated">November 28, 2017, 12:45 AM Eastern Time</span>
